@@ -1,0 +1,153 @@
+/* Signup.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.signup-form {
+    background: #fff;
+    padding: 2.5rem 3rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    animation: fadeIn 0.6s ease;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.signup-form h2 {
+    margin-bottom: 0.2rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.subtitle {
+    margin-bottom: 1.5rem;
+    color: #777;
+    font-size: 0.95rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.input-box {
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 0.95rem;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+
+.input-box input:focus {
+    border-color: #764ba2;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(118, 75, 162, 0.2);
+}
+
+.otp-btn {
+    margin-top: 0.6rem;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    background-color: #667eea;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.otp-btn:hover {
+    background-color: #5a67d8;
+}
+
+.otp-btn:disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
+}
+
+.password-errors {
+    text-align: left;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: red;
+    padding-left: 1rem;
+}
+
+.password-errors li {
+    margin-bottom: 0.2rem;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #667eea;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #5a67d8;
+}
+
+button[type="submit"]:disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
+}
+
+.message {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.signup-form a {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #667eea;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-form a:hover {
+    text-decoration: underline;
+}

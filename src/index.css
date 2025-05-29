@@ -1,0 +1,18 @@
+/* Ensure the carousel works properly */
+.slick-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 1000;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: #333;
+  }
+  
