@@ -19,12 +19,22 @@ import Wishlist from "./models/Wishlist.js";
 //   });
 
 
-  const db = await mysql.createConnection({
-    host: 'mysql.railway.internal',
-    user: 'root',
-    password: 'myfBAegitWXTQtTLpuAlDBrqQTMwjzmS',
-    database: 'railway'
-  });
+
+const db = await mysql.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME
+});
+
+
+
+  // const db = await mysql.createConnection({
+  //   host: 'mysql.railway.internal',
+  //   user: 'root',
+  //   password: 'myfBAegitWXTQtTLpuAlDBrqQTMwjzmS',
+  //   database: 'railway'
+  // });
 
   
 dotenv.config();
