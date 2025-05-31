@@ -41,7 +41,8 @@ import ordersRouter from './routes/orders.js';
 
 
   const db = await mysql.createConnection({
-    host: 'mysql://root:HVbWzknILwIQeJJHEDPqfGMAjeaycSKh@gondola.proxy.rlwy.net:40948/railway',
+    host: 'gondola.proxy.rlwy.net',
+    port: 40948,
     user: 'root',
     password: 'myfBAegitWXTQtTLpuAlDBrqQTMwjzmS',
     database: 'railway'
