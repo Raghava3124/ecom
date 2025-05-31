@@ -8,12 +8,23 @@ const router = express.Router();
 const SECRET_KEY = "your_secret_key"; // Use environment variables instead
 
 
-const db = await mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "Password@123",
-    database: "ecom"
-});
+// const db = await mysql.createConnection({
+//     host: "localhost",
+//     user: "root",
+//     password: "Password@123",
+//     database: "ecom"
+// });
+
+
+
+
+  const db = await mysql.createConnection({
+    host: 'mysql.railway.internal',
+    user: 'root',
+    password: 'myfBAegitWXTQtTLpuAlDBrqQTMwjzmS',
+    database: 'railway'
+  });
+
 
 
 // Signup route
