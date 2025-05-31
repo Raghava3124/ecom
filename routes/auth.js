@@ -19,7 +19,7 @@ const SECRET_KEY = "your_secret_key"; // Use environment variables instead
 
 
   const db = await mysql.createConnection({
-    host: 'mysql.railway.internal',
+    host: 'mysql://root:HVbWzknILwIQeJJHEDPqfGMAjeaycSKh@gondola.proxy.rlwy.net:40948/railway',
     user: 'root',
     password: 'myfBAegitWXTQtTLpuAlDBrqQTMwjzmS',
     database: 'railway'
