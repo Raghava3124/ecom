@@ -44,7 +44,7 @@ import ordersRouter from './routes/orders.js';
     host: 'gondola.proxy.rlwy.net',
     port: 40948,
     user: 'root',
-    password: 'myfBAegitWXTQtTLpuAlDBrqQTMwjzmS',
+    password: 'HVbWzknILwIQeJJHEDPqfGMAjeaycSKh',
     database: 'railway'
   });
 
