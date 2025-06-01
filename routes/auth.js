@@ -82,7 +82,11 @@ router.post("/signup", async (req, res) => {
 
         // Hash password and save user
         const hashedPassword = await bcrypt.hash(password, 10);
-        await db.query("INSERT INTO Users (name, email, password) VALUES (?, ?, ?)", [name, email, hashedPassword]);
+
+        const now = new Date();
+
+        // await db.query("INSERT INTO Users (name, email, password) VALUES (?, ?, ?)", [name, email, hashedPassword]);
+        await db.query("INSERT INTO Users (name, email, password, createdAt, updatedAt) VALUES (?, ?, ?, ?, ?)",[name, email, hashedPassword, now, now]);
 
         res.status(201).json({ message: "Signup successful!" });
     } catch (error) {
