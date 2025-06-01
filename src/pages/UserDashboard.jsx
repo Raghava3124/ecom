@@ -17,7 +17,8 @@ const UserDashboard = () => {
                 const decoded = jwtDecode(token);
                 const userId = decoded.id;
 
-                const response = await fetch(`http://localhost:5000/user/${userId}`, {
+                // const response = await fetch(`http://localhost:5000/user/${userId}`, {
+                const response = await fetch(`https://ecom-production-ca19.up.railway.app/user/${userId}`, {
                     headers: { Authorization: `Bearer ${token}` },
                 });
 

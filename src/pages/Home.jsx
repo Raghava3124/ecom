@@ -66,7 +66,8 @@ const Home = () => {
     }
 
     try {
-      const res = await fetch(`http://localhost:5000/api/cart/${userId}`);
+      // const res = await fetch(`http://localhost:5000/api/cart/${userId}`);
+      const res = await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`);
       const existingCart = await res.json();
 
       const found = existingCart.find((item) => item.product_id === product.id);
@@ -95,7 +96,8 @@ const Home = () => {
         setMessageType("success");
       }
 
-      await fetch(`http://localhost:5000/api/cart/${userId}`, {
+      // await fetch(`http://localhost:5000/api/cart/${userId}`, {
+      await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedCart),

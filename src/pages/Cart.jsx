@@ -11,7 +11,8 @@ const Cart = () => {
   // Load cart from backend
   useEffect(() => {
     if (userId) {
-      axios.get(`http://localhost:5000/api/cart/${userId}`)
+      // axios.get(`http://localhost:5000/api/cart/${userId}`)
+      axios.get(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`)
         .then((res) => setCart(res.data))
         .catch((err) => console.error("Error loading cart:", err));
     }
@@ -20,7 +21,8 @@ const Cart = () => {
   // Sync cart to backend
   const syncCart = (updatedCart) => {
     setCart(updatedCart);
-    axios.put(`http://localhost:5000/api/cart/${userId}`, updatedCart)
+    // axios.put(`http://localhost:5000/api/cart/${userId}`, updatedCart)
+    axios.put(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, updatedCart)
       .catch((err) => console.error("Error syncing cart:", err));
   };
 
@@ -49,7 +51,8 @@ const Cart = () => {
     const updatedCart = cart.filter((item) => item.product_id !== product_id);
     syncCart(updatedCart);
 
-    axios.delete(`http://localhost:5000/api/cart/${userId}/${product_id}`)
+    // axios.delete(`http://localhost:5000/api/cart/${userId}/${product_id}`)
+    axios.delete(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}/${product_id}`)
       .catch((err) => console.error("Error deleting item:", err));
   };
 

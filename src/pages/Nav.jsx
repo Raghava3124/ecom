@@ -12,7 +12,8 @@ function Nav({ userId, handleLogout }) {
 
         const fetchCartCount = () => {
             if (userId) {
-                axios.get(`http://localhost:5000/api/cart/count/${userId}`)
+                // axios.get(`http://localhost:5000/api/cart/count/${userId}`)
+                axios.get(`https://ecom-production-ca19.up.railway.app/api/cart/count/${userId}`)
                     .then((res) => {
                         setCartCount(res.data.count);
                     })

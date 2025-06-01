@@ -36,7 +36,8 @@ const Payments = () => {
     const userId = localStorage.getItem('userId');
 
     // Step 1: Add payment
-    const paymentRes = await fetch('http://localhost:5000/api/payments', {
+    // const paymentRes = await fetch('http://localhost:5000/api/payments', {
+    const paymentRes = await fetch('https://ecom-production-ca19.up.railway.app/api/payments', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -62,7 +63,8 @@ const Payments = () => {
     const selectedAddress = location.state.selectedAddress;
 
     // Step 2: Create order entry with full address and payment info
-    const orderRes = await fetch('http://localhost:5000/api/orders', {
+    // const orderRes = await fetch('http://localhost:5000/api/orders', {
+     const orderRes = await fetch('https://ecom-production-ca19.up.railway.app/api/orders', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -92,7 +94,8 @@ const Payments = () => {
     }
 
     // Step 3: Clear cart
-    await fetch(`http://localhost:5000/api/cart/${userId}`, {
+    // await fetch(`http://localhost:5000/api/cart/${userId}`, {
+    await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, {
       method: 'DELETE',
     });
 
