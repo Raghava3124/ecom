@@ -74,7 +74,7 @@ router.post("/signup", async (req, res) => {
 
     try {
         // Check if user already exists
-        const [existingUser] = await db.query("SELECT * FROM users WHERE email = ?", [email]);
+        const [existingUser] = await db.query("SELECT * FROM Users WHERE email = ?", [email]);
 
         if (existingUser.length) {
             return res.status(400).json({ message: "User already exists" });
@@ -82,7 +82,7 @@ router.post("/signup", async (req, res) => {
 
         // Hash password and save user
         const hashedPassword = await bcrypt.hash(password, 10);
-        await db.query("INSERT INTO users (name, email, password) VALUES (?, ?, ?)", [name, email, hashedPassword]);
+        await db.query("INSERT INTO Users (name, email, password) VALUES (?, ?, ?)", [name, email, hashedPassword]);
 
         res.status(201).json({ message: "Signup successful!" });
     } catch (error) {
@@ -103,7 +103,7 @@ router.post("/login", async (req, res) => {
 
     try {
         // Check if the user exists in the database
-        const [users] = await db.query("SELECT * FROM users WHERE email = ?", [email]);
+        const [users] = await db.query("SELECT * FROM Users WHERE email = ?", [email]);
 
         if (users.length === 0) {
             return res.status(401).json({ message: "Invalid email or password" });
