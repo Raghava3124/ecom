@@ -90,20 +90,46 @@ app.post("/send-otp", async (req, res) => {
     const generatedOTP = Math.floor(100000 + Math.random() * 900000).toString();
     otpStore[email] = generatedOTP; // Store OTP mapped to email
 
-    let transporter = nodemailer.createTransport({
-        service: "gmail",
-        auth: {
-            user: process.env.EMAIL_USER,
-            pass: process.env.EMAIL_PASS
-        }
-    });
+    // let transporter = nodemailer.createTransport({
+    //     service: "gmail",
+    //     auth: {
+    //         user: process.env.EMAIL_USER,
+    //         pass: process.env.EMAIL_PASS
+    //     }
+    // });
 
-    let mailOptions = {
-        from: process.env.EMAIL_USER,
+
+
+
+    let transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+        user: "storeclothing533001@gmail.com",
+        pass: "nylrxjeucgqxabng"
+    }
+});
+
+
+
+
+
+    // let mailOptions = {
+    //     from: process.env.EMAIL_USER,
+    //     to: email,
+    //     subject: "Your OTP Code",
+    //     text: `Your OTP is: ${generatedOTP}`
+    // };
+
+
+
+        let mailOptions = {
+        from: "storeclothing533001@gmail.com",
         to: email,
         subject: "Your OTP Code",
         text: `Your OTP is: ${generatedOTP}`
     };
+
+
 
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
