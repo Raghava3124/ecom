@@ -57,7 +57,8 @@ const Signup = () => {
         setOtpMessage("⏳ Sending OTP...");
 
         try {
-            const response = await axios.post("http://localhost:5000/send-otp", { email: formData.email });
+            // const response = await axios.post("http://localhost:5000/send-otp", { email: formData.email });
+            const response = await axios.post("https://ecom-production-ca19.up.railway.app/send-otp", { email: formData.email });
 
             if (response.data.message) {
                 setIsOtpSent(true);
@@ -82,7 +83,8 @@ const Signup = () => {
         setOtpMessage("⏳ Verifying OTP...");
 
         try {
-            const response = await axios.post("http://localhost:5000/verify-otp", { email: formData.email, otp });
+            // const response = await axios.post("http://localhost:5000/verify-otp", { email: formData.email, otp });
+            const response = await axios.post("https://ecom-production-ca19.up.railway.app/verify-otp", { email: formData.email, otp });
 
             if (response.data.message === "OTP Verified Successfully!") {
                 setIsEmailVerified(true);
@@ -120,7 +122,8 @@ const Signup = () => {
         }
 
         try {
-            const response = await fetch("http://localhost:5000/api/auth/signup", {
+            // const response = await fetch("http://localhost:5000/api/auth/signup", {
+            const response = await fetch("https://ecom-production-ca19.up.railway.app/api/auth/signup", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
