@@ -148,7 +148,7 @@ app.get('/user/:id', async (req, res) => {
   
     try {
       const [rows] = await db.query(
-        'SELECT id, name, email, address FROM Users WHERE id = ?',
+        'SELECT id, name, email FROM Users WHERE id = ?',
         [userId]
       );
   
