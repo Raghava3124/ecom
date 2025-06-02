@@ -8,7 +8,7 @@ export default async (req, res, next) => {
   // Log the token for debugging purposes
   // console.log("Token:", token);
   console.log("Token:", token);
-  console.log("Secret used:", process.env.JWT_SECRET);
+  console.log("Secret used:", "your_secret_key");
 
 
   // If no token is found in the request
@@ -18,7 +18,7 @@ export default async (req, res, next) => {
 
   try {
     // Verify the token using the secret
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, "your_secret_key");
 
     // Find the user based on the decoded token's user id
     const user = await User.findByPk(decoded.id);
