@@ -8,65 +8,26 @@ const router = express.Router();
 const SECRET_KEY = "your_secret_key"; // Use environment variables instead
 
 
-// const db = await mysql.createConnection({
-//     host: "localhost",
-//     user: "root",
-//     password: "Password@123",
-//     database: "ecom"
-// });
+//   const db = await mysql.createConnection({
+//     host: 'gondola.proxy.rlwy.net',
+//     port: 40948,
+//     user: 'root',
+//     password: 'HVbWzknILwIQeJJHEDPqfGMAjeaycSKh',
+//     database: 'railway'
+//   });
 
 
 
-
-  const db = await mysql.createConnection({
-    host: 'gondola.proxy.rlwy.net',
-    port: 40948,
-    user: 'root',
-    password: 'HVbWzknILwIQeJJHEDPqfGMAjeaycSKh',
-    database: 'railway'
-  });
-
-
-
-// Signup route
-// router.post("/signup", async (req, res) => {
-//     const { name, email, password } = req.body;
-
-//     try {
-//         const hashedPassword = await bcrypt.hash(password, 10);
-//         const query = "INSERT INTO users (name, email, password) VALUES (?, ?, ?)";
-//         await db.query(query, [name, email, hashedPassword]);
-
-//         res.status(201).json({ message: "User registered successfully" });
-//     } catch (error) {
-//         res.status(500).json({ error: "Signup failed" });
-//     }
-// });
-
-// Login route
-// router.post("/login", async (req, res) => {
-//     const { email, password } = req.body;
-
-//     try {
-//         const [user] = await db.query("SELECT * FROM users WHERE email = ?", [email]);
-
-//         if (!user.length) {
-//             return res.status(401).json({ message: "Invalid email or password" });
-//         }
-
-//         const isPasswordValid = await bcrypt.compare(password, user[0].password);
-
-//         if (!isPasswordValid) {
-//             return res.status(401).json({ message: "Invalid email or password" });
-//         }
-
-//         const token = jwt.sign({ userId: user[0].id }, SECRET_KEY, { expiresIn: "1h" });
-
-//         res.json({ message: "Login successful", token });
-//     } catch (error) {
-//         res.status(500).json({ error: "Login failed" });
-//     }
-// });
+const db = mysql.createPool({
+  host: 'gondola.proxy.rlwy.net',
+  port: 40948,
+  user: 'root',
+  password: 'HVbWzknILwIQeJJHEDPqfGMAjeaycSKh',
+  database: 'railway',
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0
+});
 
 
 router.post("/signup", async (req, res) => {
@@ -94,12 +55,6 @@ router.post("/signup", async (req, res) => {
         res.status(500).json({ error: "Internal Server Error" });
     }
 });
-
-
-
-
-
-
 
 
 router.post("/login", async (req, res) => {
@@ -131,14 +86,5 @@ router.post("/login", async (req, res) => {
         res.status(500).json({ error: "Internal Server Error" });
     }
 });
-
-
-
-
-
-
-
-
-
 
 export default router;

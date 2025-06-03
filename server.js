@@ -40,12 +40,24 @@ import ordersRouter from './routes/orders.js';
 
 
 
-  const db = await mysql.createConnection({
+  // const db = await mysql.createConnection({
+  //   host: 'gondola.proxy.rlwy.net',
+  //   port: 40948,
+  //   user: 'root',
+  //   password: 'HVbWzknILwIQeJJHEDPqfGMAjeaycSKh',
+  //   database: 'railway'
+  // });
+
+
+  const db = mysql.createPool({
     host: 'gondola.proxy.rlwy.net',
     port: 40948,
     user: 'root',
     password: 'HVbWzknILwIQeJJHEDPqfGMAjeaycSKh',
-    database: 'railway'
+    database: 'railway',
+    waitForConnections: true,
+    connectionLimit: 10,
+    queueLimit: 0
   });
 
   
@@ -293,6 +305,7 @@ app.get('/api/cart/count/:userId', async (req, res) => {
           where: { userId: req.params.userId }
       });
       res.json({ count: cartCount });
+      console.log("Userid : "+req.params.userId)
   } catch (error) {
       console.error("Error fetching cart count:", error);
       res.status(500).json({ message: "Internal server error" });

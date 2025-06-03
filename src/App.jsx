@@ -1,7 +1,7 @@
 import './App.css';
 import Nav from './pages/Nav';
 import Card from './pages/Card';
-import { Route, Routes } from 'react-router';
+import { Route, Routes, useNavigate } from 'react-router';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import Contact from './pages/Contact';
@@ -20,12 +20,28 @@ import MyAddresses from './pages/MyAddresses';
 import AddAddress from './pages/AddAddress';
 import ViewOrders from './pages/ViewOrders';
 import EditAddress from './pages/EditAddress';
+import isTokenExpired from './util/auth';
+// import { Link, useNavigate } from "react-router-dom";
 
 function App() {
   const [userId, setUserId] = useState(null);
   const [isLogged, setIsLogged] = useState(0);
 
-  useEffect(() => {
+  const navigate = useNavigate();
+
+
+  // useEffect(() => {
+  //   const id = localStorage.getItem("userId");
+  //   if (id) {
+  //     setUserId(id);
+  //     setIsLogged(1);
+  //   } else {
+  //     setIsLogged(0);
+  //   }
+  // }, []);
+
+
+    useEffect(() => {
     const id = localStorage.getItem("userId");
     if (id) {
       setUserId(id);
@@ -33,7 +49,16 @@ function App() {
     } else {
       setIsLogged(0);
     }
+
+    if (isTokenExpired()) {
+            localStorage.removeItem("token");
+            localStorage.removeItem("userId");
+            navigate("/login");
+        }
   }, []);
+
+
+
 
   const handleLogout = () => {
     setUserId(null);

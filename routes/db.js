@@ -3,19 +3,6 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-// const sequelize = new Sequelize(
-//     process.env.DB_NAME,
-//     process.env.DB_USER,
-//     process.env.DB_PASS,
-//     {
-//         host: process.env.DB_HOST,
-//         dialect: "mysql",
-//         logging: false
-//     }
-// );
-
-
-
 const sequelize = new Sequelize(
   'railway',
   'root',
@@ -24,18 +11,22 @@ const sequelize = new Sequelize(
     host: 'gondola.proxy.rlwy.net',
     port: 40948,
     dialect: 'mysql',
-    logging: false
+    logging: false,
+    pool: {
+      max: 5,
+      min: 0,
+      acquire: 30000,
+      idle: 10000
+    }
   }
 );
 
-
-
-
+// Test connection
 sequelize.authenticate()
     .then(() => console.log("✅ Database connected..."))
     .catch(err => console.log("❌ Error: " + err));
 
-// Import models **after** initializing sequelize
+// Import models after initializing sequelize
 import("../models/User.js").then(() => {
     sequelize.sync()
         .then(() => console.log("✅ Database & tables synced..."))
