@@ -137,6 +137,7 @@ function App() {
         <Route path="/cart" element={<Cart cart={cart} updateCart={setCart} />} />
         <Route path="/checkout" element={<Checkout cart={cart} calculateTotal={calculateTotal} updateCart={setCart} />} />
         <Route path="*" element={<Error />} />
+        <Route path="/error" element={<Error />} />
       </Routes>
 
       {showMessage && (
