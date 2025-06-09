@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./MyAddresses.css";
+import { Link } from "react-router-dom";
+
 
 const MyAddresses = () => {
   const [addresses, setAddresses] = useState([]);
@@ -22,7 +24,7 @@ const MyAddresses = () => {
   const fetchAddresses = () => {
     axios
       // .get(`http://localhost:5000/api/address/user/${userId}`, {
-      .get(`https://ecom-production-ca19.up.railway.app/api/address/user/${userId}`, {
+      .get(`https://ecom-production-9b18.up.railway.app/api/address/user/${userId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -41,7 +43,7 @@ const MyAddresses = () => {
 
     axios
       // .delete(`http://localhost:5000/api/address/${id}`, {
-      .delete(`https://ecom-production-ca19.up.railway.app/api/address/${id}`, {
+      .delete(`https://ecom-production-9b18.up.railway.app/api/address/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -79,6 +81,15 @@ const MyAddresses = () => {
           </li>
         ))}
       </ul>
+      <div style={{ textAlign: "right", marginBottom: "1rem" }}>
+        <Link
+          to="/addaddress"
+          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+        >
+          ➕ Add New Address
+        </Link>
+      </div>
+
     </div>
   );
 };

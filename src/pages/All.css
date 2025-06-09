@@ -519,3 +519,9 @@
   background-color: #6c757d;
   cursor: not-allowed;
 }
+
+.cart-badge {
+  font-size: 0.75rem;
+  padding: 2px 6px;
+}
+

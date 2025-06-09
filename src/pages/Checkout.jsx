@@ -22,7 +22,7 @@ const Checkout = () => {
 
     axios
       // .get(`http://localhost:5000/api/address/user/${userId}`, {
-      .get(`https://ecom-production-ca19.up.railway.app/api/address/user/${userId}`, {
+      .get(`https://ecom-production-9b18.up.railway.app/api/address/user/${userId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -40,9 +40,9 @@ const Checkout = () => {
     return Math.floor(100000 + Math.random() * 900000); // 6-digit random order ID
   };
 
- 
-  
-     // const handleSubmit = (e) => {
+
+
+  // const handleSubmit = (e) => {
   //   e.preventDefault();
 
   //   if (!selectedAddressId || !email) {
@@ -87,39 +87,39 @@ const Checkout = () => {
 
 
   const handleSubmit = (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  if (!selectedAddressId || !email) {
-    alert('Please select an address and enter your email.');
-    return;
-  }
-
-  const selectedAddress = addresses.find((addr) => addr.id === parseInt(selectedAddressId));
-
-  if (!selectedAddress) {
-    alert('Selected address not found.');
-    return;
-  }
-
-  const orderId = generateOrderId();
-
-  navigate('/payments', {
-    state: {
-      orderId,
-      email,
-      cart,
-      totalAmount: total,
-      selectedAddress
+    if (!selectedAddressId || !email) {
+      alert('Please select an address and enter your email.');
+      return;
     }
-  });
-};
+
+    const selectedAddress = addresses.find((addr) => addr.id === parseInt(selectedAddressId));
+
+    if (!selectedAddress) {
+      alert('Selected address not found.');
+      return;
+    }
+
+    const orderId = generateOrderId();
+
+    navigate('/payments', {
+      state: {
+        orderId,
+        email,
+        cart,
+        totalAmount: total,
+        selectedAddress
+      }
+    });
+  };
 
 
 
 
-  
-  
-  
+
+
+
   return (
     <div className="container mt-5 checkout-page">
       <h2 className="text-center mb-4">🛍️ Checkout</h2>
@@ -154,7 +154,7 @@ const Checkout = () => {
           />
         </div>
 
-        <div className="mb-3">
+        {/* <div className="mb-3">
           <label>Select Delivery Address:</label>
           <select
             className="form-control"
@@ -169,7 +169,53 @@ const Checkout = () => {
               </option>
             ))}
           </select>
+        </div> */}
+
+        <div className="mb-3">
+          <label>Select Delivery Address:</label>
+          {addresses.length === 0 ? (
+            <p>No saved addresses found. Please add a new address to proceed</p>
+          ) : (
+            addresses.map((addr) => (
+              <div key={addr.id} className="card p-3 mb-2">
+                <div className="form-check d-flex justify-content-between align-items-center">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="address"
+                    value={addr.id}
+                    checked={selectedAddressId === String(addr.id)}
+                    onChange={(e) => setSelectedAddressId(e.target.value)}
+                    required
+                  />
+                  <div className="ms-3 flex-grow-1">
+                    <strong>{addr.name}</strong><br />
+                    {addr.addressLine}, {addr.city}, {addr.state} - {addr.pincode}<br />
+                    Phone: {addr.phone}
+                  </div>
+                  <button
+                    className="btn btn-sm btn-outline-primary"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      navigate(`/editaddress/${addr.id}`);
+                    }}
+                  >
+                    Edit
+                  </button>
+                </div>
+              </div>
+            ))
+          )}
         </div>
+        <div className="d-flex justify-content-end mb-2">
+  <button
+    className="btn btn-primary btn-sm"
+    onClick={() => navigate('/addaddress', { state: { from: location.pathname } })}
+  >
+    ➕ Add New Address
+  </button>
+</div>
+
 
         <button type="submit" className="btn btn-success w-100">
           Continue to Payment

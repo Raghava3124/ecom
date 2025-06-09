@@ -12,7 +12,7 @@ const Cart = () => {
   useEffect(() => {
     if (userId) {
       // axios.get(`http://localhost:5000/api/cart/${userId}`)
-      axios.get(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`)
+      axios.get(`https://ecom-production-9b18.up.railway.app/api/cart/${userId}`)
         .then((res) => setCart(res.data))
         .catch((err) => console.error("Error loading cart:", err));
     }
@@ -22,7 +22,7 @@ const Cart = () => {
   const syncCart = (updatedCart) => {
     setCart(updatedCart);
     // axios.put(`http://localhost:5000/api/cart/${userId}`, updatedCart)
-    axios.put(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, updatedCart)
+    axios.put(`https://ecom-production-9b18.up.railway.app/api/cart/${userId}`, updatedCart)
       .catch((err) => console.error("Error syncing cart:", err));
   };
 
@@ -52,7 +52,7 @@ const Cart = () => {
     syncCart(updatedCart);
 
     // axios.delete(`http://localhost:5000/api/cart/${userId}/${product_id}`)
-    axios.delete(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}/${product_id}`)
+    axios.delete(`https://ecom-production-9b18.up.railway.app/api/cart/${userId}/${product_id}`)
       .catch((err) => console.error("Error deleting item:", err));
   };
 

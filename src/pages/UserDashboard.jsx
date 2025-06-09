@@ -18,7 +18,7 @@ const UserDashboard = () => {
                 const userId = decoded.id;
 
                 // const response = await fetch(`http://localhost:5000/user/${userId}`, {
-                const response = await fetch(`https://ecom-production-ca19.up.railway.app/user/${userId}`, {
+                const response = await fetch(`https://ecom-production-9b18.up.railway.app/user/${userId}`, {
                     headers: { Authorization: `Bearer ${token}` },
                 });
 
@@ -46,7 +46,7 @@ const UserDashboard = () => {
     const renderContent = () => {
         switch (activeTab) {
             case "orders":
-                return <div className="text-gray-700">📦 Your Orders will appear here.</div>;
+                return <div className="text-gray-700">📦 You will be redirected to the orders page.</div>;
             case "profile":
                 return (
                     <div className="space-y-3 text-gray-700">
@@ -81,12 +81,18 @@ const UserDashboard = () => {
                 <nav className="space-y-6">
                     <div>
                         <h3 className="text-gray-600 font-bold mb-2">MY ORDERS</h3>
-                        <button
+                        {/* <button
                             onClick={() => setActiveTab("orders")}
                             className={`w-full flex items-center gap-2 px-4 py-2 rounded-lg text-left transition 
                                 ${activeTab === "orders" ? "bg-indigo-100 text-indigo-700 font-semibold" : "hover:bg-gray-100 text-gray-700"}`}>
                             <ClipboardList size={18} /> Orders
+                        </button> */}
+                        <button
+                            onClick={() => navigate("/orders")}
+                            className="w-full flex items-center gap-2 px-4 py-2 rounded-lg text-left hover:bg-gray-100 text-gray-700 transition">
+                            <ClipboardList size={18} /> Orders
                         </button>
+
                     </div>
                     <div>
                         <h3 className="text-gray-600 font-bold mt-6 mb-2">ACCOUNT SETTINGS</h3>
@@ -96,12 +102,18 @@ const UserDashboard = () => {
                                 ${activeTab === "profile" ? "bg-indigo-100 text-indigo-700 font-semibold" : "hover:bg-gray-100 text-gray-700"}`}>
                             <User size={18} /> Profile Information
                         </button>
-                        <button
+                        {/* <button
                             onClick={() => setActiveTab("addresses")}
                             className={`w-full flex items-center gap-2 px-4 py-2 rounded-lg text-left transition 
                                 ${activeTab === "addresses" ? "bg-indigo-100 text-indigo-700 font-semibold" : "hover:bg-gray-100 text-gray-700"}`}>
                             <MapPin size={18} /> Manage Addresses
+                        </button> */}
+                        <button
+                            onClick={() => navigate("/myaddresses")}
+                            className="w-full flex items-center gap-2 px-4 py-2 rounded-lg text-left hover:bg-gray-100 text-gray-700 transition">
+                            <MapPin size={18} /> Manage Addresses
                         </button>
+
                     </div>
                     <div>
                         <h3 className="text-gray-600 font-bold mt-6 mb-2">MY STUFF</h3>

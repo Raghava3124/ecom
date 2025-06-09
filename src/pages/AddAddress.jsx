@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./AddAddress.css";
+import { useNavigate } from "react-router-dom";
+
 
 const AddAddress = () => {
   const [formData, setFormData] = useState({
@@ -18,6 +20,10 @@ const AddAddress = () => {
   const [villages, setVillages] = useState([]);
   const token = localStorage.getItem("token");
   const userId = localStorage.getItem("userId");
+  const navigate = useNavigate();
+
+
+
 
   const handleChange = (e) => {
     setFormData((prev) => ({
@@ -82,7 +88,7 @@ const AddAddress = () => {
     try {
       await axios.post(
         // "http://localhost:5000/api/address",
-        "https://ecom-production-ca19.up.railway.app/api/address",
+        "https://ecom-production-9b18.up.railway.app/api/address",
         {
           ...formData,
           city: formData.village,
@@ -97,6 +103,9 @@ const AddAddress = () => {
       );
 
       setMessage("Address added successfully!");
+      setTimeout(() => {
+        navigate(-1); // Go back to previous page
+      }, 1500);
       setFormData({
         name: "",
         phone: "",
