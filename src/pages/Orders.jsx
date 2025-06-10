@@ -27,7 +27,7 @@ const Orders = () => {
       const token = localStorage.getItem('token');
       try {
         // const res = await axios.get('http://localhost:5000/api/payments', {
-        const res = await axios.get('https://ecom-production-9b18.up.railway.app/api/payments', {
+        const res = await axios.get('http://152.57.239.121:5000/api/payments', {
           headers: { Authorization: token ? `Bearer ${token}` : '' }
         });
         setOrders(res.data);

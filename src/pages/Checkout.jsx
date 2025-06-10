@@ -22,7 +22,7 @@ const Checkout = () => {
 
     axios
       // .get(`http://localhost:5000/api/address/user/${userId}`, {
-      .get(`https://ecom-production-9b18.up.railway.app/api/address/user/${userId}`, {
+      .get(`http://152.57.239.121:5000/api/address/user/${userId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

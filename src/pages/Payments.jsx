@@ -58,7 +58,7 @@ const Payments = () => {
   //     const token = localStorage.getItem('token');
   //     const userId = localStorage.getItem('userId');
 
-  //     const paymentRes = await fetch('https://ecom-production-9b18.up.railway.app/api/payments', {
+  //     const paymentRes = await fetch('http://152.57.239.121:5000/api/payments', {
   //       method: 'POST',
   //       headers: {
   //         'Content-Type': 'application/json',
@@ -83,7 +83,7 @@ const Payments = () => {
   //       return;
   //     }
 
-  //     const orderRes = await fetch('https://ecom-production-9b18.up.railway.app/api/orders', {
+  //     const orderRes = await fetch('http://152.57.239.121:5000/api/orders', {
   //       method: 'POST',
   //       headers: {
   //         'Content-Type': 'application/json',
@@ -112,7 +112,7 @@ const Payments = () => {
   //       return;
   //     }
 
-  //     await fetch(`https://ecom-production-9b18.up.railway.app/api/cart/${userId}`, {
+  //     await fetch(`http://152.57.239.121:5000/api/cart/${userId}`, {
   //       method: 'DELETE',
   //     });
 
@@ -161,7 +161,7 @@ const Payments = () => {
       const token = localStorage.getItem('token');
       const userId = localStorage.getItem('userId');
 
-      const paymentRes = await fetch('https://ecom-production-9b18.up.railway.app/api/payments', {
+      const paymentRes = await fetch('http://152.57.239.121:5000/api/payments', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -186,7 +186,7 @@ const Payments = () => {
         return;
       }
 
-      const orderRes = await fetch('https://ecom-production-9b18.up.railway.app/api/orders', {
+      const orderRes = await fetch('http://152.57.239.121:5000/api/orders', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -215,7 +215,7 @@ const Payments = () => {
         return;
       }
 
-      await fetch(`https://ecom-production-9b18.up.railway.app/api/cart/${userId}`, {
+      await fetch(`http://152.57.239.121:5000/api/cart/${userId}`, {
         method: 'DELETE',
       });
 

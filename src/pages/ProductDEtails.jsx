@@ -21,7 +21,7 @@ const ProductDEtails = () => {
   const addToCart = async () => {
     try {
       // const res = await axios.get(`http://localhost:5000/api/cart/${userId}`);
-      const res = await axios.get(`https://ecom-production-9b18.up.railway.app/api/cart/${userId}`);
+      const res = await axios.get(`http://152.57.239.121:5000/api/cart/${userId}`);
       const existingCart = res.data;
 
       const found = existingCart.find(item => item.product_id === product.id);
@@ -48,7 +48,7 @@ const ProductDEtails = () => {
       }
 
       // await axios.put(`http://localhost:5000/api/cart/${userId}`, updatedCart);
-      await axios.put(`https://ecom-production-9b18.up.railway.app/api/cart/${userId}`, updatedCart);
+      await axios.put(`http://152.57.239.121:5000/api/cart/${userId}`, updatedCart);
     } catch (err) {
       console.error("Error updating cart:", err);
       // showFloatingMessage("Something went wrong", "warning");

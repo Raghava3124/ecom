@@ -23,7 +23,7 @@ const EditAddress = () => {
 
   useEffect(() => {
     // axios.get(`http://localhost:5000/api/address/${id}`, {
-    axios.get(`https://ecom-production-9b18.up.railway.app/api/address/${id}`, {
+    axios.get(`http://152.57.239.121:5000/api/address/${id}`, {
       headers: {
         Authorization: `Bearer ${token}`
       }
@@ -108,7 +108,7 @@ const EditAddress = () => {
     try {
       await axios.put(
         // `http://localhost:5000/api/address/${id}`,
-        `https://ecom-production-9b18.up.railway.app/api/address/${id}`,
+        `http://152.57.239.121:5000/api/address/${id}`,
         {
           ...formData,
           city: formData.village

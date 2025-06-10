@@ -24,7 +24,7 @@ const MyAddresses = () => {
   const fetchAddresses = () => {
     axios
       // .get(`http://localhost:5000/api/address/user/${userId}`, {
-      .get(`https://ecom-production-9b18.up.railway.app/api/address/user/${userId}`, {
+      .get(`http://152.57.239.121:5000/api/address/user/${userId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -43,7 +43,7 @@ const MyAddresses = () => {
 
     axios
       // .delete(`http://localhost:5000/api/address/${id}`, {
-      .delete(`https://ecom-production-9b18.up.railway.app/api/address/${id}`, {
+      .delete(`http://152.57.239.121:5000/api/address/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
