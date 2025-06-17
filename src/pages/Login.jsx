@@ -17,7 +17,7 @@ const Login = ({ onLogin }) => {
         setMessage("");
 
         try {
-             const response = await fetch("http://localhost:5000/api/auth/login", {
+             const response = await fetch("http://150.230.134.36:5000/api/auth/login", {
             //const response = await fetch("https://ecom-production-ca19.up.railway.app/api/auth/login", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },

@@ -64,7 +64,7 @@ const Payments = () => {
       const userId = localStorage.getItem('userId');
 
       //const paymentRes = await fetch('https://ecom-production-ca19.up.railway.app/api/payments', {
-      const paymentRes = await fetch('http://localhost:5000/api/payments', {
+      const paymentRes = await fetch('http://150.230.134.36:5000/api/payments', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -90,7 +90,7 @@ const Payments = () => {
       }
 
       //const orderRes = await fetch('https://ecom-production-ca19.up.railway.app/api/orders', {
-      const orderRes = await fetch('http://localhost:5000/api/orders', {
+      const orderRes = await fetch('http://150.230.134.36:5000/api/orders', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -120,7 +120,7 @@ const Payments = () => {
       }
 
       //await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, {
-      await fetch(`http://localhost:5000/api/cart/${userId}`, {
+      await fetch(`http://150.230.134.36:5000/api/cart/${userId}`, {
         method: 'DELETE',
       });
 

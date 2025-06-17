@@ -17,7 +17,7 @@ const UserDashboard = () => {
                 const userId = decoded.id;
 
                 //const response = await fetch(`https://ecom-production-ca19.up.railway.app/user/${userId}`, {
-                const response = await fetch(`http://localhost:5000/user/${userId}`, {
+                const response = await fetch(`http://150.230.134.36:5000/user/${userId}`, {
                     headers: { Authorization: `Bearer ${token}` },
                 });
 
