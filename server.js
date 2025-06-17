@@ -9,6 +9,7 @@ import Cart from "./models/Cart.js";
 import paymentRoutes from './routes/payments.js'; // Make sure this file exists
 import addressRoutes from './routes/address.js'
 import ordersRouter from './routes/orders.js';
+import wishlistRoutes from './routes/wishlist.js';
 // import Wishlist from "./models/Wishlist.js";
 
 // const db = await mysql.createConnection({
@@ -92,7 +93,7 @@ app.use('/api/payments', paymentRoutes);
 app.use('/api/orders', ordersRouter);
 // app.use('/', paymentRoutes);
 
-
+app.use('/wishlist', wishlistRoutes);
 
 
 

@@ -4,6 +4,8 @@ import { useNavigate } from "react-router";
 
 const Card = ({ addToCart, cart }) => {
   const [prod, setProducts] = useState([]);
+  const [wishlist, setWishlist] = useState([]);
+
   const [searchTerm, setSearchTerm] = useState("");
   const [message, setMessage] = useState("");
   const [messageType, setMessageType] = useState("");
@@ -22,12 +24,32 @@ const Card = ({ addToCart, cart }) => {
 
 
 
-    useEffect(() => {
+  useEffect(() => {
     fetch("/products.json") // ✅ Local file from public folder
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.error("Failed to load local products:", err));
   }, []);
+
+
+
+
+
+
+  useEffect(() => {
+    const userId = localStorage.getItem("userId");
+    if (!userId) return;
+
+    fetch(`http://150.230.134.36:5000/wishlist/${userId}`)
+      .then(res => res.json())
+      .then(data => {
+        const ids = data.map(item => item.product_id);
+        setWishlist(ids);
+      })
+      .catch(err => console.error("Error loading wishlist:", err));
+  }, []);
+
+
 
 
 
@@ -72,8 +94,8 @@ const Card = ({ addToCart, cart }) => {
         setMessageType("success");
       }
 
-       await fetch(`http://150.230.134.36:5000/api/cart/${userId}`, {
-      //await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, {
+      await fetch(`http://150.230.134.36:5000/api/cart/${userId}`, {
+        //await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedCart),
@@ -98,6 +120,59 @@ const Card = ({ addToCart, cart }) => {
     pd.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  const handleWishlistToggle = async (product) => {
+    const userId = localStorage.getItem("userId");
+    if (!userId) {
+      setMessage("Please log in to add items to your wishlist.");
+      setMessageType("warning");
+      setShowMessage(true);
+      return;
+    }
+
+    const alreadyWishlisted = wishlist.includes(product.id);
+
+    try {
+      if (alreadyWishlisted) {
+        await fetch(`http://150.230.134.36:5000/wishlist/${userId}/${product.id}`, {
+          method: "DELETE"
+        });
+        setWishlist(wishlist.filter(id => id !== product.id));
+      } else {
+        await fetch("http://150.230.134.36:5000/wishlist", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            userId,
+            product_id: product.id,
+            product_name: product.title,
+            product_price: product.price,
+            product_image: product.image
+          })
+        });
+        setWishlist([...wishlist, product.id]);
+      }
+    } catch (err) {
+      console.error("Wishlist error:", err);
+      setMessage("Something went wrong with the wishlist.");
+      setMessageType("warning");
+      setShowMessage(true);
+    }
+  };
+
+
   return (
     <div className="p-4">
       {/* Search Bar */}
@@ -120,6 +195,16 @@ const Card = ({ addToCart, cart }) => {
             className="card product-card"
             style={{ width: "18rem" }}
           >
+            <div
+              className="wishlist-icon"
+              onClick={() => handleWishlistToggle(pd)}
+              title={wishlist.includes(pd.id) ? "Remove from Wishlist" : "Add to Wishlist"}
+            >
+              {wishlist.includes(pd.id) ? "❤️" : "🤍"}
+            </div>
+
+
+
             <div className="image-container" onClick={() => navigate(`/products/${pd.id}`)}>
               <img
                 src={pd.image}
