@@ -23,8 +23,8 @@ const MyAddresses = () => {
 
   const fetchAddresses = () => {
     axios
-      // .get(`http://localhost:5000/api/address/user/${userId}`, {
-      .get(`http://152.57.239.121:5000/api/address/user/${userId}`, {
+       .get(`http://localhost:5000/api/address/user/${userId}`, {
+      //.get(`https://ecom-production-ca19.up.railway.app/api/address/user/${userId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -42,8 +42,8 @@ const MyAddresses = () => {
     if (!window.confirm("Are you sure you want to delete this address?")) return;
 
     axios
-      // .delete(`http://localhost:5000/api/address/${id}`, {
-      .delete(`http://152.57.239.121:5000/api/address/${id}`, {
+      .delete(`http://localhost:5000/api/address/${id}`, {
+      //.delete(`https://ecom-production-ca19.up.railway.app/api/address/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

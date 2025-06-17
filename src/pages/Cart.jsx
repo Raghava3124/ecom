@@ -11,8 +11,8 @@ const Cart = () => {
   // Load cart from backend
   useEffect(() => {
     if (userId) {
-      // axios.get(`http://localhost:5000/api/cart/${userId}`)
-      axios.get(`http://152.57.239.121:5000/api/cart/${userId}`)
+      axios.get(`http://localhost:5000/api/cart/${userId}`)
+      //axios.get(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`)
         .then((res) => setCart(res.data))
         .catch((err) => console.error("Error loading cart:", err));
     }
@@ -21,8 +21,8 @@ const Cart = () => {
   // Sync cart to backend
   const syncCart = (updatedCart) => {
     setCart(updatedCart);
-    // axios.put(`http://localhost:5000/api/cart/${userId}`, updatedCart)
-    axios.put(`http://152.57.239.121:5000/api/cart/${userId}`, updatedCart)
+    axios.put(`http://localhost:5000/api/cart/${userId}`, updatedCart)
+    //axios.put(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, updatedCart)
       .catch((err) => console.error("Error syncing cart:", err));
   };
 
@@ -51,8 +51,8 @@ const Cart = () => {
     const updatedCart = cart.filter((item) => item.product_id !== product_id);
     syncCart(updatedCart);
 
-    // axios.delete(`http://localhost:5000/api/cart/${userId}/${product_id}`)
-    axios.delete(`http://152.57.239.121:5000/api/cart/${userId}/${product_id}`)
+    axios.delete(`http://localhost:5000/api/cart/${userId}/${product_id}`)
+    //axios.delete(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}/${product_id}`)
       .catch((err) => console.error("Error deleting item:", err));
   };
 
@@ -77,7 +77,7 @@ const Cart = () => {
                 <img src={item.product_image} alt={item.product_name} className="cart-item-image" />
                 <div className="cart-item-details">
                   <h4 className="cart-item-title">{item.product_name}</h4>
-                  <p className="cart-item-price">Price: <strong>${item.product_price}</strong></p>
+                  <p className="cart-item-price">Price: <strong>₹{item.product_price}</strong></p>
 
                   <div className="cart-quantity">
                     <button className="quantity-btn decrease" onClick={() => decrementQuantity(item.product_id)}>-</button>
@@ -86,7 +86,7 @@ const Cart = () => {
                   </div>
 
                   <p className="cart-item-subtotal">
-                    Subtotal: <strong>${(item.product_price * item.quantity).toFixed(2)}</strong>
+                    Subtotal: <strong>₹{(item.product_price * item.quantity).toFixed(2)}</strong>
                   </p>
                 </div>
 
@@ -96,7 +96,7 @@ const Cart = () => {
           </div>
 
           <div className="text-end">
-            <h4>Total: ${calculateTotal()}</h4>
+            <h4>Total: ₹{calculateTotal()}</h4>
             {/* <button className="btn btn-primary mt-3" onClick={() => navigate('/checkout')}>
               Proceed to Checkout
             </button> */}

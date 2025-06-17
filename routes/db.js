@@ -3,13 +3,47 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
+// const sequelize = new Sequelize(
+//   'railway',
+//   'root',
+//   'HVbWzknILwIQeJJHEDPqfGMAjeaycSKh',
+//   {
+//     host: 'gondola.proxy.rlwy.net',
+//     port: 40948,
+//     dialect: 'mysql',
+//     logging: false,
+//     pool: {
+//       max: 5,
+//       min: 0,
+//       acquire: 30000,
+//       idle: 10000
+//     }
+//   }
+// );
+
+// const sequelize = new Sequelize(
+//   'raghava',
+//   'root',
+//   'Raghav@123',
+//   {
+//     host: '150.230.134.36',
+//     dialect: 'mysql',
+//     logging: false,
+//     pool: {
+//       max: 5,
+//       min: 0,
+//       acquire: 30000,
+//       idle: 10000
+//     }
+//   }
+// );
+
 const sequelize = new Sequelize(
-  'railway',
-  'root',
-  'HVbWzknILwIQeJJHEDPqfGMAjeaycSKh',
+  'raghava',
+  'raghav', // Updated username
+  'Raghav@123', // Updated password
   {
-    host: 'gondola.proxy.rlwy.net',
-    port: 40948,
+    host: '150.230.134.36', // Updated host
     dialect: 'mysql',
     logging: false,
     pool: {
@@ -20,6 +54,8 @@ const sequelize = new Sequelize(
     }
   }
 );
+
+
 
 // Test connection
 sequelize.authenticate()

@@ -22,8 +22,8 @@ const EditAddress = () => {
   const token = localStorage.getItem("token");
 
   useEffect(() => {
-    // axios.get(`http://localhost:5000/api/address/${id}`, {
-    axios.get(`http://152.57.239.121:5000/api/address/${id}`, {
+    axios.get(`http://localhost:5000/api/address/${id}`, {
+    //axios.get(`https://ecom-production-ca19.up.railway.app/api/address/${id}`, {
       headers: {
         Authorization: `Bearer ${token}`
       }
@@ -107,8 +107,8 @@ const EditAddress = () => {
 
     try {
       await axios.put(
-        // `http://localhost:5000/api/address/${id}`,
-        `http://152.57.239.121:5000/api/address/${id}`,
+         `http://localhost:5000/api/address/${id}`,
+        //`https://ecom-production-ca19.up.railway.app/api/address/${id}`,
         {
           ...formData,
           city: formData.village

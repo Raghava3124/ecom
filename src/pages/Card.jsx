@@ -10,15 +10,26 @@ const Card = ({ addToCart, cart }) => {
   const [showMessage, setShowMessage] = useState(false);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    fetch("https://fakestoreapi.com/products")
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://fakestoreapi.com/products")
+  //     .then((res) => res.json())
+  //     .then((data) => setProducts(data));
+  // }, []);
 
   const handleSearchChange = (e) => {
     setSearchTerm(e.target.value);
   };
+
+
+
+    useEffect(() => {
+    fetch("/products.json") // ✅ Local file from public folder
+      .then((res) => res.json())
+      .then((data) => setProducts(data))
+      .catch((err) => console.error("Failed to load local products:", err));
+  }, []);
+
+
 
   const handleAddToCart = async (product) => {
     const userId = localStorage.getItem("userId");
@@ -31,8 +42,8 @@ const Card = ({ addToCart, cart }) => {
     }
 
     try {
-      // const res = await fetch(`http://localhost:5000/api/cart/${userId}`);
-      const res = await fetch(`http://152.57.239.121:5000/api/cart/${userId}`);
+      const res = await fetch(`http://localhost:5000/api/cart/${userId}`);
+      //const res = await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`);
       const existingCart = await res.json();
 
       const found = existingCart.find((item) => item.product_id === product.id);
@@ -61,8 +72,8 @@ const Card = ({ addToCart, cart }) => {
         setMessageType("success");
       }
 
-      // await fetch(`http://localhost:5000/api/cart/${userId}`, {
-      await fetch(`http://152.57.239.121:5000/api/cart/${userId}`, {
+       await fetch(`http://localhost:5000/api/cart/${userId}`, {
+      //await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedCart),
@@ -121,7 +132,7 @@ const Card = ({ addToCart, cart }) => {
               <p className="card-text">
                 {pd.description.substring(0, 100)}...
               </p>
-              <p className="card-text fw-bold price">${pd.price}</p>
+              <p className="card-text fw-bold price">₹{pd.price}</p>
               <div className="d-flex justify-content-between">
                 <button
                   className="btn btn-primary"

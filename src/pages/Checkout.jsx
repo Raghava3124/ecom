@@ -21,8 +21,8 @@ const Checkout = () => {
     if (!userId || !token) return;
 
     axios
-      // .get(`http://localhost:5000/api/address/user/${userId}`, {
-      .get(`http://152.57.239.121:5000/api/address/user/${userId}`, {
+       .get(`http://localhost:5000/api/address/user/${userId}`, {
+      //.get(`https://ecom-production-ca19.up.railway.app/api/address/user/${userId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -130,11 +130,11 @@ const Checkout = () => {
           <>
             {cart.map((item) => (
               <p key={item.product_id || item.id}>
-                {item.product_name || item.title} (x{item.quantity}) - $
+                {item.product_name || item.title} (x{item.quantity}) - ₹
                 {(item.product_price || item.price) * item.quantity}
               </p>
             ))}
-            <h4>Total: ${total}</h4>
+            <h4>Total: ₹{total}</h4>
           </>
         ) : (
           <p>Your cart is empty.</p>

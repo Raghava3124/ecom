@@ -12,16 +12,33 @@ const ProductDEtails = () => {
   const [messageType, setMessageType] = useState("success"); // or 'warning'
   const [message, setMessage] = useState("");
 
+  // useEffect(() => {
+  //   axios.get(`https://fakestoreapi.com/products/${id}`)
+  //     .then(res => setProduct(res.data))
+  //     .catch(err => console.error("Error fetching product:", err));
+  // }, [id]);
+
   useEffect(() => {
-    axios.get(`https://fakestoreapi.com/products/${id}`)
-      .then(res => setProduct(res.data))
-      .catch(err => console.error("Error fetching product:", err));
-  }, [id]);
+  const fetchProduct = async () => {
+    try {
+      const res = await fetch("/products.json"); // Local JSON file
+      const data = await res.json();
+
+      const foundProduct = data.find((item) => item.id === parseInt(id));
+      setProduct(foundProduct || null);
+    } catch (err) {
+      console.error("Error loading product:", err);
+    }
+  };
+
+  fetchProduct();
+}, [id]);
+
 
   const addToCart = async () => {
     try {
-      // const res = await axios.get(`http://localhost:5000/api/cart/${userId}`);
-      const res = await axios.get(`http://152.57.239.121:5000/api/cart/${userId}`);
+      const res = await axios.get(`http://localhost:5000/api/cart/${userId}`);
+      //const res = await axios.get(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`);
       const existingCart = res.data;
 
       const found = existingCart.find(item => item.product_id === product.id);
@@ -47,8 +64,8 @@ const ProductDEtails = () => {
         showFloatingMessage("Item added to cart", "success");
       }
 
-      // await axios.put(`http://localhost:5000/api/cart/${userId}`, updatedCart);
-      await axios.put(`http://152.57.239.121:5000/api/cart/${userId}`, updatedCart);
+      await axios.put(`http://localhost:5000/api/cart/${userId}`, updatedCart);
+      //await axios.put(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, updatedCart);
     } catch (err) {
       console.error("Error updating cart:", err);
       // showFloatingMessage("Something went wrong", "warning");
@@ -76,7 +93,7 @@ const ProductDEtails = () => {
           <h2 className="product-title">{product.title}</h2>
           <p className="product-category">Category: {product.category}</p>
           <p className="product-description">{product.description}</p>
-          <p className="product-price">Price: <strong>${product.price}</strong></p>
+          <p className="product-price">Price: <strong>₹{product.price}</strong></p>
           <p className="product-rating">Rating: {product.rating.rate} ⭐ ({product.rating.count} reviews)</p>
           <button className="add-to-cart-btn" onClick={addToCart}>
             Add to Cart

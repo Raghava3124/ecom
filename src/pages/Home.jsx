@@ -19,7 +19,8 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("https://fakestoreapi.com/products");
+        //const res = await fetch("https://fakestoreapi.com/products");
+        const res = await fetch("/products.json");
         const data = await res.json();
         setProducts(data);
         setCategories([...new Set(data.map((item) => item.category))]);
@@ -66,8 +67,8 @@ const Home = () => {
     }
 
     try {
-      // const res = await fetch(`http://localhost:5000/api/cart/${userId}`);
-      const res = await fetch(`http://152.57.239.121:5000/api/cart/${userId}`);
+       const res = await fetch(`http://localhost:5000/api/cart/${userId}`);
+      //const res = await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`);
       const existingCart = await res.json();
 
       const found = existingCart.find((item) => item.product_id === product.id);
@@ -96,8 +97,8 @@ const Home = () => {
         setMessageType("success");
       }
 
-      // await fetch(`http://localhost:5000/api/cart/${userId}`, {
-      await fetch(`http://152.57.239.121:5000/api/cart/${userId}`, {
+       await fetch(`http://localhost:5000/api/cart/${userId}`, {
+      //await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedCart),
@@ -228,7 +229,7 @@ const Home = () => {
                     <div className="card-body">
                       <h5 className="card-title">{item.title}</h5>
                       <p className="card-text">{item.description.substring(0, 100)}...</p>
-                      <p className="card-text fw-bold price">${item.price}</p>
+                      <p className="card-text fw-bold price">₹{item.price}</p>
                       <button
                         className="btn btn-primary buy-now-btn"
                         onClick={() => addToCartHandler(item)}

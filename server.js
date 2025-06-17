@@ -12,11 +12,19 @@ import ordersRouter from './routes/orders.js';
 // import Wishlist from "./models/Wishlist.js";
 
 // const db = await mysql.createConnection({
-//     host: 'localhost',
+//     host: '150.230.134.36',
 //     user: 'root',
-//     password: 'Password@123',
-//     database: 'ecom'
+//     password: 'Raghav@123',
+//     database: 'raghava'
 //   });
+
+const db = await mysql.createConnection({
+    host:"150.230.134.36",
+    port:3306,
+    user:"raghav",
+    password:"Raghav@123",
+    database:"raghava"
+  });
 
 
 
@@ -49,16 +57,16 @@ import ordersRouter from './routes/orders.js';
   // });
 
 
-  const db = mysql.createPool({
-    host: 'gondola.proxy.rlwy.net',
-    port: 40948,
-    user: 'root',
-    password: 'HVbWzknILwIQeJJHEDPqfGMAjeaycSKh',
-    database: 'railway',
-    waitForConnections: true,
-    connectionLimit: 10,
-    queueLimit: 0
-  });
+  // const db = mysql.createPool({
+  //   host: 'gondola.proxy.rlwy.net',
+  //   port: 40948,
+  //   user: 'root',
+  //   password: 'HVbWzknILwIQeJJHEDPqfGMAjeaycSKh',
+  //   database: 'railway',
+  //   waitForConnections: true,
+  //   connectionLimit: 10,
+  //   queueLimit: 0
+  // });
 
   
 dotenv.config();

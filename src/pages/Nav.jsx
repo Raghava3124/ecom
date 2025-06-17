@@ -13,11 +13,15 @@ function Nav({ userId, handleLogout }) {
     const fetchCartCount = () => {
       if (userId) {
         axios
-          .get(`http://152.57.239.121:5000/api/cart/count/${userId}`)
+        .get(`http://localhost:5000/api/cart/count/${userId}`)
+          //.get(`https://ecom-production-ca19.up.railway.app/api/cart/count/${userId}`)
           .then((res) => setCartCount(res.data.count))
           .catch((err) => console.error("Error fetching cart count:", err));
       }
     };
+
+    
+
 
     fetchCartCount();
     if (userId) interval = setInterval(fetchCartCount, 500);
@@ -33,13 +37,85 @@ function Nav({ userId, handleLogout }) {
   };
 
   // Collapse navbar on mobile after link click
-  const collapseNavbar = () => {
-    const navbarToggler = document.querySelector('.navbar-toggler');
+  // const collapseNavbar = () => {
+  //   const navbarToggler = document.querySelector('.navbar-toggler');
+  //   const navbarCollapse = document.getElementById('navbarSupportedContent');
+  //   if (navbarCollapse.classList.contains('show')) {
+  //     navbarToggler.click();
+  //   }
+  // };
+
+//   const collapseNavbar = () => {
+//   const navbarToggler = document.querySelector('.navbar-toggler');
+//   const navbarCollapse = document.getElementById('navbarSupportedContent');
+
+//   if (window.innerWidth < 992 && navbarCollapse.classList.contains('show')) {
+//     setTimeout(() => {
+//       navbarToggler.click();
+//     }, 50); // gives Bootstrap time to register the state
+//   }
+// };
+
+
+const collapseNavbar = () => {
+  const navbarCollapse = document.getElementById('navbarSupportedContent');
+
+  if (window.innerWidth < 992 && navbarCollapse?.classList.contains('show')) {
+    const collapseInstance =
+      bootstrap.Collapse.getInstance(navbarCollapse) ||
+      new bootstrap.Collapse(navbarCollapse, { toggle: false });
+
+    collapseInstance.hide();
+  }
+};
+
+
+// useEffect(() => {
+//   const handleOutsideClick = (e) => {
+//     const navbarCollapse = document.getElementById('navbarSupportedContent');
+//     const navbarToggler = document.querySelector('.navbar-toggler');
+
+//     if (!navbarCollapse || !navbarToggler) return;
+
+//     const isNavbarOpen = navbarCollapse.classList.contains('show');
+//     const isClickInsideMenu = navbarCollapse.contains(e.target);
+//     const isClickOnToggler = navbarToggler.contains(e.target);
+
+//     if (isNavbarOpen && !isClickInsideMenu && !isClickOnToggler) {
+//       collapseNavbar(); // ✅ Call your existing function
+//     }
+//   };
+
+//   document.addEventListener('click', handleOutsideClick);
+//   return () => document.removeEventListener('click', handleOutsideClick);
+// }, []);
+
+
+useEffect(() => {
+  const handleOutsideClick = (e) => {
     const navbarCollapse = document.getElementById('navbarSupportedContent');
-    if (navbarCollapse.classList.contains('show')) {
-      navbarToggler.click();
+    const navbarToggler = document.querySelector('.navbar-toggler');
+
+    if (!navbarCollapse || !navbarToggler) return;
+
+    const isNavbarOpen = navbarCollapse.classList.contains('show');
+    const isClickInsideMenu = navbarCollapse.contains(e.target);
+    const isClickOnToggler = navbarToggler.contains(e.target);
+
+    if (isNavbarOpen && (!isClickInsideMenu || isClickOnToggler)) {
+      collapseNavbar(); // ✅ Close if clicked outside or on toggler
     }
   };
+
+  document.addEventListener('click', handleOutsideClick);
+  return () => document.removeEventListener('click', handleOutsideClick);
+}, []);
+
+
+
+
+
+
 
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
