@@ -10,6 +10,8 @@ import paymentRoutes from './routes/payments.js'; // Make sure this file exists
 import addressRoutes from './routes/address.js'
 import ordersRouter from './routes/orders.js';
 import wishlistRoutes from './routes/wishlist.js';
+import authMiddleware from "./middleware/auth.js"; // Make sure this path is correct
+
 // import Wishlist from "./models/Wishlist.js";
 
 // const db = await mysql.createConnection({
@@ -164,25 +166,54 @@ app.post("/send-otp", async (req, res) => {
 
 
 
-app.get('/user/:id', async (req, res) => {
-    const userId = req.params.id;
+// app.get('/user/:id', async (req, res) => {
+//     const userId = req.params.id;
   
-    try {
-      const [rows] = await db.query(
-        'SELECT id, name, email FROM Users WHERE id = ?',
-        [userId]
-      );
+//     try {
+//       const [rows] = await db.query(
+//         'SELECT id, name, email FROM Users WHERE id = ?',
+//         [userId]
+//       );
   
-      if (rows.length === 0) {
-        return res.status(404).json({ message: 'User not found' });
-      }
+//       if (rows.length === 0) {
+//         return res.status(404).json({ message: 'User not found' });
+//       }
   
-      res.json(rows[0]);
-    } catch (err) {
-      console.error(err);
-      res.status(500).json({ message: 'Server error' });
+//       res.json(rows[0]);
+//     } catch (err) {
+//       console.error(err);
+//       res.status(500).json({ message: 'Server error' });
+//     }
+//   });
+
+app.get('/user/:id', authMiddleware, async (req, res) => {
+  const requestedId = parseInt(req.params.id);
+  const authenticatedUserId = req.user.id; // Comes from the verified token
+
+  console.log("✅ Token verified, user ID from token:", authenticatedUserId);
+  console.log("📦 Requested user ID from param:", requestedId);
+
+  if (requestedId !== authenticatedUserId) {
+    return res.status(403).json({ message: 'Forbidden: Token does not match requested user' });
+  }
+
+  try {
+    const [rows] = await db.query(
+      'SELECT id, name, email FROM Users WHERE id = ?',
+      [requestedId]
+    );
+
+    if (rows.length === 0) {
+      return res.status(404).json({ message: 'User not found' });
     }
-  });
+
+    res.json(rows[0]);
+  } catch (err) {
+    console.error("❌ DB Error:", err);
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
   
 
 
