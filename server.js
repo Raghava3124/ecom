@@ -9,6 +9,7 @@ import Cart from "./models/Cart.js";
 import paymentRoutes from './routes/payments.js'; // Make sure this file exists
 import addressRoutes from './routes/address.js'
 import ordersRouter from './routes/orders.js';
+import wishlistRoutes from './routes/wishlist.js';
 import { Sequelize } from "sequelize";
 // import Wishlist from "./models/Wishlist.js";
 
@@ -26,7 +27,6 @@ import { Sequelize } from "sequelize";
 //     password:"Raghav@123",
 //     database:"raghava"
 //   });
-
 
 const db = new Sequelize(
   'raghava',
@@ -111,7 +111,7 @@ app.use('/api/payments', paymentRoutes);
 app.use('/api/orders', ordersRouter);
 // app.use('/', paymentRoutes);
 
-
+app.use('/wishlist', wishlistRoutes);
 
 
 
@@ -185,38 +185,33 @@ app.post("/send-otp", async (req, res) => {
 app.get('/user/:id', async (req, res) => {
   const userId = req.params.id;
 
-  try {
-    // const [rows] = await db.query(
-    //   'SELECT id, name, email FROM Users WHERE id = ?',
-    //   [userId]
-    // );
+  // try {
+  //   const [rows] = await db.query(
+  //     'SELECT id, name, email FROM Users WHERE id = ?',
+  //     [userId]
+  //   );
 
-    const [rows] = await db.query(
-      'SELECT id, name, email FROM Users WHERE id = :id',
-      {
-        replacements: { id: userId },
-        type: Sequelize.QueryTypes.SELECT
-      }
-    );
-
-    // Now rows is an array of objects (not nested)
-    // if (rows.length === 0) {
-    //   return res.status(404).json({ message: 'User not found' });
-    // }
-
-    // res.json(rows[0]);
-
-
-    if (rows.length === 0) {
-      return res.status(404).json({ message: 'User not found' });
+  const [rows] = await db.query(
+    'SELECT id, name, email FROM Users WHERE id = :userId',
+    {
+      replacements: { userId },
+      type: Sequelize.QueryTypes.SELECT
     }
+  );
 
-    res.json(rows[0]);
-  } catch (err) {
-    console.error(err);
-    res.status(500).json({ message: 'Server error' });
+  const user = users[0];
+
+
+  if (rows.length === 0) {
+    return res.status(404).json({ message: 'User not found' });
   }
-});
+
+  res.json(rows[0]);
+} catch (err) {
+  console.error(err);
+  res.status(500).json({ message: 'Server error' });
+}
+  });
 
 
 
