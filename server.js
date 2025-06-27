@@ -185,7 +185,7 @@ app.post("/send-otp", async (req, res) => {
 app.get('/user/:id', async (req, res) => {
   const userId = req.params.id;
 
-  // try {
+  try {
   //   const [rows] = await db.query(
   //     'SELECT id, name, email FROM Users WHERE id = ?',
   //     [userId]
