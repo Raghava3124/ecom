@@ -1,812 +1,1409 @@
 [
-  {
-    "id": 1,
-    "title": "iQOO Z9s 5G (Onyx Green, 12GB RAM, 256GB Storage) | 120 Hz 3D Curved AMOLED Display | 5500 mAh Ultra-Thin Battery | Dimesity 7300 5G Processor | Sony IMX882 OIS Camera with Aura Light",
-    "price": 22998.0,
-    "description": "iQOO Z9s 5G (Onyx Green, 12GB RAM, 256GB Storage) | 120 Hz 3D Curved AMOLED Display | 5500 mAh Ultra-Thin Battery | Dimesity 7300 5G Processor | Sony IMX882 OIS Camera with Aura Light",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61nO5YRaAxL._SX679_.jpg",
-    "rating": {
-      "rate": 4.5,
-      "count": 4983
-    },
-    "link": "https://www.amazon.in/iQOO-Storage-Ultra-Thin-Dimesity-Processor/dp/B07WFPM2WQ",
-    "about": [
-      "Display : Take your cinematic experience to the next level with 120Hz 3D Curved AMOLED display. The 1800 nits local peak brightness ensures outstanding visibility, even in direct sunlight.",
-      "PROCESSOR : Powered by MediaTek Dimensity 7300 with 702K+ AnTuTu Score, 4nm TSMC Octa-core CPU architecture which gives you effortless multi-tasking. experience",
-      "Design : iQOO Z9s comes with 0.749cm Ultra Slim body with 5500mAh Battery. Along with 44W FlashCharge which brings you back to entertainment in no time. 50% Charge in just 30 mins. It is IP64 rated - Dust and Water Resistance.",
-      "CAMERA: Capture colors & details with lifelike Accuracy with the 50MP Sony IMX882 OIS Camera with AURA Light. Features like AI Photo Enhance ensures No memory is blurry & with AI Erase snap worry-free & eliminate any unwanted objects & people from your photo.",
-      "OPERATING SYSTEM : FunTouch OS 14 based on Android 14 with 2 years of Android & 3 years of security update."
-    ],
-    "specs": {
-      "Brand": "iQOO",
-      "Operating System": "Funtouch OS 14 Based On Android 14",
-      "RAM Memory Installed Size": "12 GB",
-      "CPU Model": "Others",
-      "CPU Speed": "2.5 GHz"
-    }
+{
+  "id": 1,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Grey and Dark Green)",
+  "price": 3000.0,
+  "description": "Crafted with heritage and finesse, this Uppada Mahanati Check Saree is woven from pure silkworm-extracted silk, showcasing a serene grey body adorned with traditional check patterns. A deep dark green plain pallu and blouse provide a stunning contrast, while the genuine pure gold zari border adds regal charm. Soft yet strong, this saree boasts a wrinkle-resistant finish and elegant drape, making it the perfect choice for weddings, temple visits, family functions, or gifting.",
+  "category": "Mahanati Checks",
+  "image": "/images/1.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
   },
-  {
-    "id": 2,
-    "title": "boAt Airdopes 311 Pro, 50HRS Battery, Fast Charge, Dual Mics ENx Tech, Transparent LID, Low Latency, IPX4, IWP Tech, v5.3 Bluetooth Earbuds, TWS in Ear Earbuds Wireless Earphones with mic (Dusk Blue)",
-    "price": 799.0,
-    "description": "boAt Airdopes 311 Pro, 50HRS Battery, Fast Charge, Dual Mics ENx Tech, Transparent LID, Low Latency, IPX4, IWP Tech, v5.3 Bluetooth Earbuds, TWS in Ear Earbuds Wireless Earphones with mic (Dusk Blue)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61PYkqwxP0L._SX522_.jpg",
-    "rating": {
-      "rate": 3.6,
-      "count": 2267
-    },
-    "link": "https://www.amazon.in/boAt-Airdopes-311-Pro-Transparent/dp/B0CZ417B2Q",
-    "about": [
-      "Up to 50 hours of Playback: Stay entertained non-stop with up to 50 hours of massive playtime. Pop in boAt Airdopes 311 Pro TWS Earbuds and make commutes fun with your favorite tunes for company.",
-      "ENx Technology: ENx-powered dual mics in these earbuds make attending calls in public spaces a breeze. Speak and listen from busy roads, airport lounges, cafés, and more without pesky background sounds.",
-      "ASAP Charging: Charge for just 10 minutes and hit play on entertainment for 150 minutes. Finish the latest OTT releases or relive your old favorites with swift charging",
-      "boAt Signature Sound: Delve into the content with boAt Signature Sound. Featuring powerful 10 mm drivers, you can experience sound the way it was intended with Airdopes 311 Pro!",
-      "BEAST Mode: Raise adrenaline levels with boAtâ€s gaming BEAST mode. The 50 ms low latency lets you game lag-free to your heartâ€s content!",
-      "Bluetooth v5.3: Make tiresome traveling fun with a dose of music. You can even tune into live sports games and kill time like a pro. The Bluetooth v5.3 compatibility of these earbuds lends wireless audio comfort for up to 10 m.",
-      "Insta Wake Nâ€ Pair Tech: Experience matchless connectivity with IWP. Open the case lid to enter the audio realm with Airdopes 311 Pro and close it to disconnect from the sound.",
-      "ear buds, boat airdopes, headphones, boat headphones, bluetooth earphones, boat earbuds, earphones wired, neckband earphones, bluetooth headphones boat, Boat earphones, boat earbuds, Boat Product, boat Airdopes 311 Pro, Airdopes, earbuds, airpods, tws, earbuds bluetooth wireless, earpods, bluetooth earbuds, buds, tws earbuds, airbuds, wireless earbuds, earbuds, earpods wireless, anc earbuds, true wireless earbuds, earbud, air buds, airbuds, noise cancellation earbuds, best earbuds, gaming earbuds, ad Airdopes 311 Pro, earphones"
-    ],
-    "specs": {
-      "Brand": "boAt",
-      "Colour": "Dusk Blue",
-      "Ear Placement": "In Ear",
-      "Form Factor": "In Ear",
-      "Headphones Jack": "USB"
-    }
-  },
-  {
-    "id": 3,
-    "title": "Mini Projector, Compatible with 4K 1080 P Portable Projector with Dual Band WIFI6 5G Wireless 5.0 Bluetooth,160 ANSI Lumens, 180° Rotation, Auto Keystone Correction, Projectors Without HDMI Cable",
-    "price": 2999.0,
-    "description": "Mini Projector, Compatible with 4K 1080 P Portable Projector with Dual Band WIFI6 5G Wireless 5.0 Bluetooth,160 ANSI Lumens, 180° Rotation, Auto Keystone Correction, Projectors Without HDMI Cable",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/31ceDICWLjL._SX522_.jpg",
-    "rating": {
-      "rate": 4.7,
-      "count": 5
-    },
-    "link": "https://www.amazon.in/Projector-Compatible-Bluetooth-Correction-Projectors/dp/B0F8R1SY7Z",
-    "about": [
-      "【Smart Projector with Android TV 11.0】Experience a world of entertainment with over 4000 apps at your fingertips, including access to popular streaming platforms like Netflix, Prime Video, YouTube and more. Enjoy an extensive library of over 500,000 movies and TV shows. This mini projector equipped with Android 11.0 operating system, Mali-G31 GPU and WiFi 6 technology, our mini projector ensures perfect connectivity and top-notch performance for a truly smart viewing experience.",
-      "【1080P HD Video Projection】Native 1080P resolution with 4K support delivers crisp and clear images. Uses advanced LED technology for bright and vivid projections. Connect seamlessly with the latest WiFi 6 and Bluetooth 5.2 ensures smooth transmission, also compatible with 2.4G and 5G networks, features Bluetooth 5.2 function and connectivity to your favorite devices. This projector delivers stunning images with brightness of 160 ANSI lumens and a 1500:1 contrast ratio, ensuring vivid colors and crisp details.",
-      "【180° Rotatable Projection】No need for complex installations, this mini projector allows perfect rotation for wall, ceiling or even floor projections. Immerse yourself in a wide 35-130 inch screen for a truly immersive viewing experience. This projector is perfect for home theater, entertainment, early childhood education, video conferencing and online teaching, providing versatility for various needs.",
-      "【Auto Keystone Correction & 360° Sound】Instantly correct and focus with the auto key and manual focus adjustment for a perfect picture in seconds. Enjoy room-filling 360-degree audio for an enhanced cinematic experience with this compact yet powerful smart projector.",
-      "【Low Noise & Multi-Device Connectivity】With a high-performance cooling system that produces noise levels below 25dB, enjoy a quiet viewing environment while experiencing stunning visual effects. Equipped with HDMI, USB, and audio ports for seamless compatibility with laptops, TV cards, USB drives and more."
-    ],
-    "specs": {
-      "Brand": "Generic",
-      "Recommended Uses For Product": "Education, Home Cinema, Business",
-      "Special Feature": "180° rotation, Automatic cornerstone correction, Built-in Wifi, Built-in Wi-Fi, Support 4K, BT 5.0 built-in, Built-In Wi-Fi, WIFI 5G + WiFi 2.4G",
-      "Connectivity Technology": "USB, HDMI",
-      "Display Resolution Maximum": "1280 x 720 Pixels"
-    }
-  },
-  {
-    "id": 4,
-    "title": "Noise Twist Round dial Smart Watch with Bluetooth Calling, 1.38\" TFT Display, up-to 7 Days Battery, 100+ Watch Faces, IP68, Heart Rate Monitor, Sleep Tracking (Jet Black)",
-    "price": 1199.0,
-    "description": "Noise Twist Round dial Smart Watch with Bluetooth Calling, 1.38\" TFT Display, up-to 7 Days Battery, 100+ Watch Faces, IP68, Heart Rate Monitor, Sleep Tracking (Jet Black)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61-vRq2ulOL._SX679_.jpg",
-    "rating": {
-      "rate": 4.0,
-      "count": 14449
-    },
-    "link": "https://www.amazon.in/Noise-Launched-Bluetooth-Calling-Tracking/dp/B0BJ72WZQ7",
-    "about": [
-      "1.38” display: Featuring a vibrant round display and a stylish metallic finish, the smartwatch offers a premium on-screen experience.",
-      "Tru SyncTM: Hassle-free pairing, stable connectivity and lower battery consumption combine to provide the most advanced calling experience.",
-      "Noise Buzz: Manage calls directly from your wrist. Access your call logs, make calls from the dial pad and save up to 10 favourite contacts.",
-      "Noise Health SuiteTM: Take better care of your daily health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor, 24x7 heart rate monitor, Stress measurement, Breathe practice & Female cycle tracker.",
-      "100 sports modes: Indulge in the routine of your preference with several sports modes to choose from.",
-      "Up to 7-day battery: Breeze through an entire week without charging with up to 7 days of battery life. Get up to 2 days of battery life when calling in enabled.",
-      "100+ watch faces: A series of fun and trendy watch faces let you swap into a new background every day."
-    ],
-    "specs": {
-      "Operating System": "android, ios",
-      "Special Feature": "Heart Rate Monitor,Sleep Tracking,Oxymeter (SpO2),Stress Tracking,Cycle Tracking,Notifications,Alarm",
-      "Battery Capacity": "300 Milliamp Hours",
-      "Connectivity Technology": "USB",
-      "Wireless Communication Standard": "Bluetooth"
-    }
-  },
-  {
-    "id": 5,
-    "title": "Fire-Boltt Ninja Call Pro Plus Smart Watch 1.83 inch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution (Starlight)",
-    "price": 1149.0,
-    "description": "Fire-Boltt Ninja Call Pro Plus Smart Watch 1.83 inch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution (Starlight)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61lETOHnCPL._SX522_.jpg",
-    "rating": {
-      "rate": 4.0,
-      "count": 91692
-    },
-    "link": "https://www.amazon.in/Fire-Boltt-Bluetooth-Assistance-Resolution-Starlight/dp/B0DTB2XHLZ",
-    "about": [
-      "1.83\" HD Display with Vivid Clarity – The Fire-Boltt Ninja Call Pro Plus Smartwatch features a stunning 46.48mm (1.83-inch) HD display with 280 NITS peak brightness, ensuring crystal-clear visuals and smooth readability even in bright sunlight. The vibrant colors enhance the user experience, making this smartwatch a stylish yet functional accessory.",
-      "Long-Lasting Battery for Non-Stop Performance – This Bluetooth calling smartwatch boasts a power-efficient battery that delivers extended battery life, allowing you to stay connected for days on a single charge. Whether for work, fitness, or outdoor adventures, this Fire-Boltt smartwatch keeps you on track without frequent recharging.",
-      "Stylish Color Variants to Suit Every Look – This latest smartwatch for men & women is available in multiple colors, allowing you to refine your wardrobe with trendy options. The all-new Cinnamon Slate color is the smartwatch color of the year, offering a premium look that complements every outfit, whether casual, sporty, or professional.",
-      "Seamless Bluetooth Calling from Your Wrist – Make and receive calls directly from your smartwatch without reaching for your phone. The Fire-Boltt Ninja Call Pro Plus Bluetooth Calling Smartwatch ensures crystal-clear audio quality, making it a perfect companion for busy professionals, travelers, and fitness enthusiasts.",
-      "AI Voice Assistant for Hands-Free Convenience – The built-in AI voice assistant lets you control your smartwatch with simple voice commands. Set reminders, check the weather, play music, or manage daily tasks effortlessly with this feature-packed smartwatch, designed for a truly smart experience."
-    ],
-    "specs": {
-      "Operating System": "android4.4 (contain), ios8.0 contain) above",
-      "Memory Storage Capacity": "128 MB",
-      "Special Feature": "Bluetooth Calling, IP67 Smartwatch, 1.83\" Big Display, Built In Mic & Speaker, Voice Assistant, Games, Find Phone, Accelerometer, Activity Tracker, Alarm Clock, Calorie Tracker, Camera, Notifications, Pedometer,… See more",
-      "Battery Capacity": "280 Milliamp Hours",
-      "Connectivity Technology": "Bluetooth"
-    }
-  },
-  {
-    "id": 6,
-    "title": "Fastrack Astor FR2 Pro 1.43\" AMOLED Stainless Steel Smart Watch with SpO2, Heart Rate, BT Calling, Adaptive AOD, Functional Crown, AI Voice Assistant – Smartwatch for Stylish Professionals (Black)",
-    "price": 2999.0,
-    "description": "Giving you the ultimate experience where Style meets Tech. Introducing Astor FR2 Pro with 1.43\" AMOLED Display with 466*466 Pixel Resolution , where we provide your handy kit right on your wrist with SingleSync BT Calling, Functional Crown,Multisport Tracker, 100+ Cloud Watchfaces, IP68 Water Resistance, Up to 5 day battery, Health Monitoring. We got your health covered with deep personalized insights in our Fastrack Smart World App.",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/71rjlGEi+1L._SX522_.jpg",
-    "rating": {
-      "rate": 4.6,
-      "count": 7734
-    },
-    "link": "https://www.amazon.in/Fastrack-Resolution-SingleSync-Assistant-Smartwatch/dp/B0DGGVHMDS",
-    "about": [
-      "Stylish Design Meets Smart Tech – A sleek smartwatch for man or woman with a 1.43” AMOLED display, premium metal build, and adaptive always-on screen. Designed for those who want their smart watch to double as a fashion statement.",
-      "Smart Calling, Smarter Living – Take calls from your wrist with SingleSync Bluetooth Calling. A must-have feature for professionals looking for a digital watch for man or women that keeps them effortlessly connected.",
-      "Smooth Navigation, Maximum Control – Functional crown and dual menu styles ensure seamless interaction. Whether you're wearing a watch for man smartwatch or wrist watch for woman, control is always at your fingertips.",
-      "All-Day Wellness Tracking – Monitor heart rate, SpO2, sleep, and stress with this all-round health smart watch. Perfect for ladies watch lovers or fitness-first men who want form and function in one wearable.",
-      "Made to Match Every Mood – With 100+ watchfaces, this smart watch for women latest or smartwatch for man adapts to your look. A go-to for women watches branded fans and those seeking watches for women latest in style and tech."
-    ],
-    "specs": {
-      "Operating System": "android",
-      "Special Feature": "Multisport Tracker, Activity Tracker, Phone Call, Stress Tracking, Heart Rate Monitor",
-      "Battery Capacity": "5",
-      "Connectivity Technology": "Bluetooth",
-      "Wireless Communication Standard": "Bluetooth"
-    }
-  },
-  {
-    "id": 7,
-    "title": "Fire-Boltt 4G Pro Volte Calling Smart Watch- 2.02” TFT Display, 4G Nano-SIM GPS, Health Suite, Sports Modes, 400mAh Battery (Black)",
-    "price": 1949.0,
-    "description": "Fire-Boltt Four G",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/71aJJQtVnoL._SX522_.jpg",
-    "rating": {
-      "rate": 4.2,
-      "count": 3466
-    },
-    "link": "https://www.amazon.in/Fire-Boltt-Calling-Display-Nano-SIM-Battery/dp/B0CXXDG3LS",
-    "about": [
-      "4G VoLTE calling- Stay connected even without your phone! Enjoy seamless voice calls over 4G nano-SIM networks right from your wrist. Whether you're on the move or at home, enjoy crystal-clear communication without interruptions.",
-      "GPS Functionality- Track your course effortlessly with the built-in GPS feature, ensuring precise location tracking for outdoor activities like running and hiking, enhancing safety and performance.",
-      "2.02” display- Immerse yourself in vivid visuals and intuitive touch controls on the spacious 2.02” HD display. Enjoy crisp clarity with a resolution of 240*296, bringing every detail to life at your fingertips.",
-      "Multiple Sports modes- From running and cycling to yoga and swimming, easily track and optimize your performance across a variety of exercise routines. Stay motivated and achieve your goals with precision and style.",
-      "Health monitoring- Take charge of your well-being with comprehensive health monitoring features. Track your blood oxygen levels, blood pressure, heart rate, steps, sleep patterns, and more, empowering you to lead a healthier lifestyle. (Note: This is not a medical device).",
-      "400mAh battery- Power through your day confidently with the robust 400mAh battery. Stay connected and enjoy all the smartwatch features without worrying about frequent recharging.",
-      "IP67 water resistant- Embrace any adventure without hesitation, knowing your smartwatch is IP67 waterproof. Whether sweating out in the gym or caught in the rain, your device remains protected."
-    ],
-    "specs": {
-      "Operating System": "Smartwatch",
-      "Memory Storage Capacity": "128 MB",
-      "Special Feature": "Support triple network 4G full Netcom, Support dynamic heart rate monitoring, Red light blood oxygen monitoring, 4.35V high capacitance and high voltage, capacity: 400mAh, Simcard Watch, 2.04\" Display, 240*296… See more",
-      "Battery Capacity": "4E+2 Milliamp Hours",
-      "Connectivity Technology": "Cellular"
-    }
-  },
-  {
-    "id": 8,
-    "title": "Noise Diva Smartwatch with Diamond Cut dial, Glossy Metallic Finish, AMOLED Display, Mesh Metal and Leather Strap Options, 100+ Watch Faces, Female Cycle Tracker Smart Watch for Women (Gold Link)",
-    "price": 3497.0,
-    "description": "Noise Diva Smartwatch with Diamond Cut dial, Glossy Metallic Finish, AMOLED Display, Mesh Metal and Leather Strap Options, 100+ Watch Faces, Female Cycle Tracker Smart Watch for Women (Gold Link)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/81cAbPW-7pL._SX679_.jpg",
-    "rating": {
-      "rate": 4.0,
-      "count": 3612
-    },
-    "link": "https://www.amazon.in/dp/B0C5X2MGX3",
-    "about": [
-      "Diamond-cut dial: Enhance your style with a diamond-cut dial that perfectly complements your glamorous lifestyle, adding a touch of sophistication to your everyday look.",
-      "Multiple strap options: Celebrate your unique sense of style with meticulously designed metallic and leather straps, offering a wide array of options to match any occasion or outfit.",
-      "1.1” AMOLED display -Ignite your senses with mesmerising visuals, illuminating every second of your life and providing a truly captivating experience at every glance. Always on display - yes",
-      "Battery life - Spend less time charging and more time living with the exquisite timepiece boasting a 4-day long battery life, allowing you to fully enjoy all its features without interruption.",
-      "NoiseFit Focus app - Track your progress over time, explore new watch faces, and unlock a world of opportunities with the NoiseFit Focus app, providing you with a comprehensive suite of features to enhance your overall experience.",
-      "Bluetooth calling - Efficiently manage your bustling lifestyle while staying connected with Bluetooth calling, granting you the freedom to communicate without being tethered to your phone.",
-      "Health & fitness features - Stay stylish and prioritise your health with 24X7 heart rate monitoring, SpO2 tracking, sleep tracking, female cycle tracking, and more, ensuring you stay on top of your well-being."
-    ],
-    "specs": {
-      "Operating System": "Android & iOS",
-      "Special Feature": "Activity Tracker, Calorie Tracker, Oxymeter (SpO2), Notifications, Heart Rate Monitor",
-      "Battery Capacity": "230 Milliamp Hours",
-      "Connectivity Technology": "Bluetooth",
-      "Wireless Communication Standard": "Bluetooth"
-    }
-  },
-  {
-    "id": 9,
-    "title": "Boult Drift+ Smart Watch 1.85''HD Screen, Bluetooth Calling, IP68, 500 Nits Brightness,150+ Watchfaces, AI Voice Assistant, SpO2 Monitoring, 100+ Sports Mode Smartwatch (Black Coffee)",
-    "price": 999.0,
-    "description": "Boult Drift+ Smart Watch 1.85''HD Screen, Bluetooth Calling, IP68, 500 Nits Brightness,150+ Watchfaces, AI Voice Assistant, SpO2 Monitoring, 100+ Sports Mode Smartwatch (Black Coffee)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/71ISs5AzahL._SX679_.jpg",
-    "rating": {
-      "rate": 4.0,
-      "count": 1092
-    },
-    "link": "https://www.amazon.in/Boult-8906133851323-Drift/dp/B0CQLXMDZ8",
-    "about": [
-      "✅Seamless Bluetooth Calling with Speaker & Mic: The built-in speaker and mic offer a clear audio experience, making this smartwatch a great choice for both men and women looking to manage calls on the go.",
-      "✅1.85\" HD Display with 500 Nits Brightness: Enjoy a vibrant viewing experience on the 1.85\" HD screen with 500 nits of brightness, perfect for outdoor visibility and enhanced readability.",
-      "✅Comprehensive Health Monitoring: The Boult Drift+ smartwatch offers complete health insights, featuring 24/7 heart rate monitoring, SpO2 blood oxygen tracking, blood pressure monitoring, and female menstrual cycle tracking.",
-      "✅150+ Cloud Watch Faces & Customization Options: Personalize your watch with over 150 cloud-based watch faces and custom watch face options, ensuring your style remains unique.",
-      "✅Long Battery Life: Get up to 2-3 days of battery life with heavy Bluetooth calling use, and up to 7 days in regular mode. Standby mode lasts an impressive 25 days, with a quick charge time of 2.5 hours, ensuring your smartwatch is ready when you are.",
-      "✅100+ Sports Modes for Fitness Tracking: Track a wide range of activities with over 100 sports modes, catering to every fitness regime.",
-      "✅IP68 Water Resistance & Bluetooth 5.1: Built to withstand daily wear, the Boult Drift+ offers IP68 water resistance, protecting it from water and dust. Bluetooth 5.1 ensures a stable connection with your devices.",
-      "✅Smart Notifications & AI Voice Assistant: Receive smart notifications from your favourite social apps and messages. The AI voice assistant provides hands-free assistance, adding to the watch’s convenience."
-    ],
-    "specs": {
-      "Operating System": "ios, android",
-      "Special Feature": "Health Monitoring, BT Calling, 1.85\" HD Display, Activity Tracker, Notifications",
-      "Connectivity Technology": "App, Bluetooth",
-      "Wireless Communication Standard": "Bluetooth",
-      "Battery Cell Composition": "Lithium Polymer"
-    }
-  },
-  {
-    "id": 10,
-    "title": "Noise Pro 6 Max Smart Watch:Intelligent AI, Endless AI Watch Faces, AI Companion, 1.96” AMOLED, Stainless Steel Build, Built-in GPS, 5 ATM, EN2 Processor, for iOS & Android(Chrome Black)",
-    "price": 7999.0,
-    "description": "Noise Pro 6 Max Smart Watch:Intelligent AI, Endless AI Watch Faces, AI Companion, 1.96” AMOLED, Stainless Steel Build, Built-in GPS, 5 ATM, EN2 Processor, for iOS & Android(Chrome Black)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61916qAPLDL._SX679_.jpg",
-    "rating": {
-      "rate": 3.8,
-      "count": 19382
-    },
-    "link": "https://www.amazon.in/Noise-Pro-Smart-Watch-Built/dp/B0DMDKTQCN",
-    "about": [
-      "AI-Driven Watchfaces: Dynamic and intelligent watchfaces that adapt to your style and preferences.",
-      "AI Companion for Fitness & Wellness: Offers personalized insights and recommendations tailored to your health and wellness goals.",
-      "Powered by EN 2 Processor: Enhanced performance with the advanced EN 2 processor for seamless operation.",
-      "Nebula UI 2.0: Experience a sleek, intuitive, and modern user interface for effortless navigation."
-    ],
-    "specs": {
-      "Operating System": "android & ios",
-      "Special Feature": "Touchscreen, Lightweight, Alarm Clock, Activity Tracker, Notifications",
-      "Connectivity Technology": "Bluetooth",
-      "Wireless Communication Standard": "Bluetooth",
-      "GPS": "Built-in GPS"
-    }
-  },
-  {
-    "id": 11,
-    "title": "Boult Mustang Newly Launched Torq TWS Earbuds with 60H Playtime, App Support, 4 Mics, ENC, 45ms Low Latency, 13mm Driver, Breathing LEDs,Touch Control, Made in India, IPX5, Ear Buds Wireless (Yellow)",
-    "price": 1999.0,
-    "description": "Boult Mustang Newly Launched Torq TWS Earbuds with 60H Playtime, App Support, 4 Mics, ENC, 45ms Low Latency, 13mm Driver, Breathing LEDs,Touch Control, Made in India, IPX5, Ear Buds Wireless (Yellow)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/71Yootv6u3L._SX522_.jpg",
-    "rating": {
-      "rate": 4.3,
-      "count": 6663
-    },
-    "link": "https://www.amazon.in/Boult-Launched-Earbuds-Playtime-Breathing/dp/B0DN1Q4NSJ",
-    "about": [
-      "✅Boult Mustang Collaboration: Experience the ultimate fusion of world-class design, advanced tech, and exhilarating speed. Inspired by the Ford Mustang, these earbuds deliver iconic aesthetics with cutting-edge audio performance.",
-      "✅Amp App Connectivity: Personalize your sound with the Amp App. Customize EQ modes, assign touch gestures, and ensure optimal performance with the Quick Cleanup feature.",
-      "✅ Zen Quad Mic ENC: Advanced Environmental Noise Cancellation (ENC) with quad microphones ensures crystal-clear calls, even in noisy environments.",
-      "✅ 60 Hours Playtime: Extended battery life of up to 60 hours, keeping your music and calls uninterrupted on long journeys or gaming marathons.",
-      "✅ 45ms Low Latency Gaming: Ultra-low latency (45ms) for lag-free gaming and real-time audio synchronization, ensuring a seamless competitive edge.",
-      "✅ Blink & Pair BT 5.4: Instant auto-pairing with the latest Bluetooth 5.4 for stable, high-speed connectivity and low power consumption.",
-      "✅ Dynamic EQ Modes: Fine-tune your sound experience with multiple EQ modes, adjusting bass, treble, and mids for an immersive listening session."
-    ],
-    "specs": {
-      "Brand": "Boult",
-      "Colour": "Yellow",
-      "Ear Placement": "In Ear",
-      "Form Factor": "In Ear",
-      "Impedance": "32 Ohm"
-    }
-  },
-  {
-    "id": 12,
-    "title": "Mustang Torq Wireless in Ear Earbuds with 50H Playtime, App Support, Quad Mic ENC, 45ms Low Latency, Breathing LEDs, 13mm Drivers, Touch Control, Made in India IPX5 Ear Buds TWS Bluetooth 5.4",
-    "price": 1799.0,
-    "description": "Mustang Torq Wireless in Ear Earbuds with 50H Playtime, App Support, Quad Mic ENC, 45ms Low Latency, Breathing LEDs, 13mm Drivers, Touch Control, Made in India IPX5 Ear Buds TWS Bluetooth 5.4",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/719xn0KawFL._SX522_.jpg",
-    "rating": {
-      "rate": 4.2,
-      "count": 6663
-    },
-    "link": "https://www.amazon.in/Boult-Wireless-Earbuds-Breathing-Bluetooth/dp/B0D63CNLJ9",
-    "about": [
-      "✅ Boult X Mustang: World Class Design | Advanced Tech | Exhilarating Speed. Experience the innovation and passion of two industry leaders in every beat, the ultimate collaboration between Boult and Ford Mustang, bringing you earbuds that fuse cutting-edge audio technology with the iconic Mustang design.",
-      "✅ Built in App Support: Make your buds truly yours with built in app-connectivity that lets you custom-tune your audio with multi-EQ modes. Assign custom gestures to your earbuds for effortless use. Utilize the Quick Cleanup feature to easily remove dust, ensuring optimal performance.",
-      "✅ Quad Mic ENC: Designed to reduce background noise effectively, 4 onboard microphones ensure your voice remains clear and distinct even in noisy environments. Whether you're in a bustling cafe, on a crowded street, or working from home, experience enhanced clarity and communication.",
-      "✅ 50H Playtime: Enjoy extended listening with an impressive 50-hour playtime on a single charge. Ideal for long commutes, extended workouts, or weekend getaways, these earbuds ensure your favorite tunes or important calls are always within reach.",
-      "✅ 45ms Low Latency Gaming: Enjoy minimal delay and maximum precision with 40ms low latency, ensuring you're always in perfect sync with on-screen video and gaming. Elevate your gameplay with fluid audio and seamless connectivity.",
-      "✅ 13mm Bass Drivers: Experience the pinnacle of audio performance with 13mm bass drivers, crafted to deliver immersive sound with deep, resonant bass. Hear a wide spectrum of lows and highs with precision.",
-      "✅ BT 5.4: Stay connected seamlessly with Bluetooth 5.4 standard that offers enhanced stability, faster transmission speeds, and extended range. Enjoy reliable connectivity and high-quality audio streaming whether you're at home, in the gym, or on the go."
-    ],
-    "specs": {
-      "Brand": "Boult",
-      "Colour": "Blue",
-      "Ear Placement": "In Ear",
-      "Form Factor": "In Ear",
-      "Impedance": "32 Ohm"
-    }
-  },
-  {
-    "id": 13,
-    "title": "Boult X Mustang Newly Launched Q Over Ear Bluetooth Headphones with 70H Playtime, 40mm Bass Drivers, Zen™ ENC Mic, Type-C Fast Charging, 4 EQ Modes, Bluetooth 5.4, AUX Option, IPX5 Wireless Headphones",
-    "price": 2499.0,
-    "description": "Boult X Mustang Newly Launched Q Over Ear Bluetooth Headphones with 70H Playtime, 40mm Bass Drivers, Zen™ ENC Mic, Type-C Fast Charging, 4 EQ Modes, Bluetooth 5.4, AUX Option, IPX5 Wireless Headphones",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/81ZCn5FcELL._SX522_.jpg",
-    "rating": {
-      "rate": 4.4,
-      "count": 2862
-    },
-    "link": "https://www.amazon.in/Boult-Launched-Bluetooth-Headphones-Playtime/dp/B0DT9T945X",
-    "about": [
-      "✅ 70H Playtime: Boult Mustang Q wireless over-ear headphones offer an impressive 70 hours of battery life, ensuring non-stop music, calls, or gaming without frequent charging interruptions.",
-      "✅ 40mm Bass Boosted Drivers: Experience deep, rich bass with powerful 40mm drivers, delivering an immersive audio experience for music lovers.",
-      "✅ ENC Processed Calling: Enjoy crystal-clear calls with advanced ENC mic technology, reducing background noise for seamless communication, perfect for work or on-the-go calls.",
-      "✅ Type-C Fast Charging: Recharge quickly with Type-C fast charging, ensuring your Mustang Q headphones are ready for long sessions with just a short charge.",
-      "✅ Low Latency Gaming Mode: Stay ahead in the game with ultra-low latency audio, delivering smooth and synchronized sound for an immersive gaming experience.",
-      "✅ 4 EQ Modes: Customize your sound with 4 EQ modes – Bass, Rock, Pop, and Vocal, fine-tuning your experience for different music genres.",
-      "✅ Bluetooth 5.4: Equipped with Bluetooth 5.4, ensuring stable connections, faster pairing, and efficient performance for high-quality wireless audio."
-    ],
-    "specs": {
-      "Brand": "Boult",
-      "Colour": "Blue",
-      "Ear Placement": "Over Ear",
-      "Form Factor": "Over Ear",
-      "Impedance": "32 Ohm"
-    }
-  },
-  {
-    "id": 14,
-    "title": "Boult Mustang Newly Launched Dyno TWS Earbuds with 60H Playtime, App Support, Dual Pairing, 4 Mics ENC, 45ms Low Latency, 13mm Drivers, Touch Controls, Made in India, IPX5 Ear Buds Wireless (Grey)",
-    "price": 1299.0,
-    "description": "Tune in and zone out with Boult Dyno Mustang earbuds. Immerse yourself in sound with a whooping 60 hours of playtime, allowing you to escape into your world. Experience Lightning Boult™ type C fast charging, giving you a remarkable 120 minutes of playtime from just 10 minutes of charging. Communicate clearly with ZEN™ quad mic AI-ENC, enhancing your calls and ensuring your voice is heard. Immerse yourself in the powerful world of sound as the BoomX™ Technology, fueled by 13mm Drivers, envelops you in an unparalleled audio experience. Available in Red, Black, and Blue metallic cases that boast a knurled design that adds sophistication to your style. Activate Combat™ gaming mode with 45ms ultra-low latency, optimizing mobile gaming for a seamless and competitive edge. Swiftly connect using Bluetooth 5.3 and the Blink & Pair™ technology, ensuring instant pairing for uninterrupted listening. The IPX5 water resistance guarantees durability, enabling you to explore your zone, regardless of the environment.",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61oYH292c8L._SX522_.jpg",
-    "rating": {
-      "rate": 4.0,
-      "count": 6663
-    },
-    "link": "https://www.amazon.in/Boult-Launched-Earbuds-Playtime-Controls/dp/B0DTK5HVRB",
-    "about": [
-      "✅ 60 Hours Playtime: Immerse in an exceptional 60 hours of continuous music, cinema and gaming. Redefining wireless earbuds' standards for extensive travel or all-day use, ensuring uninterrupted audio enjoyment.",
-      "✅ Dual Device Pairing: Seamlessly stay connected across two devices with advanced dual device connectivity. Effortlessly switch between your smartphone, tablet, or laptop without the hassle of disconnecting and reconnecting.",
-      "✅ Built in App Support: Make your buds truly yours with built in app-connectivity that lets you custom-tune your audio with multi-EQ modes. Assign custom gestures to your earbuds for effortless use. Utilize the Quick Cleanup feature to easily remove dust, ensuring optimal performance.",
-      "✅ Zen Quad Mic ENC: Seamless communication with 4 advanced Environmental Noise Cancellation microphones guarantees crystal-clear, interference-free calls, catering to professionals and daily conversationalists alike.",
-      "✅ 45ms Low Latency Gaming: Elevate your gaming experience with ultra-low 45ms latency, providing real-time audio synchronization. Gain a competitive edge and immerse yourself in fast-paced games with responsive, lag-free performance.",
-      "✅ BT 5.4 with Blink & Pair: The latest Bluetooth 5.4 delivers instant pairing, stable connectivity, and power-efficient transmission for uninterrupted listening.",
-      "✅ Customizable EQ Modes: Tune your audio experience with multiple EQ presets, adjusting bass, treble, and mids to suit your listening style."
-    ],
-    "specs": {
-      "Brand": "Boult",
-      "Colour": "Dyno Silver",
-      "Ear Placement": "In Ear",
-      "Form Factor": "In Ear",
-      "Impedance": "32 Ohm"
-    }
-  },
-  {
-    "id": 15,
-    "title": "Boult Audio Maverick with 35H Playtime, 45ms Xtreme Low Latency Mode, Quad Mic ENC, Type C Fast Charging (10Mins=120Mins), 10mm Drivers, BT 5.3, IPX5 Airbass True Wireless in Ear Earbuds (Black)",
-    "price": 799.0,
-    "description": "Boult Audio Maverick with 35H Playtime, 45ms Xtreme Low Latency Mode, Quad Mic ENC, Type C Fast Charging (10Mins=120Mins), 10mm Drivers, BT 5.3, IPX5 Airbass True Wireless in Ear Earbuds (Black)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/71cBZJsl+EL._SX522_.jpg",
-    "rating": {
-      "rate": 3.9,
-      "count": 11072
-    },
-    "link": "https://www.amazon.in/Boult-Audio-Maverick-Wireless-Bluetooth/dp/B0BBGJPX7X",
-    "about": [
-      "✅35H Playtime: Enjoy an astounding 35 hours of playtime on a single charge with our cutting-edge wireless earphones. Whether you're on a long-haul flight, a road trip, or a marathon gaming session, our earbuds will keep you immersed in your favorite content without the worry of constant recharging.",
-      "✅45ms Low Latency Combat Mode: Gain the upper hand in gaming with our earphones' dedicated low latency gaming mode. Experience lightning-fast response times as low as 45ms with *interactive LEDs*, allowing you to hear every crucial in-game sound in real-time, ensuring you're ahead of the competition and never miss a beat.",
-      "✅Zen Quad Mic ENC: Stay connected on the move with our earphones' *4* integrated microphones with Noise Cancellation. The advanced noise-canceling technology ensures your voice remains clear and distinct during calls, even in bustling environments. Say goodbye to muffled conversations and hello to seamless communication.",
-      "✅BoomX 10mm Bass Drivers: Elevate your auditory experience with the earphones' exceptional sound quality, delivering immersive audio with deep, rich bass. Feel the rhythm and groove to your favorite tunes like never before, experiencing music the way it was meant to be heard.",
-      "✅Touch Controls: Take full control of your audio experience with intuitive touch controls. Play or pause your music, skip tracks, answer calls, or activate your voice assistant—all with a simple tap or swipe on the earbuds' touch-sensitive surface."
-    ],
-    "specs": {
-      "Brand": "Boult",
-      "Colour": "Maverick Black",
-      "Ear Placement": "In Ear",
-      "Form Factor": "In Ear",
-      "Impedance": "32 Ohm"
-    }
-  },
-  {
-    "id": 16,
-    "title": "Mivi SuperPods Immersio [Flagship Launch] in Ear Ear Buds Wireless, Dolby Audio, 3D Soundstage, 60H Playtime, AI ENC, Bluetooth TWS, BT v5.4 Earbuds",
-    "price": 2199.0,
-    "description": "Mivi SuperPods Immersio has been crafted to bring the Dolby Audio experience to your TWS earbuds. With Immersio it feels like \"Cinema in your ears\". Crafted with love for OTT lovers, step into a whole new level of binge-watching with Dolby's signature sound where action is brought to life by elevating sound for a cinematic viewing experience. The audio expectation with powerfully engineered flagship TWS is to offer a perfect balance of Power and Clarity in your ears. These Bluetooth headsets have Quad-mic AI ENC for environmental noise reduction. They also have 3D Soundstage, a revolutionary audio tech which offers you a new sound dimension where you can hear each instrument in a song clearly. The SuperPods Immersio has 60 Hours of combined playtime and offers 8.5 hours of on-buds playtime and Type-C swift charging. The earbuds also offer you 13mm high-fidelity drivers to provide you with the best listening experience across genres. These powerful industry-leading tech makes these wireless Bluetooth earphones unapologetically, one of the best earbuds in the market. SuperPods Immersio comes in four vibrant shades for you to choose from based on your preference. They also come with IPX 4.0 sweat resistance, ready to be worn anytime no matter how intense or hustling your routine is. SuperPods Immersio is made by us with love for you at the Mivi Design Studio in India.",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/71wVgd6atUL._SX679_.jpg",
-    "rating": {
-      "rate": 4.2,
-      "count": 2509
-    },
-    "link": "https://www.amazon.in/Mivi-SuperPods-Immersio-Soundstage-Bluetooth/dp/B0F7LPWLHZ",
-    "about": [
-      "✅ Audio: Elevate your viewing experience with sound where action is brought to life by elevating sound for a cinematic viewing experience.",
-      "✅ 3D Soundstage: Feel the new depths of 3D Soundstage taking you deeper into the sound dimension with each instrument orchestrated for a deeper boost and richer treble. Such is the magic of this revolutionary pair of TWS earbuds.",
-      "✅ Battery & Playtime: It provides 8.5 Hrs of on-bud playtime and 60 Hrs of combined playtime. With just 10 minutes of charging, enjoy 500 minutes of playtime. The fast charge of these SuperPods comes with Type C charging.",
-      "✅ Design: Get ready bedazzled by a high-end Metallic glass finish casing with a sleek and sophisticated pair of buds effusing a rich look from the moment you rest your eyes on them. The iconic shades of these wireless earpods have been uniquely chosen to match your vibe.",
-      "✅HD Call Clarity: Say Hello to HD Call Clarity with Quad-mic AI ENC. Long press your Mivi ear bud to 'Activate'."
-    ],
-    "specs": {
-      "Brand": "Mivi",
-      "Colour": "Wishful Champagne",
-      "Ear Placement": "In Ear",
-      "Form Factor": "In Ear",
-      "Noise Control": "Active Noise Cancellation"
-    }
-  },
-  {
-    "id": 17,
-    "title": "Mivi SuperPods Immersio [Flagship Launch] in Ear Ear Buds Wireless, Dolby Audio, 3D Soundstage, 60H Playtime, AI ENC, Bluetooth TWS, BT v5.4 Earbuds",
-    "price": 2199.0,
-    "description": "Mivi SuperPods Immersio [Flagship Launch] in Ear Ear Buds Wireless, Dolby Audio, 3D Soundstage, 60H Playtime, AI ENC, Bluetooth TWS, BT v5.4 Earbuds",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/71QAJAs+oqL._SX679_.jpg",
-    "rating": {
-      "rate": 3.5,
-      "count": 2509
-    },
-    "link": "https://www.amazon.in/Mivi-SuperPods-Immersio-Soundstage-Bluetooth/dp/B0DCFTKL92",
-    "about": [
-      "✅Audio: Elevate your viewing experience with sound where action is brought to life by elevating sound for a cinematic viewing experience.",
-      "✅ 3D Soundstage: Feel the new depths of 3D Soundstage taking you deeper into the sound dimension with each instrument orchestrated for a deeper boost and richer treble. Such is the magic of this revolutionary pair of TWS earbuds.",
-      "✅ Battery & Playtime: It provides 8.5 Hrs of on-bud playtime and 60 Hrs of combined playtime. With just 10 minutes of charging, enjoy 500 minutes of playtime. The fast charge of these SuperPods comes with Type C charging.",
-      "✅ Design: Get ready bedazzled by a high-end Metallic glass finish casing with a sleek and sophisticated pair of buds effusing a rich look from the moment you rest your eyes on them. The iconic shades of these wireless earpods have been uniquely chosen to match your vibe.",
-      "✅HD Call Clarity: Say Hello to HD Call Clarity with Quad-mic AI ENC. Long press your Mivi ear bud to 'Activate'."
-    ],
-    "specs": {
-      "Brand": "Mivi",
-      "Colour": "Nexus Black",
-      "Ear Placement": "On Ear",
-      "Form Factor": "In Ear",
-      "Noise Control": "Passive Noise Cancellation"
-    }
-  },
-  {
-    "id": 18,
-    "title": "realme Buds T310 True Wireless in-Ear Earbuds with 46dB Hybrid ANC, 360° Spatial Audio, 12.4mm Dynamic Bass Driver, Upto 40Hrs Battery and Fast Charging (Vibrant Black)",
-    "price": 1899.0,
-    "description": "realme Buds T310 True Wireless in-Ear Earbuds with 46dB Hybrid ANC, 360° Spatial Audio, 12.4mm Dynamic Bass Driver, Upto 40Hrs Battery and Fast Charging (Vibrant Black)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61dj32WdrxL._SX679_.jpg",
-    "rating": {
-      "rate": 4.6,
-      "count": 11529
-    },
-    "link": "https://www.amazon.in/realme-Wireless-Earbuds-Spatial-Charging/dp/B0DBGP48NW",
-    "about": [
-      "360° Spatial Audio Effect | 12.4mm Dynamic Bass Driver",
-      "46dB Hybrid Noise Cancellation | 45ms Ultra Low Latency 12.4mm Dynamic Bass Driver 40 Hours Total Playback| Fast Charge :10 Min of Charge =5Hrs Play Back IP55 Water & Dust Resistant Bluetooth V5.4 Dual Device Connectivity",
-      "40 Hours Total Playback| Fast Charge :10 Min of Charge =5Hrs Play Back",
-      "IP55 Water & Dust Resistant",
-      "Bluetooth V5.4"
-    ],
-    "specs": {
-      "Brand": "realme",
-      "Colour": "Vibrant Black",
-      "Ear Placement": "In Ear",
-      "Form Factor": "True Wireless",
-      "Impedance": "32 Ohm"
-    }
-  },
-  {
-    "id": 19,
-    "title": "Noise Master Buds, Sound by Bose in-Ear Bluetooth Earbuds, Up to 49dB Adaptive ANC, LHDC 5.0, Immersive Spatial Audio, 44H Playtime with 6 mic ENC, Dual Pairing, IPX5 Ear Buds TWS (Onyx)",
-    "price": 7999.0,
-    "description": "Noise Master Buds, Sound by Bose in-Ear Bluetooth Earbuds, Up to 49dB Adaptive ANC, LHDC 5.0, Immersive Spatial Audio, 44H Playtime with 6 mic ENC, Dual Pairing, IPX5 Ear Buds TWS (Onyx)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/710T1sZiT7L._SX522_.jpg",
-    "rating": {
-      "rate": 4.7,
-      "count": 675
-    },
-    "link": "https://www.amazon.in/gp/aw/d/B0DK979YJ7",
-    "about": [
-      "Tuned by Experts: With Sound by Bose, enjoy meticulously tuned audio.",
-      "Adaptive ANC (up to 49dB): Tested to provide the best sound isolation, so you can transition between the quietest to loudest environments with consistent cancellation.",
-      "LHDC: Playback just got more accurate with LHDC that supports bitrates up to 900kbits/s.",
-      "Design & Fit: A metal disc on the case inspired by vinyl sound, a 2PM light bar that marries form with function and ergonomic buds that fit snugly in your ears.",
-      "Dynamic Drivers: Get balanced, distortion-free sound with 12.4mm PEEK + Titanium drivers.",
-      "Noise Audio App: Customise touch controls, adjust EQ levels and toggle between ANC and Transparency modes. Your audio is all yours."
-    ],
-    "specs": {
-      "Brand": "Noise",
-      "Colour": "Onyx Black",
-      "Ear Placement": "In Ear",
-      "Form Factor": "True Wireless",
-      "Noise Control": "Active Noise Cancellation"
-    }
-  },
-  {
-    "id": 20,
-    "title": "realme Buds T110 Bluetooth Truly Wireless in Ear Earbuds with mic, AI ENC for Calls, Google Fast Pair, 38 Hours Total Playback with Fast Charging and Low Latency Gaming Mode (Punk Black)",
-    "price": 1199.0,
-    "description": "Introducing the realme Buds T110, designed to provide an immersive music and gaming experience,with 10 MM Dynamic Boost Drivers to deliver powerful and dynamic sound to enhance your listening experience & low latency of 88ms for smooth and lag-free audio while gaming or watching videos.Equipped with The Environmental Noise Cancellation (ENC) feature helps in reducing background noise during calls, ensuring clearer and better call quality, Bluetooth version 5.4 ensures stable and reliable connectivity with your devices. The IPX5 rating makes the realme Buds T110 resistant to water and sweat, making them suitable for workouts and outdoor activities. Super Fast 10 Min Charge for 120 Min Play Time: With just a 10-minute charge, you can enjoy up to 120 minutes of playback time, ensuring you have music whenever you need it. Together all these features make the realme Buds T110 a great choice for those looking for a versatile and high-performance pair of earbuds for both music and gaming",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61LKTD-YnrL._SX679_.jpg",
-    "rating": {
-      "rate": 3.6,
-      "count": 26589
-    },
-    "link": "https://www.amazon.in/realme-Bluetooth-Wireless-Playback-Charging/dp/B0DFWL8F5C",
-    "about": [
-      "10mm Dynamic Bass Drivers",
-      "Fast Charge(10 mins Charge for 120 Mins Playback)",
-      "IPX 5 Water Resistant",
-      "88 Low Latency",
-      "Support Bluetooth 5.4"
-    ],
-    "specs": {
-      "Brand": "realme",
-      "Colour": "Punk Black",
-      "Ear Placement": "In Ear",
-      "Form Factor": "True Wireless",
-      "Impedance": "32 Ohm"
-    }
-  },
-  {
-    "id": 21,
-    "title": "Xiaomi Power Bank 4i 20000mAh 33W Super Fast Charging PD | Power Delivery | QC 3.0|Type C Input & Output |Triple Output Ports|Classic Black|Supports Android,Apple, Tablets, Earbuds, Watches etc (MI)",
-    "price": 2199.0,
-    "description": "Xiaomi Power Bank 4i 20000mAh 33W Super Fast Charging PD | Power Delivery | QC 3.0|Type C Input & Output |Triple Output Ports|Classic Black|Supports Android,Apple, Tablets, Earbuds, Watches etc (MI)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/51c5j0aJtYL._SX679_.jpg",
-    "rating": {
-      "rate": 3.8,
-      "count": 99471
-    },
-    "link": "https://www.amazon.in/Xiaomi-20000mAh-Charging-Delivery-Supports/dp/B0DCZ3WDTB",
-    "about": [
-      "33W Super Fast Charging for Input and Output",
-      "Type-C Input and Output Ports",
-      "Power Delivery and QC 3.0 Support",
-      "Smart Power Management"
-    ],
-    "specs": {
-      "Connector Type": "USB Type C",
-      "Brand": "Xiaomi",
-      "Battery Capacity": "20000 Milliamp Hours",
-      "Colour": "Classic black",
-      "Special Feature": "Triple Port Charging, Short Circuit Protection, 33W Fast Charging, Compatible with All Smartphones"
-    }
-  },
-  {
-    "id": 22,
-    "title": "Ambrane Magsafe Wireless 10000Mah Fast Charging USB Type-C Input Power Bank, Strong Magnet, 22.5W Output For iPhone 12 & Above, Android & Other Qi Enabled Devices + Magnetic Ring (Aerosync Snap, Blue)",
-    "price": 1331.0,
-    "description": "Ambrane Magsafe Wireless 10000Mah Fast Charging USB Type-C Input Power Bank, Strong Magnet, 22.5W Output For iPhone 12 & Above, Android & Other Qi Enabled Devices + Magnetic Ring (Aerosync Snap, Blue)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61H84kDDNFL._SX679_.jpg",
-    "rating": {
-      "rate": 4.2,
-      "count": 2528
-    },
-    "link": "https://www.amazon.in/Ambrane-Wireless-10000mAh-Charging-Magnetic/dp/B0D9S87H53",
-    "about": [
-      "High-Capacity Battery: The Aerosync Snap boasts a 10000 mAh capacity, providing ample power to keep your devices charged throughout the day. It supports quick recharging up to 3.5 hours using 20W PD chargers.",
-      "Multiple Charging Ports: Equipped with a 22W Type-C, 22.5W USB-A, and 15W MagSafe output, this power bank delivers fast and efficient charging for a variety of devices, ensuring you stay connected.",
-      "Advanced Charging Protocols: Supports PD 3.0, QC 3.0, VOOC, and PPS protocols for versatile compatibility with a wide range of smartphones and other devices.",
-      "Premium Build Quality: Featuring a rubberized coating and a sleek design, the Aerosync Snap is both durable and stylish, making it a perfect accessory for any tech enthusiast.",
-      "Multi-Device Compatibility: Compatible with iPhone 12 and above for MagSafe, and all iPhone 8 and above models and Android phones through wired and wireless connections.",
-      "Enhanced Safety Features: Multiple layers of protection and auto-connect feature ensure safe and reliable charging, protecting your devices from overcharging, short circuits, and more."
-    ],
-    "specs": {
-      "Connector Type": "USB",
-      "Brand": "Ambrane",
-      "Battery Capacity": "10000 Milliamp Hours",
-      "Colour": "Blue",
-      "Special Feature": "Fast Charging"
-    }
-  },
-  {
-    "id": 23,
-    "title": "boAt Newly Launched PB435 Turbo 35W Power Bank with 20000mAh Battery, 35W 2-Way Super Fast Charging | 12-Layer Smart IC Protection | Triple Output & Dual Input in Sleek Aluminium Casing(Stone Grey)",
-    "price": 1899.0,
-    "description": "boAt Newly Launched PB435 Turbo 35W Power Bank with 20000mAh Battery, 35W 2-Way Super Fast Charging | 12-Layer Smart IC Protection | Triple Output & Dual Input in Sleek Aluminium Casing(Stone Grey)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/71cinExJZ2L._SX679_.jpg",
-    "rating": {
-      "rate": 3.8,
-      "count": 292
-    },
-    "link": "https://www.amazon.in/boAt-Launched-20000mAh-Protection-Aluminium/dp/B0F48DQ4N9",
-    "about": [
-      "20000mAh Capacity: Designed for extended use, the PB435 Turbo features a 20000mAh battery—delivering significantly more power than standard 10000mAh units. Ideal for travel, work, or emergency use, it provides multiple charges for smartphones and tablets",
-      "35W 2-Way Fast Charging Technology: Equipped with Quick Charge 3.0, Power Delivery, and Programmable Power Supply (PPS), the PB435 Turbo enables rapid and efficient charging for a wide range of devices.",
-      "Triple Output & Dual Input Configuration: With 2 USB-A outputs, 1 Micro-USB input and a 2-way Type-C (output/input), the PB435 Turbo supports simultaneous charging of up to three devices. Whether you're using a smartphone, tablet, or wearable, you can power them all—without compromise.",
-      "12-Layer Smart IC Protection: The integrated multi-layer protection system intelligently manages voltage and current flow to safeguard against overcharging, overheating, and short circuits. Charging is optimised and consistent—enhancing both safety and performance.",
-      "Highly Durable Aluminium Construction: Crafted with a high-grade aluminium enclosure, the PB435 Turbo offers durability and a refined finish. Resistant to everyday wear and designed for longevity, it maintains its premium look even with rough use."
-    ],
-    "specs": {
-      "Connector Type": "USB Type C, Micro USB, USB Type A",
-      "Brand": "boAt",
-      "Colour": "Stone Grey",
-      "Battery Cell Composition": "Lithium Ion",
-      "Recommended Uses For Product": "Phone"
-    }
-  },
-  {
-    "id": 24,
-    "title": "Ambrane 10000mAh Slim & Compact Powerbank, 22.5W Fast Charging, USB & Type C Output, Power Delivery, Quick Charge for iPhone, Android & Other Devices, Made in India + Type C Cable (Stylo 10, Black)",
-    "price": 799.0,
-    "description": "Ambrane 10000mAh Slim & Compact Powerbank, 22.5W Fast Charging, USB & Type C Output, Power Delivery, Quick Charge for iPhone, Android & Other Devices, Made in India + Type C Cable (Stylo 10, Black)",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61uuEwUl5mL._SX679_.jpg",
-    "rating": {
-      "rate": 5.0,
-      "count": 19001
-    },
-    "link": "https://www.amazon.in/Ambrane-10000mAh-Powerbank-Stylo-10/dp/B0CVRXDBFN",
-    "about": [
-      "High-capacity Battery - With a lithium polymer battery of 10000mAh capacity, this powerbank can charge your devices multiple times.",
-      "Fast Charging Output - Equipped with 22.5W PD and QC output, this powerbank ensures fast charging so you can stay ahead of the game. On average, it can charge your mobile up to 50% in just 30 minutes.",
-      "Fast Charging Input - This powerbank supports 20W fast charging input via a Type-C port, which enables it to charge in just 4 to 5 hours.",
-      "Charge Two Devices Simultaneously - With one USB port and one Type-C port for output, this powerbank can charge two devices at the same time.",
-      "Versatile Compatibility - Compatible with all devices that can be charged via USB or Type-C port. (Fast charging output is subject to the cable and charging capabilities of the device being charged.)",
-      "Stylish & Portable - The sleek and stylish design of this powerbank makes it a statement piece. Its compact size makes it extremely travel-friendly too.",
-      "VOOC & Super VOOC Support: This powerbank supports VOOC and Super VOOC charging."
-    ],
-    "specs": {
-      "Connector Type": "USB Type C",
-      "Brand": "Ambrane",
-      "Battery Capacity": "10000",
-      "Colour": "Black (22.5W)",
-      "Special Feature": "10000mAh Lithium Polymer Battery, Quick Charge 3.0 & Power Delivery Technology, Sleek & Compact Body, 1 USB & 1 Type-C Output Ports, 20W Type-C Input, 22.5W BoostedSpeed™"
-    }
-  },
-  {
-    "id": 25,
-    "title": "SanDisk Cruzer Blade 64GB USB 2.0 Flash Drive",
-    "price": 409.0,
-    "description": "SanDisk Cruzer Blade 64GB USB 2.0 Flash Drive",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61ERDR3tATL._SX679_.jpg",
-    "rating": {
-      "rate": 3.7,
-      "count": 261355
-    },
-    "link": "https://www.amazon.in/SanDisk-Cruzer-Blade-Flash-Drive/dp/B00BX5FOCK",
-    "about": [
-      "Compact Design for Maximum Portability.",
-      "Store more with capacities up to 16gb 5-year limited warranty , High-Capacity Drive Accommodates Your Favorite Media Files. Write Speed : 20 MB/s (USB 2.0)",
-      "Operating temperature: 0ºC to 45ºC , Storage temperature: -10ºC to 70ºC",
-      "SanDisk SecureAccess Software Protects Drive from Unauthorized Access",
-      "The models are different because production is from different countries. Otherwise both are sandisk cruzer blade models."
-    ],
-    "specs": {
-      "Brand": "SanDisk",
-      "Memory Storage Capacity": "64",
-      "Hardware Interface": "USB 2.0",
-      "Special Feature": "Shockproof, Compact, Portable, Encrypted",
-      "Write Speed": "4x"
-    }
-  },
-  {
-    "id": 26,
-    "title": "SanDisk SDCZ50-128G-I35 USB2.0 128 GB Pen Drive (Red and Black)",
-    "price": 749.0,
-    "description": "Compact design for maximum portability High-capacity drive accommodates your favourite media files Simple drag-and-drop file backup USB 2.0 interface",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/61sFaDqQH8L._SX679_.jpg",
-    "rating": {
-      "rate": 4.7,
-      "count": 261355
-    },
-    "link": "https://www.amazon.in/SanDisk-Cruzer-Blade-Flash-Drive/dp/B07G2LLHSD",
-    "about": [
-      "Compact design for maximum portability",
-      "Simple drag-and-drop file backup. Material:Plastic",
-      "USB 2.0 interface",
-      "Country of Origin: Malaysia"
-    ],
-    "specs": {
-      "Brand": "SanDisk",
-      "Memory Storage Capacity": "128 GB",
-      "Hardware Interface": "USB 2.0",
-      "Special Feature": "Lightweight",
-      "Compatible Devices": "Laptop, Personal Computer"
-    }
-  },
-  {
-    "id": 27,
-    "title": "SanDisk Ultra Shift USB Flash Drive USB 3.0, 100MB/s R, 128GB",
-    "price": 809.0,
-    "description": "SanDisk Ultra Shift USB Flash Drive USB 3.0, 100MB/s R, 128GB",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/71ziDdjOTDL._SX522_.jpg",
-    "rating": {
-      "rate": 3.8,
-      "count": 2353
-    },
-    "link": "https://www.amazon.in/SanDisk-Ultra-Shift-Flash-Drive/dp/B0BDXDSM69",
-    "about": [
-      "Save time with transfer speeds up to 100MB/s",
-      "Transfer files easily and quickly with USB 3.0 interface",
-      "Compact design for on-the-go lifestyle",
-      "Easily transfer documents and other files between devices",
-      "Keep your private files private with included SanDisk SecureAccessTM software"
-    ],
-    "specs": {
-      "Brand": "SanDisk",
-      "Memory Storage Capacity": "128 GB",
-      "Hardware Interface": "USB 3.0",
-      "Special Feature": "Compact,Portable",
-      "Write Speed": "100"
-    }
-  },
-  {
-    "id": 28,
-    "title": "COSMUS Stunner 22 Ltr Laptop Backpack with USB charging Port",
-    "price": 993.0,
-    "description": "COSMUS Stunner 22 Ltr Laptop Backpack with USB charging Port",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/71AqIASY2OL._SY741_.jpg",
-    "rating": {
-      "rate": 4.6,
-      "count": 160
-    },
-    "link": "https://www.amazon.in/COSMUS-Stunner-Laptop-Backpack-charging/dp/B08D7F8BVD",
-    "about": [],
-    "specs": {}
-  },
-  {
-    "id": 29,
-    "title": "COSMUS Stunner 22 Ltr Laptop Backpack with USB charging Port",
-    "price": 999.0,
-    "description": "COSMUS Stunner 22 Ltr Laptop Backpack with USB charging Port",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/717Yvu2vbPL._SY741_.jpg",
-    "rating": {
-      "rate": 4.9,
-      "count": 160
-    },
-    "link": "https://www.amazon.in/COSMUS-Stunner-Laptop-Backpack-charging/dp/B08D7DG8RG",
-    "about": [],
-    "specs": {}
-  },
-  {
-    "id": 30,
-    "title": "NME COLLECTION Ethnic Style Waterproof Oxford Backpack Ladies Fashion Travel Canvas Bag Large Capacity Nylon Student School Bag Laptop Bag, Girls Printing School Backpack (Black Plain)",
-    "price": 499.0,
-    "description": "It’s a backpack that can also be used as a shoulder bag, with a stylish design, easy to match clothes. You will feel comfortable carrying it, perfect for working, shopping, going to school, and one-day traveling. Its elegant style, practicability, and good quality.",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/41DEKrbDN1L.jpg",
-    "rating": {
-      "rate": 3.6,
-      "count": 48
-    },
-    "link": "https://www.amazon.in/NME-COLLECTION-Backpack-Anti-theft-Shoulder/dp/B0D2RP7NHK",
-    "about": [],
-    "specs": {}
-  },
-  {
-    "id": 31,
-    "title": "NME COLLECTION Ethnic Style Waterproof Oxford Backpack Ladies Fashion Travel Canvas Bag Large Capacity Nylon Student School Bag Laptop Bag, Girls Printing School Backpack (Black Plain)",
-    "price": 499.0,
-    "description": "It’s a backpack that can also be used as a shoulder bag, with a stylish design, easy to match clothes. You will feel comfortable carrying it, perfect for working, shopping, going to school, and one-day traveling. Its elegant style, practicability, and good quality.",
-    "category": "electronics",
-    "image": "https://m.media-amazon.com/images/I/518hXARu7TL._SX679_.jpg",
-    "rating": {
-      "rate": 4.6,
-      "count": 48
-    },
-    "link": "https://www.amazon.in/NME-COLLECTION-Backpack-Anti-theft-Shoulder/dp/B0D2RMLZMY",
-    "about": [],
-    "specs": {}
+  "link": "https://www.amazon.in/NME-COLLECTION-Backpack-Anti-theft-Shoulder/dp/B0D2RMLZMY",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: Vintage checkered design in soft grey, inspired by classic South Indian sarees worn by iconic actress Savitri.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Ideal for festive gatherings, weddings, traditional functions, or as a treasured gift.",
+    "Comfort & elegance: Lightweight drape, breathable weave, and flattering colors for all skin tones and ages."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Dark Green",
+    "Blouse": "Plain Dark Green (Unstitched, Attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
   }
+},
+{
+  "id": 2,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Orange and Green)",
+  "price": 3000.0,
+  "description": "Crafted with heritage and finesse, this Uppada Mahanati Check Saree is woven from pure silkworm-extracted silk, showcasing a vibrant orange body adorned with traditional check patterns. A contrast plain green pallu and blouse bring balance and brightness to the saree, while the genuine pure gold zari border adds a regal finish. Soft, wrinkle-resistant, and rich in texture, this saree is perfect for celebrations, traditional events, and timeless gifting.",
+  "category": "Mahanati Checks",
+  "image": "/images/2.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/uppada-mahanati-check-orange-green",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: Classic checkered design in a bright orange hue, inspired by traditional South Indian craftsmanship.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Ideal for festive gatherings, weddings, traditional functions, or as a treasured gift.",
+    "Comfort & elegance: Lightweight drape, breathable weave, and a color palette that adds glow to all skin tones."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Green",
+    "Blouse": "Plain Green (Unstitched, attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
+  }
+},
+{
+  "id": 3,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Dark Green and Yellow)",
+  "price": 3000.0,
+  "description": "Crafted with heritage and finesse, this Uppada Mahanati Check Saree is woven from pure silkworm-extracted silk, featuring a bold dark green body with traditional check patterns. A vibrant yellow plain pallu and blouse offer a stunning contrast that brings out the richness of the saree. Finished with pure gold zari borders, the saree is soft, strong, and wrinkle-resistant—perfect for weddings, festivals, and timeless celebrations.",
+  "category": "Mahanati Checks",
+  "image": "/images/3.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/uppada-mahanati-check-darkgreen-yellow",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: Deep dark green checks inspired by the vintage charm of South Indian traditions and iconic actress Savitri.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Perfect for weddings, festivals, housewarming ceremonies, or elegant gifting.",
+    "Striking contrast: The yellow pallu and blouse brighten the overall look, making it stand out on any occasion."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Yellow",
+    "Blouse": "Plain Yellow (Unstitched, attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
+  }
+},{
+  "id": 4,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Pink and Blue)",
+  "price": 3000.0,
+  "description": "Grace meets tradition in this Uppada Mahanati Check Saree, handwoven from pure silkworm-extracted silk. It features a lively pink body with classic check patterns and a contrasting plain blue pallu and blouse. The saree is enhanced with a genuine pure gold zari border, offering a luxurious drape that resists wrinkles and flows effortlessly. Perfect for weddings, festive occasions, or graceful evening wear, this saree brings out the inner radiance in every woman.",
+  "category": "Mahanati Checks",
+  "image": "/images/4.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/uppada-mahanati-check-pink-blue",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: Traditional checkered design in a radiant pink shade, inspired by vintage South Indian style.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Ideal for weddings, celebrations, and special occasions.",
+    "Charming contrast: The rich blue pallu and blouse bring depth and elegance to the overall look."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Blue",
+    "Blouse": "Plain Blue (Unstitched, attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
+  }
+}
+,
+{
+  "id": 5,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Sky Blue and Green)",
+  "price": 3000.0,
+  "description": "Radiating elegance and tradition, this Uppada Mahanati Check Saree is woven from pure silkworm-extracted silk. The body features a soothing sky blue color with intricate check patterns, beautifully contrasted by a plain green pallu and blouse. Its genuine pure gold zari border adds richness and charm, while the soft, wrinkle-resistant fabric ensures both style and comfort. Perfect for daytime functions, family events, or cultural celebrations.",
+  "category": "Mahanati Checks",
+  "image": "/images/5.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/uppada-mahanati-check-skyblue-green",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: Traditional checkered design on a soft sky blue body for a calm, graceful appearance.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Ideal for poojas, receptions, festive occasions, or as an elegant gift.",
+    "Refreshing contrast: The subtle blue body pairs harmoniously with the rich green pallu and blouse for a refined ethnic look."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Green",
+    "Blouse": "Plain Green (Unstitched, attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
+  }
+}
+,
+{
+  "id": 6,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Baby Pink and Pink)",
+  "price": 3000.0,
+  "description": "Delicately elegant, this Uppada Mahanati Check Saree is handwoven from premium silkworm-derived silk, featuring a soft baby pink body adorned with traditional check patterns. The contrasting plain pink pallu and blouse add a graceful layer of depth, while the pure gold zari border brings in timeless richness. Lightweight and wrinkle-free, this saree is a charming choice for weddings, poojas, receptions, and elegant gifting.",
+  "category": "Mahanati Checks",
+  "image": "/images/6.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/uppada-mahanati-check-babypink-pink",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: Subtle baby pink checks that reflect femininity, grace, and timeless South Indian tradition.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Ideal for engagement ceremonies, baby showers, temple visits, or as a thoughtful gift.",
+    "Soft sophistication: The blend of baby pink and pink creates a graceful, glowing appearance perfect for all age groups."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Pink",
+    "Blouse": "Plain Pink (Unstitched, attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
+  }
+}
+,
+{
+  "id": 7,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Pink and Blue)",
+  "price": 3000.0,
+  "description": "Bringing together vibrant charm and timeless elegance, this Uppada Mahanati Check Saree is crafted from pure silkworm-extracted silk. The saree features a bright pink body with traditional check patterns, enhanced by a rich contrast plain blue pallu and blouse. With its genuine pure gold zari border and wrinkle-resistant drape, this saree is a perfect pick for festive occasions, family celebrations, and cultural gatherings.",
+  "category": "Mahanati Checks",
+  "image": "/images/7.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/uppada-mahanati-check-pink-blue",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: Eye-catching pink check design inspired by classic South Indian drapes made popular by icons like Savitri.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Suitable for weddings, haldi ceremonies, festivals, and thoughtful gifting.",
+    "Vibrant contrast: The vivid blue pallu and blouse add striking contrast to the pink body, creating a confident festive look."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Blue",
+    "Blouse": "Plain Blue (Unstitched, attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
+  }
+},
+{
+  "id": 8,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Yellow and Green)",
+  "price": 3000.0,
+  "description": "Radiant and traditional, this Uppada Mahanati Check Saree is handwoven from pure silkworm-derived silk. The bright yellow body is adorned with timeless check patterns and paired with a rich contrast green pallu and blouse. The genuine pure gold zari border enhances its festive charm. With a lightweight, wrinkle-resistant drape, this saree is perfect for weddings, pujas, and vibrant celebrations.",
+  "category": "Mahanati Checks",
+  "image": "/images/8.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/uppada-mahanati-check-yellow-green",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: A bright yellow body with symmetrical check designs for a traditional South Indian aesthetic.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Perfect for festive events, religious functions, and joyful gifting.",
+    "Festive contrast: The green pallu and blouse add richness and grace to the yellow body for a balanced ethnic look."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Green",
+    "Blouse": "Plain Green (Unstitched, attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
+  }
+}
+,{
+  "id": 9,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Purple and Pink)",
+  "price": 3000.0,
+  "description": "Vibrant and regal, this Uppada Mahanati Check Saree is a handloom masterpiece woven from pure silkworm-extracted silk. The saree features a rich purple body adorned with elegant checks, complemented by a graceful pink plain pallu and blouse. Its authentic pure gold zari border enhances the luxurious appeal. Lightweight, durable, and wrinkle-resistant, this saree is ideal for festive gatherings, cultural occasions, and traditional gifting.",
+  "category": "Mahanati Checks",
+  "image": "/images/9.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/uppada-mahanati-check-purple-pink",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: Deep purple checkered body that reflects heritage elegance with modern vibrancy.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Perfect for weddings, cultural events, receptions, or as an elegant gift.",
+    "Elegant contrast: The soft pink pallu and blouse offer a beautiful balance to the rich purple body, perfect for standout styling."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Pink",
+    "Blouse": "Plain Pink (Unstitched, attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
+  }
+},
+{
+  "id": 10,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Purple and Green)",
+  "price": 3000.0,
+  "description": "A beautiful blend of tradition and richness, this Uppada Mahanati Check Saree is expertly handwoven from pure silkworm-derived silk. The deep purple body features intricate check patterns, paired gracefully with a vibrant green plain pallu and blouse. Finished with a genuine pure gold zari border, this saree offers a luxurious, wrinkle-resistant drape—perfect for weddings, traditional gatherings, and festive occasions.",
+  "category": "Mahanati Checks",
+  "image": "/images/10.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/uppada-mahanati-check-purple-green",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: Elegant purple body with classic symmetrical check patterns, rooted in vintage South Indian style.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Ideal for weddings, engagements, traditional events, and festive gifting.",
+    "Regal contrast: The contrast green pallu and blouse elevate the purple base, adding freshness and richness to the ensemble."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Green",
+    "Blouse": "Plain Green (Unstitched, attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
+  }
+}
+,
+{
+  "id": 11,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Lemon Yellow and Yellow)",
+  "price": 3000.0,
+  "description": "Fresh, radiant, and rooted in tradition, this Uppada Mahanati Check Saree is beautifully handwoven from pure silkworm-extracted silk. Featuring a cheerful lemon yellow body with classic check patterns, the saree is complemented by a bright yellow plain pallu and blouse. Its authentic pure gold zari border adds a touch of regal elegance. Lightweight and wrinkle-free, this saree is a graceful choice for pujas, celebrations, or festive gifting.",
+  "category": "Mahanati Checks",
+  "image": "/images/11.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/uppada-mahanati-check-lemonyellow-yellow",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: Cheerful lemon yellow body with classic check designs for a fresh and radiant ethnic look.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Perfect for haldi functions, temple wear, festive events, and cultural gifting.",
+    "Tone-on-tone charm: The yellow pallu and blouse add layered brightness to the lemon yellow body for a serene and graceful effect."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Yellow",
+    "Blouse": "Plain Yellow (Unstitched, attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
+  }
+},
+{
+  "id": 12,
+  "title": "Uppada Mahanati Check Pure Silk Saree with Pure Zari Border (Pastel Lavender and Blue)",
+  "price": 3000.0,
+  "description": "Elegant and refreshing, this Uppada Mahanati Check Saree is handwoven using pure silkworm-derived Uppada silk. The pastel lavender body showcases traditional check patterns, beautifully contrasted by a plain blue pallu and blouse. A pure gold zari border lends an exquisite shine, making this saree a graceful option for modern festive wear, day functions, and thoughtful gifts. Its wrinkle-resistant finish and soft drape ensure beauty meets comfort.",
+  "category": "Mahanati Checks",
+  "image": "/images/12.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/uppada-mahanati-check-lavender-blue",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms, offering rich texture and authenticity.",
+    "Mahanati checks: Soft pastel lavender checkered body for a subtle and contemporary ethnic vibe.",
+    "Pure zari border: Features a premium, genuine gold zari border — not imitation — for a majestic finish.",
+    "Quad-thread weaving: Each thread is made from four finely combined yarns for enhanced strength, durability, and smoothness.",
+    "Non-wrinkling fabric: Silk quality ensures the saree doesn’t wrinkle even when folded, maintaining a fresh and crisp look.",
+    "Versatile occasion wear: Ideal for day-time weddings, festive brunches, temple visits, and elegant gifting.",
+    "Contemporary contrast: The serene blue pallu and blouse add modern sophistication to the delicate lavender base."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Mahanati Check Design",
+    "Border": "Pure Gold Zari Border",
+    "Pallu": "Plain Contrast Blue",
+    "Blouse": "Plain Blue (Unstitched, attached to the pallu)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional, Gifting"
+  }
+},
+{
+  "id": 13,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Royal Blue and Green)",
+  "price": 4300,
+  "description": "A masterpiece of Uppada handloom weaving, this saree features a regal royal blue body adorned with intricately woven zari buta motifs. The contrasting green pallu and blouse offer an elegant balance, highlighted with a striking skut border — one side intricately designed with latha zari work and the other in plain zari. The pallu is rich and grand, making the saree ideal for special occasions. Handwoven from pure silkworm-extracted Uppada silk, this saree delivers a perfect blend of tradition, richness, and durability.",
+  "category": "Skut Border Buta",
+  "image": "/images/13.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/skut-buta-saree-13",
+  "about": [
+    "Pure Uppada silk: Handwoven from natural silk extracted from silkworms for a premium texture.",
+    "Zari buta design: Features finely woven gold zari motifs scattered across the royal blue body.",
+    "Skut border style: One side zari border with latha design, the other side in plain zari.",
+    "Rich pallu: Contrasting green pallu with intricate zari weaving for a luxurious finish.",
+    "Plain green blouse: Matching plain blouse piece (attached, unstitched) in the same pallu color.",
+    "Pure zari: Made with authentic gold zari, not imitation.",
+    "Occasion-perfect: Ideal for weddings, festivals, and traditional functions.",
+    "Durable & elegant: Quad-thread weaving ensures strength and wrinkle resistance."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Zari Buta with Skut Border",
+    "Border": "One side zari (latha work), other side plain zari border",
+    "Pallu": "Rich Contrast Green Zari Pallu",
+    "Blouse": "Plain Green (Unstitched, Attached)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Zari": "Pure Gold Zari",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional"
+  }
+},
+{
+  "id": 14,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Orange and Red)",
+  "price": 4300,
+  "description": "This vibrant Uppada handloom saree is crafted from pure silkworm-derived silk, featuring a bright orange base filled with golden zari buta motifs. The rich contrast pallu in deep red elevates the saree's elegance, while the skut border — one side adorned with intricate latha zari design and the other side with plain zari — adds a refined dual-toned finish. Ideal for festive occasions and traditional events, it comes with a matching unstitched plain red blouse piece attached to the pallu.",
+  "category": "Skut Border Buta",
+  "image": "/images/14.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/skut-buta-saree-14",
+  "about": [
+    "Authentic Uppada silk: Handwoven from premium silkworm silk for superior texture and grace.",
+    "Zari buta work: Gold buta motifs across the orange body provide a traditional charm.",
+    "Skut dual border: One side has latha zari work, the other side with a plain zari finish.",
+    "Rich red pallu: Elegantly woven pallu in contrast red with traditional temple-style motifs.",
+    "Plain red blouse: Unstitched blouse piece in matching red color attached to the pallu.",
+    "Pure zari: Woven using authentic gold zari, not imitation.",
+    "Perfect for special events: A great pick for weddings, ceremonies, and gifting.",
+    "Soft & strong: Quad-thread weaving ensures strength, durability, and a wrinkle-resistant drape."
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Zari Buta with Skut Border",
+    "Border": "One side zari (latha work), other side plain zari border",
+    "Pallu": "Rich Contrast Red Zari Pallu",
+    "Blouse": "Plain Red (Unstitched, Attached)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Zari": "Pure Gold Zari",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional"
+  }
+},
+{
+  "id": 15,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Brown and Green)",
+  "price": 4300,
+  "description": "This exquisite Uppada handloom saree features a rich brown base covered in golden zari buta work, woven from premium silkworm silk. The striking contrast green pallu is richly designed with traditional paisley and floral motifs, adding grandeur. The skut border — one side with ornate zari latha work and the other with a plain zari finish — provides a regal, dual-texture look. Comes with an unstitched plain green blouse piece attached to the pallu.",
+  "category": "Skut Border Buta",
+  "image": "/images/15.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/skut-buta-saree-15",
+  "about": [
+    "Pure Uppada silk saree handwoven by artisans",
+    "Golden zari buta motifs spread throughout the body",
+    "Dual-tone skut border: one side with zari latha design, other side plain zari",
+    "Rich green pallu with intricate weaving and floral elements",
+    "Includes a plain green unstitched blouse piece (attached)",
+    "High-quality pure gold zari used for the motifs and borders",
+    "Ideal for festive occasions, traditional functions, and bridal events",
+    "Durable quad-thread weaving, lightweight yet richly finished"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk",
+   "Design": "Zari Buta with Skut Border",
+    "Border": "One side skut (zari latha), one side plain zari",
+    "Pallu": "Rich green woven pallu with motifs",
+    "Blouse": "Plain Green (Unstitched, Attached)",
+    "Zari Type": "Pure Gold Zari",
+    "Weaving": "Quad-thread handloom",
+    "Saree Length": "6.3 meters (including blouse)",
+    "Wash Instructions": "Dry Clean Only",
+    "Occasion": "Festivals, Weddings, Traditional Wear"
+  }
+},
+{
+  "id": 16,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Purple and Green)",
+  "price": 4300,
+  "description": "This premium Uppada handloom saree features a vibrant purple body adorned with golden zari buta work. It comes with a rich green pallu woven in intricate patterns. The standout feature is its signature skut border (zari latha design) on one end, which contrasts with the buta pattern of the body. The other end has a plain zari border. The blouse is a plain green piece (attached, unstitched), harmonizing beautifully with the pallu. A luxurious and elegant choice for festive and traditional occasions.",
+  "category": "Skut Border Buta",
+  "image": "/images/16.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "link": "https://yourstore.com/skut-buta-saree-16",
+  "about": [
+    "Pure Uppada handloom silk saree",
+    "Zari buta motifs all over the body",
+    "Skut border (zari latha work) on one side",
+    "Plain zari border on the other side",
+    "Rich green pallu with traditional weaving",
+    "Unstitched plain green blouse (attached)",
+    "Made with pure gold zari",
+    "Perfect for festive and formal occasions"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk",
+    "Design": "Zari Buta with Single Skut Border",
+    "Border": "One side skut (zari latha), one side plain zari",
+    "Pallu": "Rich green with woven patterns",
+    "Blouse": "Plain Green (Unstitched, Attached)",
+    "Zari Type": "Pure Gold Zari",
+    "Weaving": "Quad-thread handloom",
+    "Saree Length": "6.3 meters (including blouse)",
+    "Wash Instructions": "Dry Clean Only",
+    "Occasion": "Weddings, Festivals, Traditional Wear"
+  }
+}
+,
+{
+  "id": 17,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Pastel Lavender and Blue)",
+  "price": 4300,
+  "description": "This Uppada handloom saree features elegant zari buta work across a pastel lavender body. The contrast pallu in royal blue is richly woven, enhancing the traditional aesthetic. One side of the saree has a signature skut border with zari latha motifs, while the other side is finished with a simple zari line. The blouse is plain (attached, unstitched) in matching blue. Crafted with pure Uppada silk and gold zari, this saree combines comfort with a grand look — ideal for festive and traditional occasions.",
+  "category": "Skut Border Buta",
+  "image": "/images/17.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Handloom Uppada pure pattu saree",
+    "Zari buta body work",
+    "Skut border on one side",
+    "Rich contrast pallu",
+    "Plain contrast blouse (unstitched)",
+    "Made with pure gold zari"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Pattu",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Blue",
+    "Blouse": "Plain Blue (Unstitched)",
+    "Saree Colour": "Pastel Lavender",
+    "Pallu and Blouse Colour": "Blue",
+    "Border": "One side skut (zari latha), one side plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 18,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Cobalt Blue and Blue)",
+  "price": 4300,
+  "description": "This pure Uppada handloom pattu saree features traditional zari buta work across the cobalt blue body. It includes a contrast pallu in a deeper blue shade, designed with rich woven detailing. The saree has a signature skut border with zari latha work on one side and a plain zari border on the other. The blouse is attached (unstitched) in a matching blue shade. Made using pure gold zari, this saree brings a perfect blend of simplicity and grandeur, making it ideal for festive or special occasions.",
+  "category": "Skut Border Buta",
+  "image": "/images/18.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada handloom silk",
+    "Zari buta design all over the saree",
+    "Rich pallu in contrast shade",
+    "Skut border with latha zari design on one side",
+    "Plain contrast blouse (unstitched)",
+    "Traditional and festive look"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Pattu",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Blue",
+    "Blouse": "Plain Blue (Unstitched)",
+    "Saree Colour": "Cobalt Blue",
+    "Pallu and Blouse Colour": "Blue",
+    "Border": "One side skut (zari latha), one side plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 19,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Magenta and Pink)",
+  "price": 4300,
+  "description": "This is a pure handloom Uppada pattu saree featuring elegant zari buta work throughout the magenta-coloured body. The pallu is richly woven in a contrast pink shade, and the blouse is attached in the same pink tone with a plain finish. The border features the signature Skut design, with zari latha work on one side and a plain zari border on the other, adding a regal look. Crafted with pure gold zari, this saree offers a luxurious yet traditional aesthetic, perfect for special occasions.",
+  "category": "Skut Border Buta",
+  "image": "/images/19.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada handloom silk",
+    "Zari buta design across the body",
+    "Rich pink contrast pallu",
+    "Skut border with latha zari work",
+    "Plain contrast blouse (unstitched)",
+    "Ideal for festive wear"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Pattu",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Pink",
+    "Blouse": "Plain Pink (Unstitched)",
+    "Saree Colour": "Magenta",
+    "Pallu and Blouse Colour": "Pink",
+    "Border": "One side skut (zari latha), one side plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 20,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Sea Green and Blue)",
+  "price": 4300,
+  "description": "This is a pure handloom Uppada pattu saree, intricately designed with zari buta work throughout the body. The saree comes in a graceful sea green shade paired with a rich blue pallu and a plain blouse in the same contrast tone. It features the signature Skut border — one side adorned with zari latha work and the other side a plain zari border, adding distinction and balance to the overall design. Crafted with high-quality pure gold zari, this saree stands out as a premium handloom piece perfect for festive and formal occasions.",
+  "category": "Skut Border Buta",
+  "image": "/images/20.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Authentic Uppada handloom silk",
+    "Zari buta weave across the body",
+    "Sea green body with blue contrast",
+    "Plain unstitched blouse in blue",
+    "Unique Skut border design",
+    "Ideal for traditional functions"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Pattu",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Blue",
+    "Blouse": "Plain Blue (Unstitched)",
+    "Saree Colour": "Sea Green",
+    "Pallu and Blouse Colour": "Blue",
+    "Border": "One side skut (zari latha), one side plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 21,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Blue and Purple)",
+  "price": 4300,
+  "description": "This is a pure handloom Uppada pattu saree crafted with elegant zari buta motifs across the body. It features a beautiful blue saree body complemented by a rich purple contrast pallu and a plain unstitched blouse. The saree is enhanced with a distinctive Skut border, where one side is adorned with zari latha work and the other with a plain zari finish. Woven with pure gold zari, this saree exemplifies the craftsmanship of Uppada weavers and is ideal for festive and special occasions.",
+  "category": "Skut Border Buta",
+  "image": "/images/21.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada handloom silk",
+    "Zari buta weave",
+    "Contrast pallu and blouse",
+    "Half zari border with latha work",
+    "Traditional yet vibrant color combination"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Pattu",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Purple",
+    "Blouse": "Plain Purple (Unstitched)",
+    "Saree Colour": "Blue",
+    "Pallu and Blouse Colour": "Purple",
+    "Border": "One side skut (zari latha), one side plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 22,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Tomato Pink and Pink)",
+  "price": 4300,
+  "description": "This pure Uppada handloom pattu saree in radiant tomato pink features exquisite zari buta work across the body. A rich pink pallu and plain unstitched blouse elevate the look with a graceful contrast. The saree’s border showcases the traditional Skut design — one side intricately crafted with latha zari work, while the other maintains a subtle plain zari edge. Made with pure gold zari and four-thread weaving, this saree offers a soft yet crisp drape, perfect for festive events, weddings, or gifting.",
+  "category": "Skut Border Buta",
+  "image": "/images/22.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Authentic Uppada silk handloom",
+    "Elegant zari buta weave across the body",
+    "Contrast rich pallu and blouse",
+    "Unique Skut border with latha zari on one side",
+    "Pure gold zari for timeless elegance",
+    "Soft, breathable, and wrinkle-resistant fabric"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Pattu (Silkworm-derived)",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Pink",
+    "Blouse": "Plain Pink (Unstitched)",
+    "Saree Colour": "Tomato Pink",
+    "Pallu and Blouse Colour": "Pink",
+    "Border": "One side skut (zari latha), one side plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse piece)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 23,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Dark Green and Yellow)",
+  "price": 4300,
+  "description": "A stunning handloom Uppada pattu saree in deep dark green, this piece features intricate zari buta motifs scattered elegantly across the body. The rich yellow pallu and plain unstitched blouse enhance the visual appeal with a vibrant contrast. The saree's border showcases the signature Skut design — one side adorned with latha zari detailing, while the other remains a plain zari edge. Handwoven with silkworm-derived silk and pure gold zari, this saree combines tradition with luxury, ideal for grand occasions and festive moments.",
+  "category": "Skut Border Buta",
+  "image": "/images/23.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada silk: Soft, strong, and lightweight",
+    "Zari buta detailing for traditional elegance",
+    "Striking contrast rich pallu and blouse in yellow",
+    "Skut border: One side latha zari work, other side plain",
+    "Crafted with pure gold zari, not imitation",
+    "Perfect for weddings, festivals, and gifting"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Pattu (Silkworm-derived)",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Yellow",
+    "Blouse": "Plain Yellow (Unstitched)",
+    "Saree Colour": "Dark Green",
+    "Pallu and Blouse Colour": "Yellow",
+    "Border": "One side skut (zari latha), one side plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse piece)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 24,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Baby Pink and Blue)",
+  "price": 4300,
+  "description": "This elegant Uppada pattu saree in soft baby pink exudes charm and grace, enhanced by delicate zari buta motifs that shimmer with every fold. The contrast rich pallu and plain unstitched blouse in royal blue elevate the overall look with bold sophistication. Its signature Skut border — featuring latha zari design on one side and plain zari on the other — adds a unique artistic edge. Woven from pure silk and genuine gold zari, this handloom creation offers a wrinkle-resistant, lightweight drape, perfect for weddings, festive events, and traditional ceremonies.",
+  "category": "Skut Border Buta",
+  "image": "/images/24.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Authentic Uppada handloom silk for luxury and lightness",
+    "Zari buta design adds shimmer and traditional appeal",
+    "Contrasting rich pallu and plain blouse in royal blue",
+    "Skut border: Latha zari work on one end, plain zari on the other",
+    "Woven using pure gold zari, not imitation",
+    "Ideal for traditional events, celebrations, and gifting"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Pattu (Silkworm-based)",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Royal Blue",
+    "Blouse": "Plain Royal Blue (Unstitched)",
+    "Saree Colour": "Baby Pink",
+    "Pallu and Blouse Colour": "Blue",
+    "Border": "Half zari with latha design, half plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse piece)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 25,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (White and Pink)",
+  "price": 4300,
+  "description": "An ethereal blend of elegance and grace, this pure handloom Uppada pattu saree features a pristine white body adorned with delicate zari buta motifs. The rich pink pallu and matching blouse piece add a vibrant contrast, while the signature Skut border — latha zari on one end and plain zari on the other — provides a sophisticated finish. Made with pure silkworm-derived silk and genuine gold zari, this saree offers both softness and structural beauty, making it perfect for weddings, festivals, and special occasions.",
+  "category": "Skut Border Buta",
+  "image": "/images/25.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada silk handloom saree with fine zari buta work",
+    "Contrasting rich pink pallu and plain blouse piece",
+    "Signature Skut border with detailed latha zari design on one side",
+    "Soft, wrinkle-resistant, and breathable drape",
+    "Crafted with pure gold zari, not imitation",
+    "Perfect for festive occasions, bridal wear, or gifting"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Pattu (Silkworm-derived)",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Pink",
+    "Blouse": "Plain Pink (Unstitched)",
+    "Saree Colour": "White",
+    "Pallu and Blouse Colour": "Pink",
+    "Border": "Half zari with latha design, half plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse piece)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 26,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Sky Blue and Blue)",
+  "price": 4300,
+  "description": "A refreshing blend of tradition and charm, this pure handloom Uppada pattu saree showcases a serene sky blue base intricately woven with zari buta motifs. The contrasting deep blue rich pallu and plain blouse elevate the look, while the unique Skut border — featuring latha zari on one side and plain zari on the other — adds regal flair. Woven from silkworm-extracted silk and adorned with pure gold zari, this saree is soft, durable, and perfect for grand celebrations or gifting.",
+  "category": "Skut Border Buta",
+  "image": "/images/26.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada handloom silk with detailed zari buta motifs",
+    "Vibrant blue contrast rich pallu and plain blouse",
+    "Exclusive Skut border: one side latha zari, one side plain zari",
+    "Crafted with pure gold zari (not imitation)",
+    "Silk derived from silkworms — soft, durable, and wrinkle-resistant",
+    "Ideal for weddings, festive events, or as a premium gift"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Blue",
+    "Blouse": "Plain Blue (Unstitched)",
+    "Saree Colour": "Sky Blue",
+    "Pallu and Blouse Colour": "Blue",
+    "Border": "Half zari with latha design, half plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse piece)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 27,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Royal Blue and Pink)",
+  "price": 4300,
+  "description": "This pure handloom Uppada pattu saree is a royal blend of richness and heritage. Woven in deep royal blue, the body is adorned with delicate zari buta motifs. The contrasting pink rich pallu and plain blouse enhance its elegance, while the unique Skut border — featuring latha zari design on one end and plain zari on the other — adds signature detailing. Crafted with pure gold zari and fine silkworm-extracted silk, this saree ensures a graceful drape for all grand occasions.",
+  "category": "Skut Border Buta",
+  "image": "/images/27.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Premium Uppada silk handloom saree with zari buta work",
+    "Elegant royal blue body with rich pink pallu and plain blouse",
+    "Exclusive Skut border: latha zari on one side, plain zari on the other",
+    "Crafted using pure gold zari (not imitation)",
+    "Wrinkle-free, soft and breathable silk fabric",
+    "Perfect for weddings, festive occasions, and gifting"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Pink",
+    "Blouse": "Plain Pink (Unstitched)",
+    "Saree Colour": "Royal Blue",
+    "Pallu and Blouse Colour": "Pink",
+    "Border": "Half zari with latha design, half plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse piece)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 28,
+  "title": "Uppada Skut Border Buta Pure Silk Saree with Rich Pallu (Grey and Dark Green)",
+  "price": 4300,
+  "description": "This pure handloom Uppada pattu saree in elegant grey exudes timeless grace. Featuring intricate zari buta motifs across the body, the saree is paired with a rich dark green pallu and plain blouse, creating a striking contrast. Its signature Skut border — with latha zari design on one end and plain zari on the other — adds a distinctive charm. Made with pure gold zari and silkworm-extracted silk, the saree offers a soft, wrinkle-free finish ideal for weddings, festivals, and special occasions.",
+  "category": "Skut Border Buta",
+  "image": "/images/28.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Authentic Uppada silk saree with handwoven zari buta",
+    "Refined grey body contrasted by dark green rich pallu and blouse",
+    "Skut border with exclusive latha zari design on one side",
+    "Pure gold zari — not imitation",
+    "Wrinkle-free, breathable, and elegant drape",
+    "Ideal for festive wear, traditional events, and special gifting"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Design": "Zari Buta with Skut Border",
+    "Pallu": "Rich Dark Green",
+    "Blouse": "Plain Dark Green (Unstitched)",
+    "Saree Colour": "Grey",
+    "Pallu and Blouse Colour": "Dark Green",
+    "Border": "Half zari with latha design, half plain zari",
+    "Zari": "Pure gold zari",
+    "Length": "6.3 meters (with blouse piece)",
+    "Care": "Dry Clean Only"
+  }
+},
+{
+  "id": 29,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Purple and Mustard)",
+  "price": 4300,
+  "description": "This unique Uppada handloom saree is woven from premium silkworm-derived silk, featuring large gold zari bhutas spread across the deep purple body. A highlight of the design is its distinctive varsham border — a broad zari band richly adorned with intricate small bhutas. The contrast pallu in mustard enhances the regal look. Comes with a matching plain mustard blouse attached. A refined blend of elegance and tradition, perfect for celebrations and gifting.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/29.jpg",  
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Handwoven Uppada silk using silkworm-derived threads",
+    "Bold zari bhutas on the saree body",
+    "Varsham style border with small zari bhutas",
+    "Contrast mustard pallu with rich zari weaving",
+    "Plain mustard unstitched blouse attached",
+    "Quad-thread weaving ensures drape durability and comfort",
+    "Ideal for weddings, festive functions, and traditional gatherings"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Large Bhuta on Body + Small Bhuta Varsham Border",
+    "Border": "Broad Zari Border with Varsham Bhuta Design",
+    "Pallu": "Rich Mustard Contrast Pallu",
+    "Blouse": "Plain Mustard (Unstitched, Attached)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Zari": "Pure Gold Zari",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "Festive, Traditional, Wedding Wear"
+  }
+}
+,
+{
+  "id": 30,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Mustard Yellow and Brown)",
+  "price": 4300,
+  "description": "This Uppada handloom saree is made from pure silkworm-derived silk and features bold zari bhutas across a vibrant mustard yellow base. The pallu and blouse are in a contrasting deep brown shade. The highlight of the design is the broad 'varsham' border, adorned with intricate small zari bhutas that create a beautiful contrast with the larger motifs on the body. It’s a stunning choice for festive and traditional occasions, complete with a plain matching blouse piece.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/30.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada silk handwoven from silkworm threads",
+    "Large zari bhutas on the saree body",
+    "Varsham border design with small zari motifs",
+    "Richly woven contrast brown pallu",
+    "Plain matching brown unstitched blouse attached",
+    "Ideal for festive and traditional occasions",
+    "Durable and elegant quad-thread weaving"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Varsham Border with Big & Small Zari Bhutas",
+    "Border": "Broad Zari Border with Small Varsham Bhutas",
+    "Pallu": "Rich Contrast Brown Zari Pallu",
+    "Blouse": "Plain Brown (Unstitched, Attached)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Zari": "Pure Gold Zari",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional"
+  }
+}
+,
+{
+  "id": 31,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Purple and Blue)",
+  "price": 4300,
+  "description": "This exquisite Uppada handloom saree is crafted from pure silkworm-derived silk, showcasing large floral zari bhutas across a rich purple body. It features a striking 'varsham' style border on one side with intricate small zari bhutas, beautifully contrasting with the bold motifs on the body. The deep blue pallu is woven with elegant patterns, adding depth and richness to the overall look. This saree comes with a plain matching blue blouse piece and is perfect for weddings, festivals, and grand celebrations.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/31.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Authentic Uppada handloom silk",
+    "Big floral zari bhutas on saree body",
+    "Varsham border with dense small zari bhutas",
+    "Contrast rich blue pallu with intricate motifs",
+    "Unstitched plain blue blouse attached",
+    "Woven using pure gold zari",
+    "Lightweight, elegant, and festive-ready"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Big Buta on Body with Small Bhutas in Varsham Border",
+    "Border": "One-side Varsham Border with Small Zari Bhutas",
+    "Pallu": "Rich Contrast Blue Zari Pallu",
+    "Blouse": "Plain Blue (Unstitched, Attached)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Zari": "Pure Gold Zari",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "All Occasions – Festive, Wedding, Traditional"
+  }
+}
+,
+{
+  "id": 32,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Baby Pink and Pink)",
+  "price": 4300,
+  "description": "This elegant Uppada handloom saree is woven from pure silkworm silk and showcases an enchanting baby pink body adorned with large floral zari bhutas. It features a distinctive varsham border on one side filled with small golden zari bhutas, complementing the body motifs. The richly designed pallu in a vibrant pink hue adds a graceful contrast, while a plain matching blouse piece is attached for completion. Ideal for festive and traditional occasions, this saree brings softness, sheen, and cultural charm.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/32.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Handloom Uppada silk saree with rich texture",
+    "Big floral zari bhutas on the baby pink body",
+    "Contrast pink pallu with intricate zari patterns",
+    "Varsham border filled with small golden zari bhutas",
+    "Plain pink unstitched blouse attached with the saree",
+    "Ideal for traditional functions and gifting",
+    "Crafted with pure gold zari",
+    "Lightweight yet luxurious feel"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Big Buta on Body with Small Bhutas in Varsham Border",
+    "Border": "Varsham-style with small zari bhutas",
+    "Pallu": "Rich Contrast Pink Zari Pallu",
+    "Blouse": "Plain Pink (Unstitched, Attached)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Zari": "Pure Gold Zari",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "Weddings, Festivals, Traditional Ceremonies"
+  }
+}
+,
+
+{
+  "id": 33,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Blue and Sea Green)",
+  "price": 4300,
+  "description": "A premium handloom Uppada pattu saree crafted from pure silkworm silk. The deep blue body features bold zari buta motifs that stand out with traditional elegance. Complementing it is a contrast sea green pallu adorned with intricate designs and a varsham-style border filled with small golden zari bhutas. This dual-tone combination brings vibrance and heritage charm, ideal for festive and cultural occasions. The saree includes a matching plain sea green unstitched blouse attached to the pallu.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/33.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Crafted from authentic Uppada silk handloom fabric",
+    "Bright blue body with big zari floral bhutas",
+    "Sea green contrast pallu with rich intricate weaving",
+    "Varsham border with small zari bhutas on one side",
+    "Plain matching blouse piece (sea green) attached",
+    "Ideal for festive, traditional, and wedding occasions",
+    "Soft, lightweight yet luxurious silk drape",
+    "Woven with real gold zari for premium look"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Big Zari Buta on Body with Varsham Border",
+    "Border": "Small Zari Bhutas in Sea Green Varsham Style",
+    "Pallu": "Rich Contrast Sea Green Zari Pallu",
+    "Blouse": "Plain Sea Green (Unstitched, Attached)",
+    "Weave": "Quad-thread handloom weaving",
+    "Length": "6.3 meters (with blouse piece)",
+    "Zari": "Pure Gold Zari",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "Weddings, Ceremonies, Traditional Gatherings"
+  }
+}
+,
+{
+  "id": 34,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Sea Green and Blue)",
+  "price": 4300,
+  "description": "This exquisite Uppada handloom pattu saree is woven from pure silkworm silk, featuring a sea green body adorned with traditional zari bhuta motifs. The pallu and blouse in a contrasting rich blue shade elevate the aesthetic appeal. A defining feature is the varsham border on one side, densely filled with intricate zari bhutas, adding structure and grandeur to the drape. A great pick for celebrations, this saree comes with an attached plain blue blouse piece.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/34.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Handwoven pure Uppada silk saree from Andhra Pradesh",
+    "Sea green body with large golden zari bhutas",
+    "Rich contrast pallu in vibrant blue with detailed motifs",
+    "Varsham border featuring small zari bhutas on one side",
+    "Plain blue blouse piece attached (unstitched)",
+    "Elegant and festive – perfect for weddings or gifting",
+    "Woven with authentic zari threads, not imitation",
+    "Durable, soft finish with a luxurious fall"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Big Zari Buta on Body with Varsham Border",
+    "Border": "Small Bhutas in Rich Zari Weave",
+    "Pallu": "Contrast Blue Pallu with Intricate Designs",
+    "Blouse": "Plain Blue (Unstitched, Attached)",
+    "Weave": "Quad-thread traditional handloom weave",
+    "Length": "6.3 meters (including blouse)",
+    "Zari": "Pure Gold Zari",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "Festivals, Weddings, Traditional Gatherings"
+  }
+}
+,
+{
+  "id": 35,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Lime Green and Dark Green)",
+  "price": 4300,
+  "description": "This Uppada handloom saree is woven from pure silkworm silk, radiating elegance in a lime green body embellished with traditional zari bhutas. The pallu and blouse come in a rich contrasting dark green shade, enhancing the overall grace of the saree. Its signature Varsham border features dense, fine zari bhutas that complement the large bhutas on the saree body. A timeless drape ideal for festive wear, cultural events, or elegant gifting.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/35.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Authentic Uppada handloom saree made from pure silkworm silk",
+    "Lime green saree body with prominent gold zari bhutas",
+    "Dark green rich zari pallu with intricate temple motifs",
+    "Small zari bhutas crafted into the Varsham border design",
+    "Attached plain blouse in matching dark green (unstitched)",
+    "Luxurious finish with a soft and crisp drape",
+    "Suitable for weddings, festive celebrations, and cultural events",
+    "Handwoven using traditional quad-thread weaving for strength and finesse"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Zari Bhuta with Varsham Border",
+    "Border": "Intricate small zari bhutas on one side",
+    "Pallu": "Dark Green Contrast Pallu with Rich Zari Work",
+    "Blouse": "Plain Dark Green (Unstitched, Attached)",
+    "Weave": "Quad-thread handloom weave",
+    "Length": "6.3 meters (including blouse piece)",
+    "Zari": "Pure Gold Zari",
+    "Wash Care": "Dry Clean Only",
+    "Occasion": "Festivals, Weddings, Traditional Gatherings"
+  }
+},
+{
+  "id": 36,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Peach and Rani Pink)",
+  "price": 4300,
+  "description": "This Uppada handloom saree features a peach-toned body adorned with large zari bhutas, giving it a rich and festive look. It has a contrasting rani pink border filled with intricate small zari bhutas and a grand zari pallu. The saree is crafted using pure silkworm silk, ensuring a soft, graceful drape. It includes a matching plain rani pink blouse piece, making it a complete traditional ensemble ideal for occasions and celebrations.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/36.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada silk from handloom weaving",
+    "Peach-colored body with gold zari bhutas",
+    "Rani pink pallu with rich traditional motifs",
+    "Contrast rani pink plain blouse (unstitched)",
+    "Small zari bhutas on the elegant border",
+    "Soft and glossy silk texture",
+    "Perfect for weddings, functions, or ethnic gifting"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk (Silkworm-derived)",
+    "Pattern": "Zari Bhuta with Varsham Border",
+    "Border": "Contrast border with intricate zari bhutas",
+    "Pallu": "Richly woven Rani Pink Zari Pallu",
+    "Blouse": "Plain Rani Pink (Unstitched)",
+    "Saree Colour": "Peach",
+    "Pallu and Blouse Colour": "Rani Pink",
+    "Weave": "Handloom",
+    "Length": "6.3 meters (including blouse)",
+    "Zari": "Pure Gold Zari",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 37,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Dark Green and Mustard)",
+  "price": 4300,
+  "description": "This is a premium handloom Uppada pattu saree with full zari floral bhutas on a dark green base. The contrasting mustard pallu features intricate rich zari weaving, accompanied by a matching plain mustard blouse. The border is finely adorned with small zari bhutas, making this saree an excellent choice for festive and traditional occasions.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/37.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada handloom silk",
+    "Dark green body with golden floral zari bhutas",
+    "Mustard zari-rich pallu",
+    "Plain mustard blouse (unstitched)",
+    "Traditional contrast border with zari detailing",
+    "Elegant and festive appeal"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk",
+    "Pattern": "Floral Zari Bhuta",
+    "Border": "Small Zari Bhuta Border",
+    "Pallu": "Rich Mustard Zari Work",
+    "Blouse": "Plain Mustard (Unstitched)",
+    "Saree Colour": "Dark Green",
+    "Pallu and Blouse Colour": "Mustard",
+    "Weave": "Handloom",
+    "Length": "6.3 meters (including blouse)",
+    "Care": "Dry Clean Only"
+  }
+},
+{
+  "id": 38,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Bottle Green and Pink)",
+  "price": 4300,
+  "description": "This exquisite Uppada handloom pattu saree features a bottle green body adorned with intricate dual-tone zari bhutas in silver and gold. The rich pink pallu boasts a detailed zari pattern, complemented by a plain pink blouse. The border is enhanced with small zari motifs, adding traditional charm to this elegant ensemble.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/38.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada handloom silk",
+    "Bottle green body with silver and gold zari bhutas",
+    "Rich pink pallu with intricate zari design",
+    "Plain pink blouse (unstitched)",
+    "Zari woven border with buta work",
+    "Ideal for festive and special occasions"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk",
+    "Pattern": "Zari Bhuta",
+    "Border": "Zari Motif Border",
+    "Pallu": "Rich Zari Work",
+    "Blouse": "Plain Pink (Unstitched)",
+    "Saree Colour": "Bottle Green",
+    "Pallu and Blouse Colour": "Pink",
+    "Weave": "Handloom",
+    "Length": "6.3 meters (including blouse)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 39,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Blue and Magenta)",
+  "price": 4300,
+  "description": "This Uppada handloom pattu saree features a vibrant blue body adorned with golden zari bhutas. The magenta pallu showcases rich traditional zari work, and the plain blouse matches the pallu. Finished with a zari buta border, this saree is ideal for festive or traditional wear.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/39.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada handloom silk",
+    "Golden zari bhutas on blue body",
+    "Rich magenta pallu with intricate zari work",
+    "Plain magenta blouse (unstitched)",
+    "Zari buta woven border",
+    "Suitable for festive occasions"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk",
+    "Pattern": "Zari Bhuta",
+    "Border": "Zari Motif Border",
+    "Pallu": "Rich Zari Design",
+    "Blouse": "Plain Magenta (Unstitched)",
+    "Saree Colour": "Blue",
+    "Pallu and Blouse Colour": "Magenta",
+    "Weave": "Handloom",
+    "Length": "6.3 meters (including blouse)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 40,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Red and Mustard)",
+  "price": 4300,
+  "description": "This pure Uppada handloom silk saree features a rich red body decorated with intricate golden zari bhutas. The mustard yellow contrast pallu is woven with elaborate traditional patterns, while the blouse is plain mustard. The border carries delicate zari buta work, making it a vibrant festive choice.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/40.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Pure Uppada handloom silk",
+    "Red body with golden zari bhutas",
+    "Rich mustard pallu with detailed zari weave",
+    "Plain mustard blouse (unstitched)",
+    "Fine zari motif border",
+    "Perfect for weddings and traditional events"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk",
+    "Pattern": "Zari Bhuta",
+    "Border": "Zari Motif Border",
+    "Pallu": "Rich Zari Design",
+    "Blouse": "Plain Mustard (Unstitched)",
+    "Saree Colour": "Red",
+    "Pallu and Blouse Colour": "Mustard Yellow",
+    "Weave": "Handloom",
+    "Length": "6.3 meters (including blouse)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 41,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Blue and Violet)",
+  "price": 4300,
+  "description": "A stunning handloom Uppada pattu saree featuring a vibrant blue body with intricate golden zari bhutas. The contrast pallu and blouse come in deep violet with heavy zari work. This saree combines traditional charm with contemporary elegance—perfect for festive and wedding occasions.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/41.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Handloom Uppada pattu silk",
+    "Golden zari bhutas on bright blue body",
+    "Rich contrast pallu with intricate design",
+    "Plain violet blouse (unstitched)",
+    "Fine zari motif border",
+    "Ideal for traditional and festive occasions"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk",
+    "Pattern": "Zari Bhuta",
+    "Border": "Zari Motif Border",
+    "Pallu": "Rich Zari Weaving",
+    "Blouse": "Plain Violet (Unstitched)",
+    "Saree Colour": "Blue",
+    "Pallu and Blouse Colour": "Violet",
+    "Weave": "Handloom",
+    "Length": "6.3 meters (including blouse)",
+    "Care": "Dry Clean Only"
+  }
+}
+,
+{
+  "id": 42,
+  "title": "Uppada Varsham Border Bhuta Pure Silk Saree with Rich Pallu (Grey and Mustard)",
+  "price": 4300,
+  "description": "A pure handloom Uppada pattu saree featuring a graceful grey body adorned with golden zari bhutas. The contrasting pallu and blouse are in mustard yellow with intricate traditional zari weaving. Elegant and timeless, this saree is perfect for festive and ceremonial wear.",
+  "category": "Varsham Border Bhuta",
+  "image": "/images/42.jpg",
+  "rating": {
+    "rate": 4.6,
+    "count": 48
+  },
+  "about": [
+    "Handloom Uppada pattu silk",
+    "Golden zari bhutas on grey body",
+    "Rich mustard yellow pallu with zari work",
+    "Plain mustard blouse (unstitched)",
+    "Zari motif border",
+    "Perfect for weddings and traditional functions"
+  ],
+  "specs": {
+    "Fabric": "Pure Uppada Silk",
+    "Pattern": "Zari Bhuta",
+    "Border": "Zari Motif Border",
+    "Pallu": "Rich Zari Weaving",
+    "Blouse": "Plain Mustard (Unstitched)",
+    "Saree Colour": "Grey",
+    "Pallu and Blouse Colour": "Mustard Yellow",
+    "Weave": "Handloom",
+    "Length": "6.3 meters (including blouse)",
+    "Care": "Dry Clean Only"
+  }
+}
 ]

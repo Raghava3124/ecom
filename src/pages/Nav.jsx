@@ -13,7 +13,7 @@ function Nav({ userId, handleLogout }) {
     const fetchCartCount = () => {
       if (userId) {
         axios
-        .get(`http://150.230.134.36:5000/api/cart/count/${userId}`)
+        .get(`http://localhost:5000/api/cart/count/${userId}`)
           //.get(`https://ecom-production-ca19.up.railway.app/api/cart/count/${userId}`)
           .then((res) => setCartCount(res.data.count))
           .catch((err) => console.error("Error fetching cart count:", err));
@@ -146,6 +146,11 @@ useEffect(() => {
             <li className="nav-item">
               <Link className="nav-link" to="/orders" onClick={collapseNavbar}>
                 My Orders
+              </Link>
+            </li>
+                        <li className="nav-item">
+              <Link className="nav-link" to="/wishlist" onClick={collapseNavbar}>
+                Wishlist
               </Link>
             </li>
           </ul>

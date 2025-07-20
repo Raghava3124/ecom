@@ -27,22 +27,46 @@ const SECRET_KEY = "your_secret_key"; // Use environment variables instead
 //     database:"raghava"
 //   });
 
-const db = new Sequelize(
-    'raghava',
-    'raghav', // Updated username
-    'Raghav@123', // Updated password
-    {
-        host: '150.230.134.36', // Updated host
-        dialect: 'mysql',
-        logging: false,
-        pool: {
-            max: 5,
-            min: 0,
-            acquire: 30000,
-            idle: 10000
-        }
-    }
-);
+// const db = new Sequelize(
+//     'raghava',
+//     'raghav', // Updated username
+//     'Raghav@123', // Updated password
+//     {
+//         host: '150.230.134.36', // Updated host
+//         dialect: 'mysql',
+//         logging: false,
+//         pool: {
+//             max: 5,
+//             min: 0,
+//             acquire: 30000,
+//             idle: 10000
+//         }
+//     }
+// );
+
+
+
+// const db = mysql.createPool({
+//   host: 'localhost',
+//   port: 3306,
+//   user: 'root',
+//   password: 'Password@123',
+//   database: 'ecom',
+//   waitForConnections: true,
+//   connectionLimit: 10,
+//   queueLimit: 0
+// });
+
+const db = mysql.createPool({
+  host: 'gondola.proxy.rlwy.net',
+  port: 3306,
+  user: 'root',
+  password: 'YsHyewBFgGAkdFzFKAYsuRfWfJoqhiAa',
+  database: 'railway',
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0
+});
 
 
 
@@ -106,13 +130,16 @@ router.post("/login", async (req, res) => {
     try {
         // Check if the user exists in the database
         //const [users] = await db.query("SELECT * FROM Users WHERE email = ?", [email]);
-        const users = await db.query(
-            "SELECT * FROM Users WHERE email = :email",
-            {
-                replacements: { email },
-                type: Sequelize.QueryTypes.SELECT
-            }
-        );
+        // const users = await db.query(
+        //     "SELECT * FROM Users WHERE email = :email",
+        //     {
+        //         replacements: { email },
+        //         type: Sequelize.QueryTypes.SELECT
+        //     }
+        // );
+
+        const [users] = await db.query("SELECT * FROM Users WHERE email = ?", [email]);
+
 
 
         if (users.length === 0) {
@@ -129,7 +156,7 @@ router.post("/login", async (req, res) => {
         }
 
         // Generate JWT token
-        const token = jwt.sign({ id: user.id, email: user.email }, "your_secret_key", { expiresIn: "1h" });
+        const token = jwt.sign({ id: user.id, email: user.email }, "your_secret_key", { expiresIn: "1hr" });
 
         res.status(200).json({ message: "Login successful", token });
     } catch (error) {

@@ -1,18 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './All.css';
+import './cart.css';
 import axios from 'axios';
 
 const Cart = () => {
   const [cart, setCart] = useState([]);
   const navigate = useNavigate();
   const userId = localStorage.getItem("userId");
-
+  // const token = localStorage.getItem("token");
+  const [token, setToken] = useState(localStorage.getItem("token"));
   // Load cart from backend
   useEffect(() => {
+    if (!userId || !token) {
+      navigate("/login");
+      return;
+    }
+
     if (userId) {
-      axios.get(`http://150.230.134.36:5000/api/cart/${userId}`)
-      //axios.get(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`)
+      axios.get(`http://localhost:5000/api/cart/${userId}`)
+        //axios.get(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`)
         .then((res) => setCart(res.data))
         .catch((err) => console.error("Error loading cart:", err));
     }
@@ -21,8 +27,8 @@ const Cart = () => {
   // Sync cart to backend
   const syncCart = (updatedCart) => {
     setCart(updatedCart);
-    axios.put(`http://150.230.134.36:5000/api/cart/${userId}`, updatedCart)
-    //axios.put(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, updatedCart)
+    axios.put(`http://localhost:5000/api/cart/${userId}`, updatedCart)
+      //axios.put(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, updatedCart)
       .catch((err) => console.error("Error syncing cart:", err));
   };
 
@@ -51,8 +57,8 @@ const Cart = () => {
     const updatedCart = cart.filter((item) => item.product_id !== product_id);
     syncCart(updatedCart);
 
-    axios.delete(`http://150.230.134.36:5000/api/cart/${userId}/${product_id}`)
-    //axios.delete(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}/${product_id}`)
+    axios.delete(`http://localhost:5000/api/cart/${userId}/${product_id}`)
+      //axios.delete(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}/${product_id}`)
       .catch((err) => console.error("Error deleting item:", err));
   };
 
@@ -71,29 +77,60 @@ const Cart = () => {
         <p className="empty-cart">Your cart is empty.</p>
       ) : (
         <>
+
+
           <div className="cart-items">
             {cart.map((item) => (
-              <div key={item.product_id} className="cart-item">
-                <img src={item.product_image} alt={item.product_name} className="cart-item-image" />
-                <div className="cart-item-details">
-                  <h4 className="cart-item-title">{item.product_name}</h4>
-                  <p className="cart-item-price">Price: <strong>₹{item.product_price}</strong></p>
 
-                  <div className="cart-quantity">
-                    <button className="quantity-btn decrease" onClick={() => decrementQuantity(item.product_id)}>-</button>
-                    <span className="quantity-value">{item.quantity}</span>
-                    <button className="quantity-btn increase" onClick={() => incrementQuantity(item.product_id)}>+</button>
+              <div key={item.product_id} className="cart-item">
+                <div
+                  key={item.product_id}
+                  className="cart-item clickable"
+                  onClick={() => navigate(`/products/${item.product_id}`)}
+                >
+                  <img src={item.product_image} alt={item.product_name} className="cart-item-image" />
+
+                  <div className="cart-item-details">
+
+                    <h4 className="cart-item-title">{item.product_name}</h4>
+
+                    <p className="cart-item-price">Price: <strong>₹{item.product_price}</strong></p>
+
+                    <div className="cart-quantity">
+                      {/* <button className="quantity-btn decrease" onClick={() => decrementQuantity(item.product_id)}>-</button> */}
+                      <button
+                        className="quantity-btn decrease"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          decrementQuantity(item.product_id);
+                        }}
+                      >
+                        -
+                      </button>
+                      <span className="quantity-value">{item.quantity}</span>
+                      <button className="quantity-btn increase" onClick={(e) =>{e.stopPropagation(); incrementQuantity(item.product_id)}}>+</button>
+                    </div>
+
+                    <p className="cart-item-subtotal">
+                      Subtotal: <strong>₹{(item.product_price * item.quantity).toFixed(2)}</strong>
+                    </p>
                   </div>
 
-                  <p className="cart-item-subtotal">
-                    Subtotal: <strong>₹{(item.product_price * item.quantity).toFixed(2)}</strong>
-                  </p>
+                  {/* <button className="remove-btn" onClick={() => removeItem(item.product_id)}>🗑️ Remove</button> */}
+                  <button
+                    className="remove-btn"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      removeItem(item.product_id);
+                    }}
+                  >
+                    🗑️ Remove
+                  </button>
                 </div>
-
-                <button className="remove-btn" onClick={() => removeItem(item.product_id)}>🗑️ Remove</button>
               </div>
             ))}
           </div>
+
 
           <div className="text-end">
             <h4>Total: ₹{calculateTotal()}</h4>
@@ -116,8 +153,10 @@ const Cart = () => {
 
           </div>
         </>
-      )}
-    </div>
+
+      )
+      }
+    </div >
   );
 };
 

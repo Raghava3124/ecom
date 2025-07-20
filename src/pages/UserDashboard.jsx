@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
 import { User, MapPin, Gift, Heart, LogOut, ClipboardList } from "lucide-react";
+import { FaCartPlus } from "react-icons/fa";
 
 const UserDashboard = () => {
     const [user, setUser] = useState(null);
@@ -15,9 +16,13 @@ const UserDashboard = () => {
                 if (!token) throw new Error("Token not found");
                 const decoded = jwtDecode(token);
                 const userId = decoded.id;
+                console.log("🔐 Token in UserDashboard:", token);
+                console.log("🧾 Decoded User ID from token:", userId);
+                console.log("🌐 Fetching from URL:", `http://localhost:5000/user/${userId}`);
+
 
                 //const response = await fetch(`https://ecom-production-ca19.up.railway.app/user/${userId}`, {
-                const response = await fetch(`http://150.230.134.36:5000/user/${userId}`, {
+                const response = await fetch(`http://localhost:5000/user/${userId}`, {
                     headers: { Authorization: `Bearer ${token}` },
                 });
 
@@ -109,11 +114,24 @@ const UserDashboard = () => {
                     >
                         <Gift size={16} /> My Coupons
                     </button>
-                    <button
+                    {/* <button
                         className={`btn w-100 text-start d-flex align-items-center gap-2 ${activeTab === "wishlist" ? "btn-primary text-white" : "btn-outline-secondary"}`}
                         onClick={() => setActiveTab("wishlist")}
                     >
                         <Heart size={16} /> My Wishlist
+                    </button> */}
+                    <button
+                        className="btn btn-outline-secondary w-100 text-start d-flex align-items-center gap-2"
+                        onClick={() => navigate("/wishlist")}
+                    >
+                        <Heart size={16} /> My Wishlist
+                    </button>
+                    <br />
+                    <button
+                        className="btn btn-outline-secondary w-100 text-start d-flex align-items-center gap-2"
+                        onClick={() => navigate("/car")}
+                    >
+                        <FaCartPlus size={16} /> My Cart
                     </button>
                 </div>
 

@@ -10,7 +10,7 @@ import paymentRoutes from './routes/payments.js'; // Make sure this file exists
 import addressRoutes from './routes/address.js'
 import ordersRouter from './routes/orders.js';
 import wishlistRoutes from './routes/wishlist.js';
-import { Sequelize } from "sequelize";
+//import mysql from 'mysql2/promise';
 // import Wishlist from "./models/Wishlist.js";
 
 // const db = await mysql.createConnection({
@@ -19,31 +19,44 @@ import { Sequelize } from "sequelize";
 //     password: 'Raghav@123',
 //     database: 'raghava'
 //   });
+// ✅ Place this right after your imports
 
-// const db = await mysql.createConnection({
-//     host:"150.230.134.36",
-//     port:3306,
-//     user:"raghav",
-//     password:"Raghav@123",
-//     database:"raghava"
-//   });
 
-const db = new Sequelize(
-  'raghava',
-  'raghav', // Updated username
-  'Raghav@123', // Updated password
-  {
-    host: '150.230.134.36', // Updated host
-    dialect: 'mysql',
-    logging: false,
-    pool: {
-      max: 5,
-      min: 0,
-      acquire: 30000,
-      idle: 10000
-    }
-  }
-);
+// ✅ Use a pool for MySQL (auto-manages connections)
+// const db = mysql.createPool({
+//   host: '150.230.134.36',
+//   port: 3306,
+//   user: 'raghav',
+//   password: 'Raghav@123',
+//   database: 'raghava',
+//   waitForConnections: true,
+//   connectionLimit: 10,
+//   queueLimit: 0
+// });
+
+// const db = mysql.createPool({
+//   host: 'localhost',
+//   port: 3306,
+//   user: 'root',
+//   password: 'Password@123',
+//   database: 'ecom',
+//   waitForConnections: true,
+//   connectionLimit: 10,
+//   queueLimit: 0
+// });
+
+const db = mysql.createPool({
+  host: 'gondola.proxy.rlwy.net',
+  port: 3306,
+  user: 'root',
+  password: 'YsHyewBFgGAkdFzFKAYsuRfWfJoqhiAa',
+  database: 'railway',
+  waitForConnections: true,
+  connectionLimit: 10,
+  queueLimit: 0
+});
+
+
 
 
 
@@ -186,32 +199,27 @@ app.get('/user/:id', async (req, res) => {
   const userId = req.params.id;
 
   try {
-  //   const [rows] = await db.query(
-  //     'SELECT id, name, email FROM Users WHERE id = ?',
-  //     [userId]
-  //   );
+    // const [rows] = await db.query(
+    //   'SELECT id, name, email FROM Users WHERE id = ?',
+    //   [userId]
+    // );
 
-  const [rows] = await db.query(
-    'SELECT id, name, email FROM Users WHERE id = :userId',
-    {
-      replacements: { userId },
-      type: Sequelize.QueryTypes.SELECT
+    const [rows] = await db.query(
+      'SELECT id, name, email FROM Users WHERE id = ?',
+      [userId]
+    );
+
+
+    if (rows.length === 0) {
+      return res.status(404).json({ message: 'User not found' });
     }
-  );
 
-  const user = users[0];
-
-
-  if (rows.length === 0) {
-    return res.status(404).json({ message: 'User not found' });
+    res.json(rows[0]);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: 'Server error' });
   }
-
-  res.json(rows[0]);
-} catch (err) {
-  console.error(err);
-  res.status(500).json({ message: 'Server error' });
-}
-  });
+});
 
 
 

@@ -87,7 +87,7 @@ const AddAddress = () => {
 
     try {
       await axios.post(
-         "http://150.230.134.36:5000/api/address",
+         "http://localhost:5000/api/address",
         //"https://ecom-production-ca19.up.railway.app/api/address",
         {
           ...formData,

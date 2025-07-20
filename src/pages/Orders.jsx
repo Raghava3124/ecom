@@ -26,7 +26,7 @@ const Orders = () => {
     const fetchOrders = async () => {
       const token = localStorage.getItem('token');
       try {
-         const res = await axios.get('http://150.230.134.36:5000/api/payments', {
+         const res = await axios.get('http://localhost:5000/api/payments', {
         //const res = await axios.get('https://ecom-production-ca19.up.railway.app/api/payments', {
           headers: { Authorization: token ? `Bearer ${token}` : '' }
         });

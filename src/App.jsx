@@ -21,6 +21,7 @@ import AddAddress from './pages/AddAddress';
 import ViewOrders from './pages/ViewOrders';
 import EditAddress from './pages/EditAddress';
 import isTokenExpired from './util/auth';
+import Wish from './pages/Wish';
 // import { Link, useNavigate } from "react-router-dom";
 
 function App() {
@@ -129,6 +130,7 @@ function App() {
         <Route path="/edit-address/:id" element={<EditAddress/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/creator" element={<Creator />} />
+        <Route path="/wishlist" element={<Wish/>} />
         <Route path="/myaddresses" element={<MyAddresses />} />
         <Route path="/addaddress" element={<AddAddress />} />
         <Route path="/login" element={<Login onLogin={handleLogin} />} />

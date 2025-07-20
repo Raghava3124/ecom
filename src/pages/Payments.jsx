@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './All.css'; // Ensure message-box styling exists
@@ -11,13 +12,35 @@ const Payments = () => {
 
   const USD_TO_INR = 86;
   // const amountInINR = (totalAmount * USD_TO_INR).toFixed(2);
-  const amountInINR =
-    totalAmount;
+  //const amountInINR =totalAmount;
+
+
+    const getTotalQuantity = (cart) => {
+    return cart.reduce((total, item) => total + (item.quantity || 1), 0);
+  };
+
+  const getDeliveryCharge = (qty) => {
+    if (qty === 1) return 80;
+    if (qty === 2) return 140;
+    if (qty >= 3 && qty <= 4) return 200;
+    if (qty >= 5 && qty <= 10) return 300;
+    return 500;
+  };
+  const totalQuantity = getTotalQuantity(cart || []);
+  const deliveryCharge = getDeliveryCharge(totalQuantity);
+  const amountInINR = (Number(totalAmount) + deliveryCharge).toFixed(2);
+
+
+  const [modalImage, setModalImage] = useState(null);
 
   const [utrNumber, setUtrNumber] = useState('');
   const [message, setMessage] = useState('');
   const [showMessage, setShowMessage] = useState(false);
   const [messageType, setMessageType] = useState(''); // success or warning
+
+
+
+
 
   useEffect(() => {
     if (!orderId || !cart || cart.length === 0 || !selectedAddress) {
@@ -64,11 +87,11 @@ const Payments = () => {
       const userId = localStorage.getItem('userId');
 
       //const paymentRes = await fetch('https://ecom-production-ca19.up.railway.app/api/payments', {
-      const paymentRes = await fetch('http://150.230.134.36:5000/api/payments', {
+      const paymentRes = await fetch('http://localhost:5000/api/payments', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: token ? `Bearer ${token}` : '',
+          Authorization: `Bearer ${token}`,
         },
         body: JSON.stringify({
           orderId,
@@ -90,11 +113,11 @@ const Payments = () => {
       }
 
       //const orderRes = await fetch('https://ecom-production-ca19.up.railway.app/api/orders', {
-      const orderRes = await fetch('http://150.230.134.36:5000/api/orders', {
+      const orderRes = await fetch('http://localhost:5000/api/orders', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: token ? `Bearer ${token}` : '',
+          Authorization: `Bearer ${token}`,
         },
         body: JSON.stringify({
           userId,
@@ -120,8 +143,11 @@ const Payments = () => {
       }
 
       //await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, {
-      await fetch(`http://150.230.134.36:5000/api/cart/${userId}`, {
+      await fetch(`http://localhost:5000/api/cart/${userId}`, {
         method: 'DELETE',
+                headers: {
+          Authorization: `Bearer ${token}`,
+        }
       });
 
       localStorage.removeItem('cart');
@@ -156,9 +182,17 @@ const Payments = () => {
     <div className="payments-container">
       <h2 className="text-center">💳 Payment for Order #{orderId}</h2>
 
-      <p className="text-center mt-3">
+      {/* <p className="text-center mt-3">
         🛒 Total cart value: ₹{totalAmount} (INR). 💳 Proceed with payment to complete your purchase.
-      </p>
+      </p> */}
+
+      <div className="text-center mt-3">
+        <p>🛒 Cart Total: ₹{totalAmount}</p>
+        <p>📦 Total Items: {totalQuantity}</p>
+        <p>🚚 Delivery Charges: ₹{deliveryCharge}</p>
+        <h5>💳 Final Amount to Pay: ₹{amountInINR}</h5>
+      </div>
+
 
       <div className="qr-section text-center">
         <h5>Scan to Pay ₹{amountInINR}</h5>
@@ -166,8 +200,9 @@ const Payments = () => {
         <p><small>Payee: {payeeName} ({upiId})</small></p>
       </div>
 
+
       <div className="utr-confirmation mt-4">
-        <label>Transaction UTR Number:</label>
+        <label>Transaction UTR / UPI Ref Number:</label>
         <input
           type="text"
           className="form-control"
@@ -218,15 +253,33 @@ const Payments = () => {
         <p><strong>📷 Sample UTR locations:</strong></p>
         <div className="utr-sample-images">
           <div>
-            <img src="/images/gpay-utr.jpg" alt="GPay UTR example" className="utr-img" />
+            <img
+              src="/images/googlepayupi.jpg"
+              alt="GPay UTR example"
+              className="utr-img"
+              onClick={() => setModalImage('/images/gpay-utr.jpg')}
+            />
+
             <p className="text-center small">Google Pay</p>
           </div>
           <div>
-            <img src="/images/phonepe-utr.jpg" alt="PhonePe UTR example" className="utr-img" />
+            <img
+              src="/images/phonepayupi.jpg"
+              alt="GPay UTR example"
+              className="utr-img"
+              onClick={() => setModalImage('/images/gpay-utr.jpg')}
+            />
+
             <p className="text-center small">PhonePe</p>
           </div>
           <div>
-            <img src="/images/paytm-utr.jpg" alt="Paytm UTR example" className="utr-img" />
+            <img
+              src="/images/paytmupi.jpg"
+              alt="GPay UTR example"
+              className="utr-img"
+              onClick={() => setModalImage('/images/gpay-utr.jpg')}
+            />
+
             <p className="text-center small">Paytm</p>
           </div>
         </div>
