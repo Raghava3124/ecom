@@ -46,8 +46,9 @@ import wishlistRoutes from './routes/wishlist.js';
 // });
 
 const db = mysql.createPool({
-  host: 'gondola.proxy.rlwy.net',
-  port: 3306,
+  // host: 'gondola.proxy.rlwy.net',
+  host: 'caboose.proxy.rlwy.net',
+  port: 11550,
   user: 'root',
   password: 'YsHyewBFgGAkdFzFKAYsuRfWfJoqhiAa',
   database: 'railway',

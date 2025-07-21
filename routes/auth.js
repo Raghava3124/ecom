@@ -58,8 +58,8 @@ const SECRET_KEY = "your_secret_key"; // Use environment variables instead
 // });
 
 const db = mysql.createPool({
-  host: 'gondola.proxy.rlwy.net',
-  port: 3306,
+  host: 'caboose.proxy.rlwy.net',
+  port: 11550,
   user: 'root',
   password: 'YsHyewBFgGAkdFzFKAYsuRfWfJoqhiAa',
   database: 'railway',
@@ -101,19 +101,25 @@ router.post("/signup", async (req, res) => {
         // await db.query("INSERT INTO Users (name, email, password) VALUES (?, ?, ?)", [name, email, hashedPassword]);
         //await db.query("INSERT INTO Users (name, email, password, createdAt, updatedAt) VALUES (?, ?, ?, ?, ?)", [name, email, hashedPassword, now, now]);
 
+        // await db.query(
+        //     "INSERT INTO Users (name, email, password, createdAt, updatedAt) VALUES (:name, :email, :password, :createdAt, :updatedAt)",
+        //     {
+        //         replacements: {
+        //             name,
+        //             email,
+        //             password: hashedPassword,
+        //             createdAt: now,
+        //             updatedAt: now
+        //         },
+        //         type: Sequelize.QueryTypes.INSERT
+        //     }
+        // );
+
         await db.query(
-            "INSERT INTO Users (name, email, password, createdAt, updatedAt) VALUES (:name, :email, :password, :createdAt, :updatedAt)",
-            {
-                replacements: {
-                    name,
-                    email,
-                    password: hashedPassword,
-                    createdAt: now,
-                    updatedAt: now
-                },
-                type: Sequelize.QueryTypes.INSERT
-            }
-        );
+    "INSERT INTO Users (name, email, password, createdAt, updatedAt) VALUES (?, ?, ?, ?, ?)",
+    [name, email, hashedPassword, now, now]
+);
+
 
 
         res.status(201).json({ message: "Signup successful!" });

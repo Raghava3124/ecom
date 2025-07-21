@@ -88,8 +88,8 @@ const sequelize = new Sequelize(
   'root',
   'YsHyewBFgGAkdFzFKAYsuRfWfJoqhiAa',
   {
-    host: 'gondola.proxy.rlwy.net',
-    port: 3306,
+    host: 'caboose.proxy.rlwy.net',
+    port: 11550,
     dialect: 'mysql',
     logging: false,
     pool: {
