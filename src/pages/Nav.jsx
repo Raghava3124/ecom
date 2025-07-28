@@ -13,7 +13,7 @@ function Nav({ userId, handleLogout }) {
     const fetchCartCount = () => {
       if (userId) {
         axios
-        .get(`http://localhost:5000/api/cart/count/${userId}`)
+        .get(`https://ecom-production-8da0.up.railway.app/api/cart/count/${userId}`)
           //.get(`https://ecom-production-ca19.up.railway.app/api/cart/count/${userId}`)
           .then((res) => setCartCount(res.data.count))
           .catch((err) => console.error("Error fetching cart count:", err));

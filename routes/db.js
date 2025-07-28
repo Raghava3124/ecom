@@ -86,10 +86,10 @@ dotenv.config();
 const sequelize = new Sequelize(
   'railway',
   'root',
-  'YsHyewBFgGAkdFzFKAYsuRfWfJoqhiAa',
+  'sYoqlnefIoidfztNAwQwCrYlqFCOXwnV',
   {
-    host: 'caboose.proxy.rlwy.net',
-    port: 11550,
+    host: 'mainline.proxy.rlwy.net',
+    port: 48545,
     dialect: 'mysql',
     logging: false,
     pool: {

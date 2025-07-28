@@ -32,7 +32,7 @@ const Home = () => {
     }
 
 
-    //   fetch(`http://localhost:5000/wishlist/${userId}`)
+    //   fetch(`https://ecom-production-8da0.up.railway.app/wishlist/${userId}`)
     //     .then(res => res.json())
     //     .then(data => {
     //       const ids = data.map(item => item.product_id);
@@ -44,7 +44,7 @@ const Home = () => {
 
 
 
-    fetch(`http://localhost:5000/wishlist/${userId}`, {
+    fetch(`https://ecom-production-8da0.up.railway.app/wishlist/${userId}`, {
       headers: {
         Authorization: `Bearer ${token}`
       }
@@ -121,7 +121,7 @@ const Home = () => {
 
     try {
       if (alreadyWishlisted) {
-        await fetch(`http://localhost:5000/wishlist/${userId}/${product.id}`, {
+        await fetch(`https://ecom-production-8da0.up.railway.app/wishlist/${userId}/${product.id}`, {
           method: "DELETE",
           headers: {
             Authorization: `Bearer ${token}`
@@ -129,7 +129,7 @@ const Home = () => {
         });
         setWishlist(wishlist.filter(id => id !== product.id));
       } else {
-        await fetch("http://localhost:5000/wishlist", {
+        await fetch("https://ecom-production-8da0.up.railway.app/wishlist", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -170,7 +170,7 @@ const Home = () => {
     }
 
     try {
-      const res = await fetch(`http://localhost:5000/api/cart/${userId}`);
+      const res = await fetch(`https://ecom-production-8da0.up.railway.app/api/cart/${userId}`);
       //const res = await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`);
       const existingCart = await res.json();
 
@@ -200,7 +200,7 @@ const Home = () => {
         setMessageType("success");
       }
 
-      await fetch(`http://localhost:5000/api/cart/${userId}`, {
+      await fetch(`https://ecom-production-8da0.up.railway.app/api/cart/${userId}`, {
         //await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },

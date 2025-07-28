@@ -42,7 +42,7 @@ const Card = ({ addToCart, cart }) => {
 
     if (!userId) return;
 
-    fetch(`http://localhost:5000/wishlist/${userId}`, {
+    fetch(`https://ecom-production-8da0.up.railway.app/wishlist/${userId}`, {
       headers: {
         Authorization: `Bearer ${token}`
       }
@@ -70,7 +70,7 @@ const Card = ({ addToCart, cart }) => {
     }
 
     try {
-      const res = await fetch(`http://localhost:5000/api/cart/${userId}`);
+      const res = await fetch(`https://ecom-production-8da0.up.railway.app/api/cart/${userId}`);
       //const res = await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`);
       const existingCart = await res.json();
 
@@ -100,7 +100,7 @@ const Card = ({ addToCart, cart }) => {
         setMessageType("success");
       }
 
-      await fetch(`http://localhost:5000/api/cart/${userId}`, {
+      await fetch(`https://ecom-production-8da0.up.railway.app/api/cart/${userId}`, {
         //await fetch(`https://ecom-production-ca19.up.railway.app/api/cart/${userId}`, {
         method: "PUT",
         headers: {
@@ -157,7 +157,7 @@ const Card = ({ addToCart, cart }) => {
 
     try {
       if (alreadyWishlisted) {
-        await fetch(`http://localhost:5000/wishlist/${userId}/${product.id}`, {
+        await fetch(`https://ecom-production-8da0.up.railway.app/wishlist/${userId}/${product.id}`, {
           method: "DELETE",
           headers: {
             Authorization: `Bearer ${token}`
@@ -165,7 +165,7 @@ const Card = ({ addToCart, cart }) => {
         });
         setWishlist(wishlist.filter(id => id !== product.id));
       } else {
-        await fetch("http://localhost:5000/wishlist", {
+        await fetch("https://ecom-production-8da0.up.railway.app/wishlist", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

@@ -16,7 +16,7 @@ const ViewOrders = () => {
     const fetchOrder = async () => {
       try {
         const token = localStorage.getItem('token');
-        const res = await axios.get(`http://localhost:5000/api/orders/${orderId}`, {
+        const res = await axios.get(`https://ecom-production-8da0.up.railway.app/api/orders/${orderId}`, {
           //const res = await axios.get(`https://ecom-production-ca19.up.railway.app/api/orders/${orderId}`, {
           headers: {
             Authorization:  `Bearer ${token}`,

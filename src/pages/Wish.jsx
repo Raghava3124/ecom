@@ -12,7 +12,7 @@ const Wish = () => {
     const token = localStorage.getItem("token");
 
 
-      fetch(`http://localhost:5000/wishlist/${userId}`, {
+      fetch(`https://ecom-production-8da0.up.railway.app/wishlist/${userId}`, {
     headers: {
       Authorization: `Bearer ${token}`
     }
@@ -26,7 +26,7 @@ const Wish = () => {
     const token = localStorage.getItem("token");
 
     try {
-      await fetch(`http://localhost:5000/wishlist/${userId}/${productId}`, {
+      await fetch(`https://ecom-production-8da0.up.railway.app/wishlist/${userId}/${productId}`, {
         method: "DELETE",
           headers: {
     Authorization: `Bearer ${token}`

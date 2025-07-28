@@ -58,10 +58,10 @@ const SECRET_KEY = "your_secret_key"; // Use environment variables instead
 // });
 
 const db = mysql.createPool({
-  host: 'caboose.proxy.rlwy.net',
-  port: 11550,
+  host: 'mainline.proxy.rlwy.net',
+  port: 48545,
   user: 'root',
-  password: 'YsHyewBFgGAkdFzFKAYsuRfWfJoqhiAa',
+  password: 'sYoqlnefIoidfztNAwQwCrYlqFCOXwnV',
   database: 'railway',
   waitForConnections: true,
   connectionLimit: 10,

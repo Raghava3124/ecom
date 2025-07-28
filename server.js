@@ -47,10 +47,10 @@ import wishlistRoutes from './routes/wishlist.js';
 
 const db = mysql.createPool({
   // host: 'gondola.proxy.rlwy.net',
-  host: 'caboose.proxy.rlwy.net',
-  port: 11550,
+  host: 'mainline.proxy.rlwy.net',
+  port: 48545,
   user: 'root',
-  password: 'YsHyewBFgGAkdFzFKAYsuRfWfJoqhiAa',
+  password: 'sYoqlnefIoidfztNAwQwCrYlqFCOXwnV',
   database: 'railway',
   waitForConnections: true,
   connectionLimit: 10,

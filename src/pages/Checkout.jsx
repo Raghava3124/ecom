@@ -21,7 +21,7 @@ const Checkout = () => {
     if (!userId || !token) return;
 
     axios
-       .get(`http://localhost:5000/api/address/user/${userId}`, {
+       .get(`https://ecom-production-8da0.up.railway.app/api/address/user/${userId}`, {
       //.get(`https://ecom-production-ca19.up.railway.app/api/address/user/${userId}`, {
         headers: {
           Authorization: `Bearer ${token}`,

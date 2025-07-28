@@ -18,11 +18,11 @@ const UserDashboard = () => {
                 const userId = decoded.id;
                 console.log("🔐 Token in UserDashboard:", token);
                 console.log("🧾 Decoded User ID from token:", userId);
-                console.log("🌐 Fetching from URL:", `http://localhost:5000/user/${userId}`);
+                console.log("🌐 Fetching from URL:", `https://ecom-production-8da0.up.railway.app/user/${userId}`);
 
 
                 //const response = await fetch(`https://ecom-production-ca19.up.railway.app/user/${userId}`, {
-                const response = await fetch(`http://localhost:5000/user/${userId}`, {
+                const response = await fetch(`https://ecom-production-8da0.up.railway.app/user/${userId}`, {
                     headers: { Authorization: `Bearer ${token}` },
                 });
 
