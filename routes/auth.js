@@ -57,11 +57,22 @@ const SECRET_KEY = "your_secret_key"; // Use environment variables instead
 //   queueLimit: 0
 // });
 
+// const db = mysql.createPool({
+//   host: 'mainline.proxy.rlwy.net',
+//   port: 48545,
+//   user: 'root',
+//   password: 'sYoqlnefIoidfztNAwQwCrYlqFCOXwnV',
+//   database: 'railway',
+//   waitForConnections: true,
+//   connectionLimit: 10,
+//   queueLimit: 0
+// });
+
 const db = mysql.createPool({
-  host: 'mainline.proxy.rlwy.net',
-  port: 48545,
+  host: 'switchyard.proxy.rlwy.net',
+  port: 29003,
   user: 'root',
-  password: 'sYoqlnefIoidfztNAwQwCrYlqFCOXwnV',
+  password: 'EeOPsqPycwUkiAJCYYhxcjhVkkmDogpa',
   database: 'railway',
   waitForConnections: true,
   connectionLimit: 10,
