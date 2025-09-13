@@ -83,13 +83,32 @@ dotenv.config();
 //   }
 // );
 
+// const sequelize = new Sequelize(
+//   'railway',
+//   'root',
+//   'sYoqlnefIoidfztNAwQwCrYlqFCOXwnV',
+//   {
+//     host: 'mainline.proxy.rlwy.net',
+//     port: 48545,
+//     dialect: 'mysql',
+//     logging: false,
+//     pool: {
+//       max: 5,
+//       min: 0,
+//       acquire: 30000,
+//       idle: 10000
+//     }
+//   }
+// );
+
+
 const sequelize = new Sequelize(
   'railway',
   'root',
-  'sYoqlnefIoidfztNAwQwCrYlqFCOXwnV',
+  'EeOPsqPycwUkiAJCYYhxcjhVkkmDogpa',
   {
-    host: 'mainline.proxy.rlwy.net',
-    port: 48545,
+    host: 'switchyard.proxy.rlwy.net',
+    port: 29003,
     dialect: 'mysql',
     logging: false,
     pool: {
